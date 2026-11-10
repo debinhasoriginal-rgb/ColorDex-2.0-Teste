@@ -1,0 +1,201 @@
+
+/* COLORDEX 1.0.9 — PINTURA MOBILE */
+
+@media (max-width: 700px) {
+
+  html {
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    min-height: 100dvh;
+    margin: 0;
+    padding-bottom: calc(194px + env(safe-area-inset-bottom));
+    overflow-x: hidden;
+  }
+
+  /* Cabeçalho compacto */
+  .topbar {
+    min-height: 52px;
+    padding: 8px 14px !important;
+  }
+
+  /* Layout em uma coluna */
+  .layout {
+    display: block !important;
+    width: 100%;
+    max-width: none;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .painting-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    margin: 0;
+    padding: 8px !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: #171b24;
+  }
+
+  /* Título e informações compactas */
+  .painting-panel .heading {
+    margin: 0 !important;
+    padding: 0 8px;
+  }
+
+  .painting-panel .heading h1 {
+    font-size: 16px !important;
+    margin: 2px 0 !important;
+  }
+
+  .painting-panel .eyebrow,
+  .painting-panel .hint {
+    display: none !important;
+  }
+
+  #paintingStatus {
+    font-size: 11px !important;
+    margin: 0 !important;
+  }
+
+  /* Sem alternância manual de ferramentas */
+  .mode-controls {
+    display: none !important;
+  }
+
+  /* Área principal da pintura */
+  #canvasFrame,
+  .canvas-frame {
+    width: 100% !important;
+    height: max(
+      220px,
+      calc(100dvh - 325px - env(safe-area-inset-bottom))
+    ) !important;
+    min-height: 220px !important;
+    max-height: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 8px !important;
+    background: #ffffff !important;
+    overflow: hidden !important;
+  }
+
+  #paintingCanvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    touch-action: none !important;
+    user-select: none;
+  }
+
+  /* Controles secundários compactos */
+  .painting-panel .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin: 0 !important;
+    padding: 3px !important;
+  }
+
+  .painting-panel .toolbar button {
+    min-height: 34px;
+    padding: 5px 9px;
+    font-size: 12px;
+  }
+
+  /* Paleta fixa na parte inferior */
+  .palette-panel {
+    position: fixed !important;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 800;
+    height: calc(184px + env(safe-area-inset-bottom));
+    width: 100%;
+    margin: 0 !important;
+    padding: 8px 10px calc(8px + env(safe-area-inset-bottom)) !important;
+    border: 0 !important;
+    border-top: 2px solid #e43b50 !important;
+    border-radius: 0 !important;
+    background: #252a36 !important;
+    box-shadow: 0 -5px 20px #0005;
+    overflow: hidden;
+  }
+
+  .palette-panel > .eyebrow,
+  .palette-panel > h2,
+  .palette-panel > .palette-description {
+    display: none !important;
+  }
+
+  #palette.palette {
+    display: grid !important;
+    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    grid-auto-rows: minmax(66px, auto);
+    gap: 6px !important;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    margin: 0 !important;
+    padding: 0 2px 4px !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    scroll-snap-type: none !important;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #palette > * {
+    box-sizing: border-box;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    min-height: 64px;
+    margin: 0 !important;
+    padding: 4px !important;
+    scroll-snap-align: none !important;
+  }
+
+  /* Botão de tela cheia fora do desenho */
+  #cd-fullscreen-button {
+    position: fixed !important;
+    top: calc(8px + env(safe-area-inset-top)) !important;
+    right: 8px !important;
+    bottom: auto !important;
+    z-index: 1001;
+    padding: 8px 10px !important;
+    font-size: 11px !important;
+  }
+
+  /* Evita backup flutuando sobre o desenho */
+  .cd-backup-launcher {
+    position: fixed !important;
+    top: auto !important;
+    bottom: calc(192px + env(safe-area-inset-bottom)) !important;
+    right: 8px !important;
+    padding: 7px 9px !important;
+    font-size: 10px !important;
+    z-index: 801;
+  }
+
+  /* Modal de conclusão acima da paleta */
+  #completionModal {
+    z-index: 2000;
+  }
+}
+
+
+/* COLORDEX 1.0.10 — esconder backup na pintura */
+@media (max-width: 700px) {
+  .cd-backup-launcher {
+    display: none !important;
+  }
+}

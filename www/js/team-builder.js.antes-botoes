@@ -1,0 +1,296 @@
+
+/*
+ * ColorDex 0.7 - Team Builder
+ * Etapa 0.7.1: gerenciamento de times
+ */
+
+(() => {
+  const STORAGE_KEY = "colordex_teams_v07";
+
+  const createButton =
+    document.getElementById("createTeamButton");
+
+  const teamsList =
+    document.getElementById("teamsList");
+
+  const emptyTeams =
+    document.getElementById("emptyTeams");
+
+  const teamCount =
+    document.getElementById("teamCount");
+
+  let teams = [];
+
+  function loadTeams() {
+    try {
+      const saved = JSON.parse(
+        localStorage.getItem(STORAGE_KEY) || "[]"
+      );
+
+      return Array.isArray(saved) ? saved : [];
+    } catch (error) {
+      console.error("Erro ao carregar times:", error);
+      return [];
+    }
+  }
+
+  function saveTeams() {
+    try {
+      localStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify(teams)
+      );
+    } catch (error) {
+      console.error("Erro ao salvar times:", error);
+      alert("Não foi possível salvar os times.");
+    }
+  }
+
+  function createTeam() {
+    const team = {
+      id: crypto.randomUUID(),
+      name: `Meu Time ${teams.length + 1}`,
+      pokemon: [null, null, null, null, null, null],
+      createdAt: new Date().toISOString()
+    };
+
+    teams.push(team);
+    saveTeams();
+    renderTeams();
+  }
+
+  function renameTeam(id) {
+    const team = teams.find(item => item.id === id);
+    if (!team) return;
+
+    const name = prompt("Novo nome do time:", team.name);
+
+    if (name === null) return;
+
+    const trimmed = name.trim();
+
+    if (!trimmed) {
+      alert("O nome do time não pode ficar vazio.");
+      return;
+    }
+
+    team.name = trimmed;
+    saveTeams();
+    renderTeams();
+  }
+
+  function deleteTeam(id) {
+    const team = teams.find(item => item.id === id);
+    if (!team) return;
+
+    const confirmed = confirm(
+      `Deseja excluir o time "${team.name}"?`
+    );
+
+    if (!confirmed) return;
+
+    teams = teams.filter(item => item.id !== id);
+    saveTeams();
+    renderTeams();
+  }
+
+  function createButtonElement(text, className, callback) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = text;
+    button.className = className;
+    button.addEventListener("click", callback);
+    return button;
+  }
+
+  function getTeamPokemonSprite(pokemon) {
+    if (pokemon.form === "normal") {
+      return window.ColorDexTeamPicker.normalSprite(
+        pokemon.id,
+        pokemon.shiny
+      );
+    }
+
+    const folder = pokemon.shiny
+      ? "shiny/formas"
+      : "formas";
+
+    return `../assets/pokemon/v06-auditoria/${folder}/${pokemon.id}--${pokemon.form}.png`;
+  }
+
+  function renderTeams() {
+    teamsList.replaceChildren();
+
+    teamCount.textContent =
+      `${teams.length} ${teams.length === 1 ? "time criado" : "times criados"}`;
+
+    emptyTeams.hidden = teams.length > 0;
+
+    for (const team of teams) {
+      const card = document.createElement("article");
+      card.className = "team-card";
+
+      const header = document.createElement("div");
+      header.className = "team-card-header";
+
+      const title = document.createElement("h3");
+      title.className = "team-name";
+      title.textContent = team.name;
+
+      const actions = document.createElement("div");
+      actions.className = "team-actions";
+
+      actions.append(
+        createButtonElement(
+          "Renomear",
+          "secondary-button",
+          () => renameTeam(team.id)
+        ),
+        createButtonElement(
+          "Excluir",
+          "danger-button",
+          () => deleteTeam(team.id)
+        )
+      );
+
+      header.append(title, actions);
+
+      const slots = document.createElement("div");
+      slots.className = "team-slots";
+
+
+      for (let i = 0; i < 6; i++) {
+        const pokemon = team.pokemon?.[i] || null;
+
+        const slot = document.createElement("div");
+        slot.className = "team-slot";
+
+        if (pokemon) {
+          slot.classList.add("filled");
+
+          const img = document.createElement("img");
+          img.className = "slot-sprite";
+          img.src = getTeamPokemonSprite(pokemon);
+          img.alt = `Pokémon #${pokemon.id}`;
+
+
+          const name = document.createElement("span");
+          name.className = "slot-name";
+          name.textContent =
+            pokemon.name || `#${String(pokemon.id).padStart(3, "0")}`;
+
+
+
+          const form = document.createElement("span");
+          form.className = "slot-form";
+
+          const formName = pokemon.form === "normal"
+            ? "Forma Normal"
+            : String(pokemon.form)
+                .replaceAll("-", " ")
+                .replaceAll("_", " ")
+                .replace(/\b\w/g, letra => letra.toUpperCase());
+
+          form.textContent =
+            `${formName}${pokemon.shiny ? " ✨ Shiny" : ""}`;
+
+          const remove = createButtonElement(
+            "Remover",
+            "slot-remove",
+            () => {
+              team.pokemon[i] = null;
+              saveTeams();
+              renderTeams();
+            }
+          );
+
+          const megaButton = createButtonElement(
+            "⚡ Mega Evolução",
+            "slot-mega-button",
+            event => {
+              event.stopPropagation();
+
+              if (!window.ColorDexMega?.openSelector) {
+                alert("O seletor de Mega Evolução ainda não está disponível.");
+                return;
+              }
+
+              window.ColorDexMega.openSelector(team.id, i);
+            }
+          );
+
+            megaButton.hidden = true;
+
+            if (pokemon.form === "normal") {
+              window.ColorDexMega.getMegaOptions(pokemon.id)
+            .then(options => {
+              if (options.length > 0) {
+                megaButton.hidden = false;
+
+                if (pokemon.megaForm) {
+                  megaButton.textContent = "⚡ " +
+                    options.find(option => option.id === pokemon.megaForm)?.name;
+                }
+              }
+            })
+            .catch(error => {
+              console.warn("Erro ao consultar Megas:", error);
+            });
+            }
+          const battleButton = createButtonElement(
+            pokemon.zCrystal ? `💎 ${pokemon.zCrystal}` :
+            pokemon.dynamaxMode ? `✨ ${pokemon.dynamaxMode === "gmax" ? "Gigantamax" : "Dynamax"}` :
+            "💎 Z-Move / Dynamax",
+            "slot-battle-button",
+            event => {
+              event.stopPropagation();
+              window.ColorDexBattle?.openSelector(team.id, i);
+            }
+          );
+          slot.append(img, name, form, megaButton, battleButton, remove);
+
+          slot.addEventListener("click", event => {
+            if (
+              event.target === remove ||
+              event.target === megaButton ||
+              event.target === battleButton
+            ) {
+              return;
+            }
+
+            window.ColorDexTeamMoves.openEditor(team.id, i);
+          });
+        } else {
+          const plus = document.createElement("span");
+          plus.className = "slot-plus";
+          plus.textContent = "+";
+
+          const label = document.createElement("span");
+          label.textContent = `Pokémon ${i + 1}`;
+
+          slot.append(plus, label);
+
+          slot.addEventListener("click", () => {
+            window.ColorDexTeamPicker.openPicker(team.id, i);
+          });
+        }
+
+        slots.appendChild(slot);
+      }
+
+
+      card.append(header, slots);
+      teamsList.appendChild(card);
+    }
+  }
+
+  teams = loadTeams();
+
+  createButton.addEventListener("click", createTeam);
+
+  renderTeams();
+  window.addEventListener("colordex-teams-updated", () => {
+    teams = loadTeams();
+    renderTeams();
+  });
+})();

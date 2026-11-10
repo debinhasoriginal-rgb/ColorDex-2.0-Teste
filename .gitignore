@@ -1,0 +1,50 @@
+node_modules/
+.gradle/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.apk
+*.aab
+*.log
+__pycache__/
+backups/
+auditorias/
+*.backup-*
+*.bak
+*.tmp
+
+# Backups e arquivos temporários
+*.tar.gz
+*.zip
+*.backup-*
+*.bak
+*.tmp
+
+# Arquivos de desenvolvimento
+auditorias/
+backups/
+reports/
+pokemon-source/
+__pycache__/
+
+# Modelos e caches de inteligência artificial
+.cache/
+.huggingface/
+*.safetensors
+*.pt
+*.pth
+
+# Scripts de tradução e preparação
+traduzir_colordex_local.py
+traduzir_descricoes.py
+traduzir_colordex_ptbr.py
+testar_traducao_local.py
+preparar_apk.py
+
+# Dependências e compilações
+node_modules/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties

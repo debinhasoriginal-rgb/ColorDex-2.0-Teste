@@ -1,0 +1,1718 @@
+{
+  "pokemon": "pinsir-mega",
+  "pokeapi_id": 10040,
+  "versions": {
+    "x-y": [
+      {
+        "name": "vice-grip",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "guillotine",
+        "method": "level-up",
+        "level": 47
+      },
+      {
+        "name": "swords-dance",
+        "method": "level-up",
+        "level": 40
+      },
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "cut",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bind",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "fury-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "thrash",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "submission",
+        "method": "level-up",
+        "level": 26
+      },
+      {
+        "name": "seismic-toss",
+        "method": "level-up",
+        "level": 8
+      },
+      {
+        "name": "strength",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dig",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "harden",
+        "method": "level-up",
+        "level": 11
+      },
+      {
+        "name": "focus-energy",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "feint-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "false-swipe",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "vital-throw",
+        "method": "level-up",
+        "level": 22
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-smash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "superpower",
+        "method": "level-up",
+        "level": 43
+      },
+      {
+        "name": "superpower",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "revenge",
+        "method": "level-up",
+        "level": 15
+      },
+      {
+        "name": "brick-break",
+        "method": "level-up",
+        "level": 18
+      },
+      {
+        "name": "brick-break",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-tomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulk-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "feint",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "close-combat",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "fling",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "me-first",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "x-scissor",
+        "method": "level-up",
+        "level": 29
+      },
+      {
+        "name": "x-scissor",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "focus-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bug-bite",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "smack-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "storm-throw",
+        "method": "level-up",
+        "level": 33
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "struggle-bug",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "omega-ruby-alpha-sapphire": [
+      {
+        "name": "vice-grip",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "guillotine",
+        "method": "level-up",
+        "level": 50
+      },
+      {
+        "name": "swords-dance",
+        "method": "level-up",
+        "level": 40
+      },
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "cut",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bind",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "bind",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "fury-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "thrash",
+        "method": "level-up",
+        "level": 43
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "submission",
+        "method": "level-up",
+        "level": 29
+      },
+      {
+        "name": "seismic-toss",
+        "method": "level-up",
+        "level": 8
+      },
+      {
+        "name": "strength",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dig",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "harden",
+        "method": "level-up",
+        "level": 11
+      },
+      {
+        "name": "focus-energy",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "feint-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "false-swipe",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "vital-throw",
+        "method": "level-up",
+        "level": 18
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-smash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "focus-punch",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "superpower",
+        "method": "level-up",
+        "level": 47
+      },
+      {
+        "name": "superpower",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "superpower",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "revenge",
+        "method": "level-up",
+        "level": 15
+      },
+      {
+        "name": "brick-break",
+        "method": "level-up",
+        "level": 26
+      },
+      {
+        "name": "brick-break",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "knock-off",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "secret-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-tomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "iron-defense",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "bulk-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "feint",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "close-combat",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "fling",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "me-first",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "x-scissor",
+        "method": "level-up",
+        "level": 33
+      },
+      {
+        "name": "x-scissor",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "focus-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stealth-rock",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "bug-bite",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "bug-bite",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "double-hit",
+        "method": "level-up",
+        "level": 22
+      },
+      {
+        "name": "smack-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "storm-throw",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "struggle-bug",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "sun-moon": [
+      {
+        "name": "vice-grip",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "guillotine",
+        "method": "level-up",
+        "level": 50
+      },
+      {
+        "name": "swords-dance",
+        "method": "level-up",
+        "level": 40
+      },
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bind",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "fury-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "thrash",
+        "method": "level-up",
+        "level": 43
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "submission",
+        "method": "level-up",
+        "level": 33
+      },
+      {
+        "name": "seismic-toss",
+        "method": "level-up",
+        "level": 8
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "harden",
+        "method": "level-up",
+        "level": 11
+      },
+      {
+        "name": "focus-energy",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "feint-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "false-swipe",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "vital-throw",
+        "method": "level-up",
+        "level": 18
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "superpower",
+        "method": "level-up",
+        "level": 47
+      },
+      {
+        "name": "superpower",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "revenge",
+        "method": "level-up",
+        "level": 15
+      },
+      {
+        "name": "brick-break",
+        "method": "level-up",
+        "level": 26
+      },
+      {
+        "name": "brick-break",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-tomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulk-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "feint",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "close-combat",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "fling",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "me-first",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "x-scissor",
+        "method": "level-up",
+        "level": 29
+      },
+      {
+        "name": "x-scissor",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "focus-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bug-bite",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "double-hit",
+        "method": "level-up",
+        "level": 22
+      },
+      {
+        "name": "smack-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "storm-throw",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brutal-swing",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "ultra-sun-ultra-moon": [
+      {
+        "name": "vice-grip",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "guillotine",
+        "method": "level-up",
+        "level": 50
+      },
+      {
+        "name": "swords-dance",
+        "method": "level-up",
+        "level": 40
+      },
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bind",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "bind",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "fury-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "thrash",
+        "method": "level-up",
+        "level": 43
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "submission",
+        "method": "level-up",
+        "level": 33
+      },
+      {
+        "name": "seismic-toss",
+        "method": "level-up",
+        "level": 8
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "harden",
+        "method": "level-up",
+        "level": 11
+      },
+      {
+        "name": "focus-energy",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "feint-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "false-swipe",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "vital-throw",
+        "method": "level-up",
+        "level": 18
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "focus-punch",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "superpower",
+        "method": "level-up",
+        "level": 47
+      },
+      {
+        "name": "superpower",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "superpower",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "revenge",
+        "method": "level-up",
+        "level": 15
+      },
+      {
+        "name": "brick-break",
+        "method": "level-up",
+        "level": 26
+      },
+      {
+        "name": "brick-break",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "knock-off",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "rock-tomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "iron-defense",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "bulk-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "feint",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "close-combat",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "fling",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "me-first",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "x-scissor",
+        "method": "level-up",
+        "level": 29
+      },
+      {
+        "name": "x-scissor",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "focus-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stealth-rock",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "bug-bite",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "bug-bite",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "double-hit",
+        "method": "level-up",
+        "level": 22
+      },
+      {
+        "name": "smack-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "storm-throw",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "throat-chop",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "brutal-swing",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "lets-go-pikachu-lets-go-eevee": [
+      {
+        "name": "vice-grip",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "guillotine",
+        "method": "level-up",
+        "level": 50
+      },
+      {
+        "name": "swords-dance",
+        "method": "level-up",
+        "level": 32
+      },
+      {
+        "name": "bind",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "headbutt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thrash",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "submission",
+        "method": "level-up",
+        "level": 26
+      },
+      {
+        "name": "seismic-toss",
+        "method": "level-up",
+        "level": 8
+      },
+      {
+        "name": "seismic-toss",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dig",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "harden",
+        "method": "level-up",
+        "level": 12
+      },
+      {
+        "name": "focus-energy",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "outrage",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "helping-hand",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "superpower",
+        "method": "level-up",
+        "level": 44
+      },
+      {
+        "name": "superpower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brick-break",
+        "method": "level-up",
+        "level": 16
+      },
+      {
+        "name": "brick-break",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulk-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "x-scissor",
+        "method": "level-up",
+        "level": 20
+      },
+      {
+        "name": "x-scissor",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stealth-rock",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "champions": [
+      {
+        "name": "guillotine",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "swords-dance",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "bind",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "body-slam",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thrash",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "seismic-toss",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "dig",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "focus-energy",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "reversal",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "detect",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "helping-hand",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "superpower",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "brick-break",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rock-tomb",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "aerial-ace",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "iron-defense",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "bulk-up",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "feint",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "close-combat",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "fling",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "x-scissor",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "focus-blast",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "stone-edge",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "stealth-rock",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "bug-bite",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "double-hit",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "storm-throw",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "circle-throw",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "high-horsepower",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "throat-chop",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "lunge",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "brutal-swing",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "pounce",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "hard-press",
+        "method": "train",
+        "level": 0
+      }
+    ]
+  }
+}

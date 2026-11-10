@@ -1,0 +1,112 @@
+(() => {
+"use strict";
+const regions = [
+["Kanto",["Rocha","Cascata","Trovão","Arco-Íris","Alma","Pântano","Vulcão","Terra"]],
+["Johto",["Zéfiro","Colmeia","Planície","Névoa","Tempestade","Mineral","Geleira","Dragão"]],
+["Hoenn",["Pedra","Punho","Dínamo","Calor","Equilíbrio","Pena","Mente","Chuva"]],
+["Sinnoh",["Carvão","Floresta","Pedregulho","Pântano","Relíquia","Mina","Sincelo","Farol"]],
+["Unova",["Trio","Básica","Inseto","Raio","Tremor","Jato","Congelamento","Lenda","Tóxica","Onda"]],
+["Kalos",["Inseto","Penhasco","Briga","Planta","Voltagem","Fada","Psíquica","Iceberg"]],
+["Alola",[]],
+["Galar",["Grama","Água","Fogo","Luta","Fantasma","Fada","Pedra","Gelo","Sombrio","Dragão"]],
+["Paldea",["Inseto","Planta","Elétrico","Água","Normal","Fantasma","Psíquico","Gelo"]]
+];
+const crystals = [
+["Cristais de tipos",[
+"Normalium Z","Firium Z","Waterium Z","Electrium Z","Grassium Z","Icium Z",
+"Fightinium Z","Poisonium Z","Groundium Z","Flyinium Z","Psychium Z","Buginium Z",
+"Rockium Z","Ghostium Z","Dragonium Z","Darkinium Z","Steelium Z","Fairium Z"]],
+["Cristais exclusivos",[
+"Pikanium Z","Pikashunium Z","Aloraichium Z","Decidium Z","Incinium Z",
+"Primarium Z","Tapunium Z","Marshadium Z","Mewnium Z","Snorlium Z",
+"Eevium Z","Kommonium Z","Lycanium Z","Mimikium Z","Solganium Z",
+"Lunalium Z","Ultranecrozium Z"]]
+];
+/* ColorDex v0.9.1 imagens */
+const BADGE_IMAGES = {"Kanto:0": "../assets/badges/kanto/Boulder_Badge.png", "Kanto:1": "../assets/badges/kanto/Cascade_Badge.png", "Kanto:2": "../assets/badges/kanto/Thunder_Badge.png", "Kanto:3": "../assets/badges/kanto/Rainbow_Badge.png", "Kanto:4": "../assets/badges/kanto/Soul_Badge.png", "Kanto:5": "../assets/badges/kanto/Marsh_Badge.png", "Kanto:6": "../assets/badges/kanto/Volcano_Badge.png", "Kanto:7": "../assets/badges/kanto/Earth_Badge.png", "Johto:0": "../assets/badges/johto/Zephyr_Badge.png", "Johto:1": "../assets/badges/johto/Hive_Badge.png", "Johto:2": "../assets/badges/johto/Plain_Badge.png", "Johto:3": "../assets/badges/johto/Fog_Badge.png", "Johto:4": "../assets/badges/johto/Storm_Badge.png", "Johto:5": "../assets/badges/johto/Mineral_Badge.png", "Johto:6": "../assets/badges/johto/Glacier_Badge.png", "Johto:7": "../assets/badges/johto/Rising_Badge.png", "Hoenn:0": "../assets/badges/hoenn/Stone_Badge.png", "Hoenn:1": "../assets/badges/hoenn/Knuckle_Badge.png", "Hoenn:2": "../assets/badges/hoenn/Dynamo_Badge.png", "Hoenn:3": "../assets/badges/hoenn/Heat_Badge.png", "Hoenn:4": "../assets/badges/hoenn/Balance_Badge.png", "Hoenn:5": "../assets/badges/hoenn/Feather_Badge.png", "Hoenn:6": "../assets/badges/hoenn/Mind_Badge.png", "Hoenn:7": "../assets/badges/hoenn/Rain_Badge.png", "Sinnoh:0": "../assets/badges/sinnoh/Coal_Badge.png", "Sinnoh:1": "../assets/badges/sinnoh/Forest_Badge.png", "Sinnoh:2": "../assets/badges/sinnoh/Cobble_Badge.png", "Sinnoh:3": "../assets/badges/sinnoh/Fen_Badge.png", "Sinnoh:4": "../assets/badges/sinnoh/Relic_Badge.png", "Sinnoh:5": "../assets/badges/sinnoh/Mine_Badge.png", "Sinnoh:6": "../assets/badges/sinnoh/Icicle_Badge.png", "Sinnoh:7": "../assets/badges/sinnoh/Beacon_Badge.png", "Unova:0": "../assets/badges/unova/Trio_Badge.png", "Unova:1": "../assets/badges/unova/Basic_Badge.png", "Unova:2": "../assets/badges/unova/Insect_Badge.png", "Unova:3": "../assets/badges/unova/Bolt_Badge.png", "Unova:4": "../assets/badges/unova/Quake_Badge.png", "Unova:5": "../assets/badges/unova/Jet_Badge.png", "Unova:6": "../assets/badges/unova/Freeze_Badge.png", "Unova:7": "../assets/badges/unova/Legend_Badge.png", "Unova:8": "../assets/badges/unova/Toxic_Badge.png", "Unova:9": "../assets/badges/unova/Wave_Badge.png", "Kalos:0": "../assets/badges/kalos/Bug_Badge.png", "Kalos:1": "../assets/badges/kalos/Cliff_Badge.png", "Kalos:2": "../assets/badges/kalos/Rumble_Badge.png", "Kalos:3": "../assets/badges/kalos/Plant_Badge.png", "Kalos:4": "../assets/badges/kalos/Voltage_Badge.png", "Kalos:5": "../assets/badges/kalos/Fairy_Badge.png", "Kalos:6": "../assets/badges/kalos/Psychic_Badge.png", "Kalos:7": "../assets/badges/kalos/Iceberg_Badge.png", "Galar:0": "../assets/badges/galar/Grass_Badge.png", "Galar:1": "../assets/badges/galar/Water_Badge.png", "Galar:2": "../assets/badges/galar/Fire_Badge.png", "Galar:3": "../assets/badges/galar/Fighting_Badge.png", "Galar:4": "../assets/badges/galar/Ghost_Badge.png", "Galar:5": "../assets/badges/galar/GalarFairy_Badge.png", "Galar:6": "../assets/badges/galar/Rock_Badge.png", "Galar:7": "../assets/badges/galar/Ice_Badge.png", "Galar:8": "../assets/badges/galar/Dark_Badge.png", "Galar:9": "../assets/badges/galar/Dragon_Badge.png", "Paldea:0": "../assets/badges/paldea/SVbadge_VictoryRoad_Bug.png", "Paldea:1": "../assets/badges/paldea/SVbadge_VictoryRoad_Grass.png", "Paldea:2": "../assets/badges/paldea/SVbadge_VictoryRoad_Electric.png", "Paldea:3": "../assets/badges/paldea/SVbadge_VictoryRoad_Water.png", "Paldea:4": "../assets/badges/paldea/SVbadge_VictoryRoad_Normal.png", "Paldea:5": "../assets/badges/paldea/SVbadge_VictoryRoad_Ghost.png", "Paldea:6": "../assets/badges/paldea/SVbadge_VictoryRoad_Psychic.png", "Paldea:7": "../assets/badges/paldea/SVbadge_VictoryRoad_Ice.png", "Alola:0:0": "../assets/badges/alola/Dream_Normalium_Z_Sprite.png", "Alola:0:1": "../assets/badges/alola/Dream_Firium_Z_Sprite.png", "Alola:0:2": "../assets/badges/alola/Dream_Waterium_Z_Sprite.png", "Alola:0:3": "../assets/badges/alola/Dream_Electrium_Z_Sprite.png", "Alola:0:4": "../assets/badges/alola/Dream_Grassium_Z_Sprite.png", "Alola:0:5": "../assets/badges/alola/Dream_Icium_Z_Sprite.png", "Alola:0:6": "../assets/badges/alola/Dream_Fightinium_Z_Sprite.png", "Alola:0:7": "../assets/badges/alola/Dream_Poisonium_Z_Sprite.png", "Alola:0:8": "../assets/badges/alola/Dream_Groundium_Z_Sprite.png", "Alola:0:9": "../assets/badges/alola/Dream_Flyinium_Z_Sprite.png", "Alola:0:10": "../assets/badges/alola/Dream_Psychium_Z_Sprite.png", "Alola:0:11": "../assets/badges/alola/Dream_Buginium_Z_Sprite.png", "Alola:0:12": "../assets/badges/alola/Dream_Rockium_Z_Sprite.png", "Alola:0:13": "../assets/badges/alola/Dream_Ghostium_Z_Sprite.png", "Alola:0:14": "../assets/badges/alola/Dream_Dragonium_Z_Sprite.png", "Alola:0:15": "../assets/badges/alola/Dream_Darkinium_Z_Sprite.png", "Alola:0:16": "../assets/badges/alola/Dream_Steelium_Z_Sprite.png", "Alola:0:17": "../assets/badges/alola/Dream_Fairium_Z_Sprite.png", "Alola:1:0": "../assets/badges/alola/Dream_Pikanium_Z_Sprite.png", "Alola:1:1": "../assets/badges/alola/Dream_Pikashunium_Z_Sprite.png", "Alola:1:2": "../assets/badges/alola/Dream_Aloraichium_Z_Sprite.png", "Alola:1:3": "../assets/badges/alola/Dream_Decidium_Z_Sprite.png", "Alola:1:4": "../assets/badges/alola/Dream_Incinium_Z_Sprite.png", "Alola:1:5": "../assets/badges/alola/Dream_Primarium_Z_Sprite.png", "Alola:1:6": "../assets/badges/alola/Dream_Tapunium_Z_Sprite.png", "Alola:1:7": "../assets/badges/alola/Dream_Marshadium_Z_Sprite.png", "Alola:1:8": "../assets/badges/alola/Dream_Mewnium_Z_Sprite.png", "Alola:1:9": "../assets/badges/alola/Dream_Snorlium_Z_Sprite.png", "Alola:1:10": "../assets/badges/alola/Dream_Eevium_Z_Sprite.png", "Alola:1:11": "../assets/badges/alola/Dream_Kommonium_Z_Sprite.png", "Alola:1:12": "../assets/badges/alola/Dream_Lycanium_Z_Sprite.png", "Alola:1:13": "../assets/badges/alola/Dream_Mimikium_Z_Sprite.png", "Alola:1:14": "../assets/badges/alola/Dream_Solganium_Z_Sprite.png", "Alola:1:15": "../assets/badges/alola/Dream_Lunalium_Z_Sprite.png", "Alola:1:16": "../assets/badges/alola/Dream_Ultranecrozium_Z_Sprite.png"};
+const KEY = "colordex_badges_v09";
+let collection = {};
+try {
+ const saved = JSON.parse(localStorage.getItem(KEY) || "{}");
+ if(saved && typeof saved === "object" && !Array.isArray(saved)) collection = saved;
+} catch(e){console.warn("Coleção inválida:",e)}
+let active = 0;
+const tabs = document.getElementById("regionTabs");
+const grid = document.getElementById("badgeGrid");
+const title = document.getElementById("caseTitle");
+const counter = document.getElementById("caseCount");
+const overall = document.getElementById("overallCount");
+const badgeKey = (r,i) => `${r}:${i}`;
+const crystalKey = (g,i) => `Alola:${g}:${i}`;
+function keys(region,names){
+ return region === "Alola"
+ ? crystals.flatMap(([,items],g)=>items.map((_,i)=>crystalKey(g,i)))
+ : names.map((_,i)=>badgeKey(region,i));
+}
+function count(arr){return arr.filter(k=>!!collection[k]).length}
+function make(tag,cls,txt){
+ const e=document.createElement(tag);
+ if(cls)e.className=cls;
+ if(txt!==undefined)e.textContent=txt;
+ return e;
+}
+function slot(name,key,crystal,index){
+ const owned=!!collection[key];
+ const b=make("button","badge-slot"+(owned?" owned":"")+(crystal?" crystal-slot":""));
+ b.type="button";
+ b.setAttribute("aria-pressed",String(owned));
+ const imagePath = BADGE_IMAGES[key];
+ const symbol = imagePath
+   ? document.createElement("img")
+   : make("span","badge-emblem","◇");
+ symbol.className = "badge-emblem";
+ symbol.setAttribute("aria-hidden","true");
+ if (imagePath) {
+   symbol.src = imagePath;
+   symbol.alt = "";
+   symbol.loading = "lazy";
+   symbol.addEventListener("error", () => {
+     symbol.replaceWith(make("span","badge-emblem","◇"));
+   });
+ }
+ b.append(symbol,make("strong","",crystal?name:"Insígnia "+name),
+ make("small","",owned?"✓ Conquistado":"Toque para conquistar"));
+ b.addEventListener("click",()=>{
+  if(collection[key])delete collection[key];
+  else collection[key]=true;
+  try{localStorage.setItem(KEY,JSON.stringify(collection))}
+  catch(e){console.warn("Erro ao salvar:",e)}
+  render();
+ });
+ return b;
+}
+function render(){
+ tabs.replaceChildren();
+ regions.forEach(([region,names],i)=>{
+  const k=keys(region,names);
+  const b=make("button","region-tab"+(active===i?" selected":""),`${region} · ${count(k)}/${k.length}`);
+  b.type="button";
+  b.setAttribute("aria-pressed",String(active===i));
+  b.addEventListener("click",()=>{active=i;render()});
+  tabs.append(b);
+ });
+ const [region,names]=regions[active];
+ const k=keys(region,names);
+ const alola=region==="Alola";
+ title.textContent=alola?"Estojo de Cristais Z — Alola":"Estojo de "+region;
+ counter.textContent=`${count(k)} / ${k.length} ${alola?"Cristais Z":"insígnias"}`;
+ const all=regions.flatMap(([r,n])=>keys(r,n));
+ overall.textContent=`${count(all)} / ${all.length} itens conquistados`;
+ grid.replaceChildren();
+ if(alola){
+  crystals.forEach(([group,items],g)=>{
+   const groupKeys=items.map((_,i)=>crystalKey(g,i));
+   grid.append(make("h3","crystal-group",`${group} · ${count(groupKeys)}/${items.length}`));
+   items.forEach((name,i)=>grid.append(slot(name,crystalKey(g,i),true,i)));
+  });
+ }else{
+  names.forEach((name,i)=>grid.append(slot(name,badgeKey(region,i),false,i)));
+ }
+}
+render();
+})();

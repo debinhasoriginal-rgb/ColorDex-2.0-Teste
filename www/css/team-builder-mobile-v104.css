@@ -1,0 +1,321 @@
+
+/* ColorDex 1.0.4 — Visualização mobile de times */
+
+.cd-mobile-summary {
+  display: none;
+}
+
+@media (max-width: 700px) {
+
+  body.cd-team-mobile {
+    overflow-x: clip;
+  }
+
+  .team-card {
+    min-width: 0;
+  }
+
+  /* Tela 1: cartão resumido */
+  .team-card:not(.cd-mobile-open) > :not(.cd-mobile-summary) {
+    display: none !important;
+  }
+
+  .team-card .cd-mobile-summary {
+    display: block !important;
+    width: 100%;
+    padding: 8px 0;
+    color: inherit;
+    background: transparent;
+    border: 0;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .cd-mobile-summary-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .cd-mobile-summary-name {
+    font-size: 20px;
+    font-weight: 800;
+    overflow-wrap: anywhere;
+  }
+
+  .cd-mobile-summary-arrow {
+    color: #f06478;
+    font-size: 24px;
+  }
+
+  .cd-mobile-preview {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    align-items: center;
+    gap: 4px;
+  }
+
+  .cd-mobile-preview-slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    height: 62px;
+    border-radius: 9px;
+    background: #101521;
+    border: 1px solid #343d51;
+  }
+
+  .cd-mobile-preview-slot img {
+    width: 100%;
+    height: 56px;
+    object-fit: contain;
+    image-rendering: pixelated;
+  }
+
+  .cd-mobile-preview-slot.empty {
+    color: #e43b50;
+    font-size: 25px;
+  }
+
+  .cd-mobile-summary-footer {
+    margin-top: 12px;
+    color: #aab4c5;
+    font-size: 12px;
+    text-align: right;
+  }
+
+  /* Tela 2: detalhes do time */
+  .team-card.cd-mobile-open .cd-mobile-summary {
+    display: none !important;
+  }
+
+  .team-card.cd-mobile-open .cd-mobile-back {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+    padding: 10px 14px;
+    background: #30202d;
+    border: 1px solid #a84b5c;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .team-card.cd-mobile-open .team-slots {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 14px !important;
+  }
+
+  .team-card.cd-mobile-open .team-slot,
+  .team-card.cd-mobile-open .team-slot.filled {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 190px !important;
+    aspect-ratio: auto !important;
+    padding: 14px !important;
+    gap: 9px !important;
+    overflow: visible !important;
+    background: #101521 !important;
+    border: 1px dashed #465168 !important;
+    border-radius: 12px !important;
+    font-size: inherit !important;
+    line-height: normal !important;
+  }
+
+  .team-card.cd-mobile-open .team-slot.filled {
+    border-style: solid !important;
+  }
+
+  .team-card.cd-mobile-open .team-slot img.slot-sprite {
+    display: block !important;
+    width: 130px !important;
+    height: 115px !important;
+    max-width: 100% !important;
+    max-height: 115px !important;
+    object-fit: contain !important;
+  }
+
+  .team-card.cd-mobile-open .slot-name,
+  .team-card.cd-mobile-open .slot-form {
+    display: initial !important;
+    font-size: inherit !important;
+    line-height: normal !important;
+    overflow: visible !important;
+  }
+
+  .team-card.cd-mobile-open .slot-remove {
+    display: inline-flex !important;
+  }
+
+  .team-card.cd-mobile-open .slot-mechanics {
+    display: flex !important;
+  }
+
+  .team-card.cd-mobile-open .slot-mechanics [hidden] {
+    display: none !important;
+  }
+
+  .team-card.cd-mobile-open .slot-plus {
+    display: block !important;
+    font-size: 26px !important;
+    line-height: normal !important;
+  }
+
+  .team-card.cd-mobile-open .team-slot > * {
+    max-width: 100%;
+  }
+
+  /* Backup acessível sem cobrir a análise */
+  body.cd-team-mobile .cd-backup-launcher {
+    position: static !important;
+    display: block;
+    width: fit-content;
+    margin: 22px auto !important;
+    opacity: 1 !important;
+    font-size: 12px !important;
+  }
+}
+
+@media (min-width: 701px) {
+  .cd-mobile-back {
+    display: none !important;
+  }
+}
+
+/* ColorDex 1.0.5 — sprites maiores na visualização mobile */
+@media (max-width: 700px) {
+  .cd-mobile-preview {
+    gap: 3px;
+  }
+
+  .cd-mobile-preview-slot {
+    height: 78px;
+    min-width: 0;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .cd-mobile-preview-slot img {
+    width: 100%;
+    height: 74px;
+    max-width: none;
+    object-fit: contain;
+    image-rendering: pixelated;
+    transform: scale(1.35);
+    transform-origin: center;
+  }
+
+  .cd-mobile-preview-slot.empty {
+    font-size: 30px;
+  }
+}
+
+/* ColorDex 1.0.6 — equipe sem divisórias */
+@media (max-width: 700px) {
+
+  .cd-mobile-preview {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    align-items: center;
+    gap: 3px;
+    width: 100%;
+  }
+
+  .cd-mobile-preview-slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    height: 84px;
+    padding: 0;
+    border: none !important;
+    background: transparent !important;
+    border-radius: 0;
+    overflow: hidden;
+  }
+
+  .cd-mobile-preview-slot img {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    max-height: 84px !important;
+    object-fit: contain;
+    image-rendering: pixelated;
+    transform: none !important;
+  }
+
+  .cd-mobile-preview-slot.empty {
+    color: #e43b50;
+    font-size: 27px;
+    opacity: .75;
+  }
+}
+
+/* ColorDex 1.0.7 — sprites ampliados */
+@media (max-width: 700px) {
+
+  .cd-mobile-preview {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 0;
+    width: 100%;
+    align-items: end;
+  }
+
+  .cd-mobile-preview-slot {
+    position: relative;
+    height: 110px;
+    min-width: 0;
+    padding: 0;
+    border: 0 !important;
+    background: transparent !important;
+    overflow: visible !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .cd-mobile-preview-slot img {
+    display: block;
+    width: 125% !important;
+    height: 105px !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: contain;
+    image-rendering: pixelated;
+    transform: scale(1.15) !important;
+    transform-origin: center bottom;
+  }
+
+  .cd-mobile-preview-slot.empty {
+    align-items: center;
+    font-size: 30px;
+    opacity: .65;
+  }
+}
+
+/* ColorDex 1.0.8 — espaçamento entre sprites */
+@media (max-width: 700px) {
+  .cd-mobile-preview {
+    column-gap: 9px !important;
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    padding: 0 6px;
+    box-sizing: border-box;
+  }
+
+  .cd-mobile-preview-slot img {
+    transform: scale(1.1) !important;
+    transform-origin: center bottom;
+  }
+}

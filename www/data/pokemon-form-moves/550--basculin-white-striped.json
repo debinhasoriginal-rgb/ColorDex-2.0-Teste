@@ -1,0 +1,335 @@
+{
+  "pokemon": "basculin-white-striped",
+  "pokeapi_id": 10247,
+  "versions": {
+    "scarlet-violet": [
+      {
+        "name": "headbutt",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "take-down",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "take-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thrash",
+        "method": "level-up",
+        "level": 48
+      },
+      {
+        "name": "double-edge",
+        "method": "level-up",
+        "level": 52
+      },
+      {
+        "name": "double-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "tail-whip",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 16
+      },
+      {
+        "name": "water-gun",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "hydro-pump",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "surf",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "blizzard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "agility",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "waterfall",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swift",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "level-up",
+        "level": 8
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scary-face",
+        "method": "level-up",
+        "level": 20
+      },
+      {
+        "name": "scary-face",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "icy-wind",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "crunch",
+        "method": "level-up",
+        "level": 32
+      },
+      {
+        "name": "crunch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "whirlpool",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "uproar",
+        "method": "level-up",
+        "level": 40
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endeavor",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "endeavor",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "muddy-water",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "mud-shot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "water-pulse",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-fang",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "zen-headbutt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "aqua-jet",
+        "method": "level-up",
+        "level": 12
+      },
+      {
+        "name": "head-smash",
+        "method": "level-up",
+        "level": 56
+      },
+      {
+        "name": "soak",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "psychic-fangs",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "liquidation",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scale-shot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flip-turn",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "wave-crash",
+        "method": "level-up",
+        "level": 44
+      },
+      {
+        "name": "tera-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "last-respects",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "snowscape",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "chilling-water",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "legends-arceus": [
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "double-edge",
+        "method": "level-up",
+        "level": 43
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 11
+      },
+      {
+        "name": "ice-beam",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "swift",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "icy-wind",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "crunch",
+        "method": "level-up",
+        "level": 25
+      },
+      {
+        "name": "aqua-tail",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "ice-fang",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "zen-headbutt",
+        "method": "level-up",
+        "level": 18
+      },
+      {
+        "name": "zen-headbutt",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "aqua-jet",
+        "method": "level-up",
+        "level": 6
+      },
+      {
+        "name": "wave-crash",
+        "method": "level-up",
+        "level": 34
+      }
+    ]
+  }
+}

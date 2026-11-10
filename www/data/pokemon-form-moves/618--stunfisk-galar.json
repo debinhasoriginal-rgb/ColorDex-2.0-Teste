@@ -1,0 +1,585 @@
+{
+  "pokemon": "stunfisk-galar",
+  "pokeapi_id": 10180,
+  "versions": {
+    "sword-shield": [
+      {
+        "name": "bind",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "water-gun",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "surf",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "counter",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fissure",
+        "method": "level-up",
+        "level": 55
+      },
+      {
+        "name": "dig",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "screech",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "curse",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "level-up",
+        "level": 50
+      },
+      {
+        "name": "spite",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sludge-bomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "mud-slap",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "sandstorm",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "level-up",
+        "level": 5
+      },
+      {
+        "name": "endure",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "pain-split",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "metal-claw",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "crunch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "uproar",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "revenge",
+        "method": "level-up",
+        "level": 15
+      },
+      {
+        "name": "revenge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "yawn",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "astonish",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "rock-tomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "metal-sound",
+        "method": "level-up",
+        "level": 20
+      },
+      {
+        "name": "muddy-water",
+        "method": "level-up",
+        "level": 40
+      },
+      {
+        "name": "muddy-water",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "iron-defense",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "iron-defense",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bounce",
+        "method": "level-up",
+        "level": 35
+      },
+      {
+        "name": "bounce",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "mud-shot",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "mud-shot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "payback",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sucker-punch",
+        "method": "level-up",
+        "level": 25
+      },
+      {
+        "name": "earth-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-fang",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flash-cannon",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stealth-rock",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sludge-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "foul-play",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scald",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "reflect-type",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stomping-tantrum",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snap-trap",
+        "method": "level-up",
+        "level": 45
+      },
+      {
+        "name": "steel-beam",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "terrain-pulse",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "lash-out",
+        "method": "tutor",
+        "level": 0
+      }
+    ],
+    "champions": [
+      {
+        "name": "bind",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "surf",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "counter",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "fissure",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "dig",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "screech",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "curse",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "spite",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sludge-bomb",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "mud-slap",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sandstorm",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "pain-split",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "crunch",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "uproar",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "yawn",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rock-tomb",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "metal-sound",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "muddy-water",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "iron-defense",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "bounce",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "mud-shot",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "payback",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sucker-punch",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "earth-power",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "ice-fang",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "flash-cannon",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "stone-edge",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "stealth-rock",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sludge-wave",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "foul-play",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "scald",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "reflect-type",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "stomping-tantrum",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "snap-trap",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "steel-beam",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "terrain-pulse",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "lash-out",
+        "method": "train",
+        "level": 0
+      }
+    ]
+  }
+}

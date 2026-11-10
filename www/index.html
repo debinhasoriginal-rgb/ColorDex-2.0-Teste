@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101015">
+  <title>ColorDex</title>
+  <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/mobile-v10.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-light"></span>
+        <span>COLORDEX SYSTEM</span>
+      </div>
+
+      <div class="status">
+        <span class="status-dot"></span>
+        ONLINE
+      </div>
+    </header>
+
+    <main class="home">
+
+      <div class="eyebrow">
+        <span class="line"></span>
+        SUA AVENTURA COMEÇA AQUI
+        <span class="line"></span>
+      </div>
+
+      <h1 class="logo">
+        COLOR<span>DEX</span>
+      </h1>
+
+      <p class="subtitle">
+        Sua Pokédex. Suas cores.
+      </p>
+
+      <div class="scanner">
+        <div class="scanner-ring ring-one"></div>
+        <div class="scanner-ring ring-two"></div>
+
+        <div class="pokeball">
+          <div class="pokeball-top"></div>
+          <div class="pokeball-band"></div>
+          <div class="pokeball-center"></div>
+        </div>
+
+        <div class="scanner-label">
+          COLOR SYSTEM READY
+        </div>
+      </div>
+
+      <div class="menu">
+        <button id="playBtn" class="btn btn-primary">
+          <span class="btn-icon">▶</span>
+          JOGAR
+          <span class="btn-arrow">›</span>
+        </button>
+
+        <button id="collectionBtn"
+                class="btn btn-secondary">
+          <span class="btn-icon">▦</span>
+          MINHA COLEÇÃO
+          <span class="btn-arrow">›</span>
+        </button>
+      </div>
+
+      <section class="progress-panel">
+        <div class="progress-heading">
+          <span>PROGRESSO DA COLEÇÃO</span>
+          <strong id="progressText">0 / 1025</strong>
+        </div>
+
+        <div class="progress-track">
+          <div id="progressFill"
+               class="progress-fill"></div>
+        </div>
+
+        <p id="progressPercent">0% concluído</p>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <span>COLORDEX</span>
+      <span>● SISTEMA ATIVO</span>
+      <span>V 0.1</span>
+    </footer>
+
+  </div>
+
+  <div id="modal" class="modal hidden"
+       role="dialog" aria-modal="true"
+       aria-labelledby="modalTitle">
+
+    <div class="modal-content">
+      <button id="closeModal"
+              class="close-btn"
+              aria-label="Fechar">×</button>
+
+      <div class="modal-symbol">◈</div>
+
+      <h2 id="modalTitle"></h2>
+      <p id="modalMessage"></p>
+
+      <button id="modalOk" class="btn btn-primary">
+        ENTENDIDO
+      </button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+<script src="js/backup-v10.js"></script>
+</body>
+</html>

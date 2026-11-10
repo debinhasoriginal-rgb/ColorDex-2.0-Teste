@@ -1,0 +1,283 @@
+{
+  "pokemon": "squawkabilly-white-plumage",
+  "pokeapi_id": 10262,
+  "versions": {
+    "scarlet-violet": [
+      {
+        "name": "fly",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "fly",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fury-attack",
+        "method": "level-up",
+        "level": 17
+      },
+      {
+        "name": "take-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "double-edge",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "double-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "growl",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "peck",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 6
+      },
+      {
+        "name": "mimic",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "reversal",
+        "method": "level-up",
+        "level": 52
+      },
+      {
+        "name": "reversal",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scary-face",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "level-up",
+        "level": 38
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "uproar",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "uproar",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "heat-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "torment",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "flatter",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "level-up",
+        "level": 34
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "taunt",
+        "method": "level-up",
+        "level": 20
+      },
+      {
+        "name": "taunt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "helping-hand",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endeavor",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "feather-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-voice",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fake-tears",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "air-cutter",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "aerial-ace",
+        "method": "level-up",
+        "level": 13
+      },
+      {
+        "name": "aerial-ace",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "roost",
+        "method": "level-up",
+        "level": 47
+      },
+      {
+        "name": "tailwind",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "u-turn",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "copycat",
+        "method": "level-up",
+        "level": 27
+      },
+      {
+        "name": "air-slash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brave-bird",
+        "method": "level-up",
+        "level": 42
+      },
+      {
+        "name": "brave-bird",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "foul-play",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "final-gambit",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "hurricane",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "parting-shot",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "lash-out",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dual-wingbeat",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "tera-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "pounce",
+        "method": "machine",
+        "level": 0
+      }
+    ]
+  }
+}

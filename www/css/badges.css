@@ -1,0 +1,62 @@
+*{box-sizing:border-box}
+:root{color-scheme:dark;font-family:Arial,sans-serif}
+body{margin:0;background:#090c12;color:#f5f5f7}
+.app{max-width:1150px;margin:auto;min-height:100vh}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:22px 25px;border-bottom:1px solid #282b36}
+.back{color:#fff;text-decoration:none;font-size:25px}
+.brand{font-size:23px;font-weight:900;letter-spacing:2px}
+.brand span{color:#ef4556}
+.version{font-size:11px;color:#f77886;border:1px solid #74303a;border-radius:8px;padding:7px}
+main{padding:30px 20px 65px}
+.heading{text-align:center;margin-bottom:25px}
+.eyebrow{color:#f16b79;font-size:11px;font-weight:bold;letter-spacing:2px}
+h1{font-size:clamp(26px,5vw,40px);margin:12px 0}
+.heading p,.note{color:#a9aab6}
+.overall{display:inline-block;margin-top:10px;color:#f2a3ad;font-weight:bold}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:10px 0 22px}
+.region-tab{flex-shrink:0;background:#1b1e28;color:#ccc;border:1px solid #373945;border-radius:10px;padding:12px 15px;cursor:pointer}
+.region-tab.selected{background:#421820;color:white;border-color:#f05465}
+.case{max-width:950px;margin:auto;background:linear-gradient(145deg,#29202a,#161820);border:3px solid #66343f;border-radius:25px;overflow:hidden;box-shadow:0 15px 45px #0009}
+.case-lid{text-align:center;padding:35px 15px;background:linear-gradient(#47202a,#251820);border-bottom:4px solid #8d3b4b}
+.case-mark{font-size:30px;color:#f17182}
+.case-lid h2{margin:12px 0 6px}
+.case-lid p{color:#e3a5af}
+.badge-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;padding:25px;background:#191a23}
+.badge-slot{min-height:160px;border:1px solid #393844;border-radius:16px;background:radial-gradient(circle,#302b35,#171820);color:#a5a4ae;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:15px;cursor:pointer;transition:.2s}
+.badge-slot:hover{border-color:#df5368;transform:translateY(-2px)}
+.badge-emblem{font-size:46px;filter:grayscale(1);opacity:.25;transition:.2s}
+.badge-slot.owned{background:radial-gradient(circle,#502d38,#211a25);border-color:#bb5968;color:white}
+.badge-slot.owned .badge-emblem{filter:none;opacity:1;color:#ff9ba9;text-shadow:0 0 20px #e8415a}
+.badge-slot strong{font-size:13px;text-align:center}
+.badge-slot small{font-size:11px;color:#a9a0ab}
+.badge-slot.owned small{color:#8ce2b0}
+.crystal-slot .badge-emblem{font-size:40px;transform:rotate(45deg)}
+.crystal-group{grid-column:1/-1;margin:10px 0 0;color:#f3a0ae;font-size:18px}
+.case-bottom{text-align:center;background:#281923;color:#b78b97;padding:16px;font-size:10px;letter-spacing:2px}
+.note{text-align:center;font-size:12px;line-height:1.7}
+@media(max-width:450px){.badge-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:12px}.badge-slot{min-height:145px;padding:8px}.topbar{padding:18px 12px}.brand{font-size:18px}}
+
+
+/* ColorDex v0.9.1 — imagens das insígnias */
+.badge-slot img.badge-emblem {
+ width: 76px;
+ height: 76px;
+ object-fit: contain;
+ transform: none;
+ filter: grayscale(1) brightness(.4);
+ opacity: .45;
+ transition: filter .2s, opacity .2s, transform .2s;
+}
+.badge-slot.owned img.badge-emblem {
+ filter: none;
+ opacity: 1;
+ transform: scale(1.08);
+}
+.badge-slot.crystal-slot img.badge-emblem {
+ width: 70px;
+ height: 70px;
+ transform: none;
+}
+.badge-slot.crystal-slot.owned img.badge-emblem {
+ transform: scale(1.08);
+}

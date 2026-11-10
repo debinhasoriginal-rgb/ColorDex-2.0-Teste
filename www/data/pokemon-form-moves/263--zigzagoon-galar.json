@@ -1,0 +1,313 @@
+{
+  "pokemon": "zigzagoon-galar",
+  "pokeapi_id": 10174,
+  "versions": {
+    "sword-shield": [
+      {
+        "name": "sand-attack",
+        "method": "level-up",
+        "level": 3
+      },
+      {
+        "name": "headbutt",
+        "method": "level-up",
+        "level": 12
+      },
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "body-slam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "take-down",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "double-edge",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "pin-missile",
+        "method": "level-up",
+        "level": 18
+      },
+      {
+        "name": "pin-missile",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "surf",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "blizzard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "counter",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dig",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "screech",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "lick",
+        "method": "level-up",
+        "level": 6
+      },
+      {
+        "name": "swift",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "level-up",
+        "level": 21
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scary-face",
+        "method": "level-up",
+        "level": 27
+      },
+      {
+        "name": "scary-face",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "icy-wind",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "iron-tail",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "shadow-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "whirlpool",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "taunt",
+        "method": "level-up",
+        "level": 33
+      },
+      {
+        "name": "taunt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "helping-hand",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "trick",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "knock-off",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "hyper-voice",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fake-tears",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "mud-shot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "payback",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "assurance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fling",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "seed-bomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "gunk-shot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "grass-knot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-guard",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "retaliate",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "work-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snarl",
+        "method": "level-up",
+        "level": 9
+      },
+      {
+        "name": "snarl",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "parting-shot",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "baby-doll-eyes",
+        "method": "level-up",
+        "level": 15
+      },
+      {
+        "name": "lash-out",
+        "method": "tutor",
+        "level": 0
+      }
+    ]
+  }
+}

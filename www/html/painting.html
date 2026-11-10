@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>ColorDex — Pintura</title>
+  <link rel="stylesheet" href="../css/painting.css?v101fix2">
+  <script src="../js/painting-identity.js?v101fix2" defer></script>
+  <script src="../js/painting.js?v1014" defer></script>
+<link rel="stylesheet" href="../css/mobile-v10.css?v101fix2">
+<link rel="stylesheet" href="../css/painting-mobile-v109.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a href="pokedex.html" class="back-button">
+      ← POKÉDEX
+    </a>
+    <div class="logo">COLOR<span>DEX</span></div>
+  </header>
+
+  <main class="layout">
+    <section class="painting-panel">
+
+      <div class="heading">
+        <div>
+          <p class="eyebrow">COLOR SYSTEM / 0.3</p>
+          <h1 id="pokemonTitle">Carregando...</h1>
+          <p id="paintingStatus">Preparando pintura</p>
+        </div>
+        <span class="status-badge" id="statusBadge">
+          PINTANDO
+        </span>
+      </div>
+
+      <div class="progress-track">
+        <div id="progressFill"></div>
+      </div>
+
+      <div class="progress-info">
+        <span id="progressText">0%</span>
+        <span id="pixelCount">0 / 0 pixels</span>
+      </div>
+
+      <div class="mode-controls">
+        <button id="paintMode" class="mode-button active"
+                type="button" aria-pressed="true">
+          🎨 Pintar
+        </button>
+        <button id="moveMode" class="mode-button"
+                type="button" aria-pressed="false">
+          ✋ Mover
+        </button>
+      </div>
+
+      <div class="canvas-frame" id="canvasFrame">
+        <canvas id="paintingCanvas"></canvas>
+      </div>
+
+      <div class="toolbar">
+        <button id="zoomOut" type="button"
+                aria-label="Diminuir zoom">−</button>
+        <span id="zoomLabel">8×</span>
+        <button id="zoomIn" type="button"
+                aria-label="Aumentar zoom">+</button>
+        <button id="fitButton" type="button">
+          ⛶ Enquadrar
+        </button>
+        <button id="resetButton" class="reset" type="button">
+          Reiniciar
+        </button>
+      </div>
+
+      <p class="hint" id="gestureHint">
+        Um dedo pinta. Dois dedos ampliam e movimentam.
+      </p>
+    </section>
+
+    <aside class="palette-panel">
+      <p class="eyebrow">PAINT SYSTEM</p>
+      <h2>Paleta de cores</h2>
+      <p class="palette-description">
+        Selecione uma cor para começar.
+      </p>
+
+      <div id="palette" class="palette"></div>
+
+      
+    </aside>
+  </main>
+
+  <div id="completionModal" class="modal hidden">
+    <div class="modal-card">
+      <p class="eyebrow">COLORDEX COMPLETE</p>
+      <h2>Pokémon concluído!</h2>
+      <img id="completedSprite" alt="Pokémon concluído">
+      <p id="completionMessage"></p>
+      <a href="pokedex.html" class="finish-button">
+        VOLTAR À POKÉDEX
+      </a>
+    </div>
+  </div>
+
+<script src="../js/backup-v10.js?v101fix2"></script>
+<script src="../js/painting-fullscreen-v101.js?v101fix2"></script>
+<script src="../js/painting-mobile-v109.js"></script>
+</body>
+</html>

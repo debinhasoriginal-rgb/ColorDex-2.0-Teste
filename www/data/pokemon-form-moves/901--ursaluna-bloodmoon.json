@@ -1,0 +1,408 @@
+{
+  "pokemon": "ursaluna-bloodmoon",
+  "pokeapi_id": 10272,
+  "versions": {
+    "scarlet-violet": [
+      {
+        "name": "fire-punch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-punch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-punch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scratch",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "body-slam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "take-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "double-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "roar",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "low-kick",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dig",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "harden",
+        "method": "level-up",
+        "level": 17
+      },
+      {
+        "name": "metronome",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "lick",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "swift",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fury-swipes",
+        "method": "level-up",
+        "level": 8
+      },
+      {
+        "name": "rest",
+        "method": "level-up",
+        "level": 41
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "slash",
+        "method": "level-up",
+        "level": 22
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "level-up",
+        "level": 41
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scary-face",
+        "method": "level-up",
+        "level": 35
+      },
+      {
+        "name": "scary-face",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "charm",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "metal-claw",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "moonlight",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "crunch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "uproar",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "focus-punch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "taunt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "helping-hand",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brick-break",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-voice",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fake-tears",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-tomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "aerial-ace",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulk-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "mud-shot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "calm-mind",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hammer-arm",
+        "method": "level-up",
+        "level": 64
+      },
+      {
+        "name": "close-combat",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "payback",
+        "method": "level-up",
+        "level": 13
+      },
+      {
+        "name": "fling",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "seed-bomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "drain-punch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "vacuum-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "focus-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earth-power",
+        "method": "level-up",
+        "level": 48
+      },
+      {
+        "name": "earth-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "avalanche",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "shadow-claw",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "gunk-shot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "smack-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "heavy-slam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snarl",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "play-rough",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "moonblast",
+        "method": "level-up",
+        "level": 56
+      },
+      {
+        "name": "play-nice",
+        "method": "level-up",
+        "level": 25
+      },
+      {
+        "name": "high-horsepower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stomping-tantrum",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "body-press",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "headlong-rush",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "tera-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "trailblaze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "blood-moon",
+        "method": "level-up",
+        "level": 70
+      },
+      {
+        "name": "hard-press",
+        "method": "machine",
+        "level": 0
+      }
+    ]
+  }
+}

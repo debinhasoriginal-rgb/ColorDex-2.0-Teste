@@ -1,0 +1,263 @@
+{
+  "pokemon": "eternatus-eternamax",
+  "pokeapi_id": 10190,
+  "versions": {
+    "sword-shield": [
+      {
+        "name": "fly",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "level-up",
+        "level": 48
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "level-up",
+        "level": 80
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "solar-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "level-up",
+        "level": 8
+      },
+      {
+        "name": "agility",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "agility",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "screech",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "recover",
+        "method": "level-up",
+        "level": 72
+      },
+      {
+        "name": "confuse-ray",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "light-screen",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "reflect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scary-face",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sludge-bomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "shadow-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "cosmic-power",
+        "method": "level-up",
+        "level": 64
+      },
+      {
+        "name": "cosmic-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "poison-tail",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "dragon-dance",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "dragon-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "payback",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "assurance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic-spikes",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "poison-jab",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-pulse",
+        "method": "level-up",
+        "level": 40
+      },
+      {
+        "name": "dragon-pulse",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flash-cannon",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "draco-meteor",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "cross-poison",
+        "method": "level-up",
+        "level": 32
+      },
+      {
+        "name": "cross-poison",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "venoshock",
+        "method": "level-up",
+        "level": 16
+      },
+      {
+        "name": "venoshock",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sludge-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-tail",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "mystical-fire",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "venom-drench",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brutal-swing",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dynamax-cannon",
+        "method": "level-up",
+        "level": 56
+      },
+      {
+        "name": "eternabeam",
+        "method": "level-up",
+        "level": 88
+      },
+      {
+        "name": "meteor-beam",
+        "method": "tutor",
+        "level": 0
+      }
+    ]
+  }
+}
