@@ -1,6 +1,3 @@
-
-500;600;700&family=Orbitron:wght@500;600;700;800&display=swap');
-
 :root {
   --background: #101117;
   --panel: #22232e;
@@ -19,7 +16,7 @@ body {
   margin: 0;
   background: #08090d;
   color: var(--text);
-  font-family: 'Rajdhani', sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .app {
@@ -47,7 +44,7 @@ body {
 }
 
 .logo {
-  font-family: 'Orbitron', sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 800;
   font-size: 18px;
 }
@@ -383,7 +380,7 @@ body {
 }
 
 .modal-box h2 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 20px;
 }
 
@@ -559,5 +556,3 @@ footer {
  .cd-badges-shortcut{padding:8px}
  .cd-badges-shortcut span{display:none}
 }
-
-/* Fontes locais do sistema */

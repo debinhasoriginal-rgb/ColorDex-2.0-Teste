@@ -1,6 +1,3 @@
-
-500;600;700&family=Orbitron:wght@500;600;700;800&display=swap');
-
 :root {
   --background: #101117;
   --surface: #22232e;
@@ -21,7 +18,7 @@ body {
   margin: 0;
   background: #08090d;
   color: var(--text);
-  font-family: 'Rajdhani', sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 button,
@@ -70,7 +67,7 @@ button {
 
 .hero-brand {
   color: white;
-  font-family: 'Orbitron', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 2px;
@@ -94,7 +91,7 @@ button {
 .pokemon-identity h1 {
   margin: 6px 0 0;
   color: white;
-  font-family: 'Orbitron', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: clamp(24px, 5vw, 36px);
   font-weight: 800;
   overflow-wrap: anywhere;
@@ -1028,5 +1025,3 @@ button {
   color: #aeb9cc;
   font-size: 12px;
 }
-
-/* Fontes locais do sistema */

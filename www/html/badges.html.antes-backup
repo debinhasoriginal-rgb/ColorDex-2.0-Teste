@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ColorDex | Estojo de Insígnias</title>
+<link rel="stylesheet" href="../css/badges.css">
+<script src="../js/badges.js" defer></script>
+<link rel="stylesheet" href="../css/mobile-v10.css">
+</head>
+<body>
+<div class="app">
+<header class="topbar">
+<a class="back" href="pokedex.html" aria-label="Voltar">←</a>
+<div class="brand">COLOR<span>DEX</span></div>
+<span class="version">V0.9</span>
+</header>
+<main>
+<div class="heading">
+<span class="eyebrow">COLEÇÃO DO TREINADOR</span>
+<h1>Estojo de Insígnias</h1>
+<p>Conquiste insígnias e Cristais Z de todas as regiões.</p>
+<span class="overall" id="overallCount"></span>
+</div>
+<nav id="regionTabs" class="tabs" aria-label="Regiões"></nav>
+<section class="case">
+<div class="case-lid">
+<span class="case-mark">◈</span>
+<h2 id="caseTitle"></h2>
+<p id="caseCount"></p>
+</div>
+<div id="badgeGrid" class="badge-grid"></div>
+<div class="case-bottom">COLORDEX · COLEÇÃO DO TREINADOR</div>
+</section>
+<p class="note">Toque para conquistar ou remover. Seu progresso é salvo automaticamente.</p>
+<p class="note">Os símbolos são provisórios. Alola possui 18 Cristais Z de tipos e 17 exclusivos.</p>
+</main>
+</div>
+<script src="../js/backup-v10.js"></script>
+</body>
+</html>
