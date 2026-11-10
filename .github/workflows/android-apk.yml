@@ -26,8 +26,11 @@ jobs:
           distribution: temurin
           java-version: '21'
 
+      - name: Atualizar npm
+        run: npm install -g npm@latest
+
       - name: Instalar dependências
-        run: npm ci
+        run: npm ci --no-audit --no-fund
 
       - name: Sincronizar Capacitor
         run: npx cap sync android
