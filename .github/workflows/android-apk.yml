@@ -35,6 +35,12 @@ jobs:
       - name: Sincronizar Capacitor
         run: npx cap sync android
 
+      - name: Diagnosticar dependencias Kotlin
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew :app:dependencyInsight             --dependency kotlin-stdlib-jdk8             --configuration debugRuntimeClasspath             --no-daemon
+
       - name: Gerar APK de teste
         working-directory: android
         run: |
