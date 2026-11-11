@@ -662,6 +662,26 @@ function paintAtPoint(point) {
   }
 }
 
+
+// COLORDEX 1.0.17 — PINTURA INTELIGENTE
+function canPaintAtPoint(point) {
+  if (completed || !width || !height) return false;
+
+  const x = Math.floor((point.x - offsetX) / zoom);
+  const y = Math.floor((point.y - offsetY) / zoom);
+
+  if (x < 0 || y < 0 || x >= width || y >= height) {
+    return false;
+  }
+
+  const index = y * width + x;
+
+  return (
+    pixels[index] === selectedColor &&
+    !painted[index]
+  );
+}
+
 function getPoint(event) {
   const rect = canvas.getBoundingClientRect();
 
@@ -744,6 +764,22 @@ canvas.addEventListener("pointerdown", event => {
     return;
   }
 
+
+const isTouch = event.pointerType === "touch";
+const forceMove =
+  mode === "move" ||
+  spaceHeld ||
+  event.button === 1;
+
+const shouldPaint =
+  !forceMove &&
+  mode === "paint" &&
+  (
+    isTouch
+      ? canPaintAtPoint(point)
+      : true
+  );
+
 singleGesture = {
   id: event.pointerId,
   pointerType: event.pointerType,
@@ -752,14 +788,11 @@ singleGesture = {
   lastX: point.x,
   lastY: point.y,
   moved: false,
-  canMove:
-    event.pointerType === "touch" ||
-    mode === "move" ||
-    spaceHeld ||
-    event.button === 1
+  canMove: !shouldPaint,
+  painting: shouldPaint
 };
 
-if (!singleGesture.canMove && mode === "paint") {
+if (shouldPaint) {
   paintAtPoint(point);
 }
 });
@@ -824,7 +857,7 @@ canvas.addEventListener("pointermove", event => {
     draw();
 
     frame.classList.add("dragging");
-  } else if (mode === "paint" && !spaceHeld) {
+  } else if (singleGesture.painting && !spaceHeld) {
     paintAlongPath(
       {
         x: singleGesture.lastX,
@@ -843,22 +876,6 @@ function endPointer(event, cancelled = false) {
 
   const point = getPoint(event);
   const wasPinching = pinchGesture !== null;
-
-  
-
-  // COLORDEX 1.0.13:
-  // toque curto pinta; arraste movimenta.
-  if (
-    !cancelled &&
-    !wasPinching &&
-    singleGesture &&
-    singleGesture.id === event.pointerId &&
-    singleGesture.pointerType === "touch" &&
-    !singleGesture.moved &&
-    pointers.size === 1
-  ) {
-    paintAtPoint(point);
-  }
 
   pointers.delete(event.pointerId);
   singleGesture = null;
