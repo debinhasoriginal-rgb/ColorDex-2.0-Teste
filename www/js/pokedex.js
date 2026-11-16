@@ -261,26 +261,96 @@ function createCard(pokemon) {
   return card;
 }
 
-// Filtros e pesquisa
-function renderPokemon() {
-  const search = searchInput.value
-    .trim()
-    .toLowerCase();
+// COLORDEX 2.0 — RENDERIZACAO PROGRESSIVA
 
-  pokemonGrid.innerHTML = "";
+const POKEDEX_BATCH_SIZE = 48;
 
-  let visibleCount = 0;
+let visiblePokemon = [];
+let renderedPokemonCount = 0;
+let renderVersion = 0;
+let renderTimer = null;
+let renderFrame = null;
+let scrollObserver = null;
 
-  for (let id = 1; id <= TOTAL_POKEMON; id++) {
-    const pokemon = getPokemon(id);
+const loadMoreMarker = document.createElement("div");
+loadMoreMarker.className = "colordex-load-more";
+loadMoreMarker.style.cssText =
+  "height:2px;width:100%;grid-column:1/-1;pointer-events:none;";
 
-    // Filtro por região
-    if (!matchesRegion(id)) {
-      continue;
+function stopPendingRender() {
+  renderVersion++;
+
+  if (renderFrame !== null) {
+    cancelAnimationFrame(renderFrame);
+    renderFrame = null;
+  }
+
+  if (scrollObserver) {
+    scrollObserver.disconnect();
+    scrollObserver = null;
+  }
+}
+
+function appendPokemonBatch(version) {
+  if (version !== renderVersion) return;
+
+  renderFrame = null;
+
+  const end = Math.min(
+    renderedPokemonCount + POKEDEX_BATCH_SIZE,
+    visiblePokemon.length
+  );
+
+  const fragment = document.createDocumentFragment();
+
+  for (let i = renderedPokemonCount; i < end; i++) {
+    fragment.appendChild(createCard(visiblePokemon[i]));
+  }
+
+  // O marcador permanece no fim da grade.
+  if (loadMoreMarker.parentNode === pokemonGrid) {
+    pokemonGrid.insertBefore(fragment, loadMoreMarker);
+  } else {
+    pokemonGrid.appendChild(fragment);
+  }
+
+  renderedPokemonCount = end;
+
+  if (renderedPokemonCount >= visiblePokemon.length) {
+    if (scrollObserver) {
+      scrollObserver.disconnect();
+      scrollObserver = null;
     }
 
-    // Filtro por tipo
-    const selectedType = typeSelect.value;
+    loadMoreMarker.remove();
+    return;
+  }
+
+  if (!loadMoreMarker.isConnected) {
+    pokemonGrid.appendChild(loadMoreMarker);
+  }
+
+  if (scrollObserver) {
+    scrollObserver.observe(loadMoreMarker);
+  }
+
+  // Se a tela ainda não estiver preenchida,
+  // o observador solicitará o próximo lote.
+}
+
+function renderPokemon() {
+  clearTimeout(renderTimer);
+  stopPendingRender();
+
+  const version = renderVersion;
+
+  const search = searchInput.value.trim().toLowerCase();
+  const selectedType = typeSelect.value;
+
+  const matches = [];
+
+  for (let id = 1; id <= TOTAL_POKEMON; id++) {
+    if (!matchesRegion(id)) continue;
 
     if (
       selectedType !== "all" &&
@@ -289,17 +359,16 @@ function renderPokemon() {
       continue;
     }
 
-    // Pesquisa por nome ou número
-    const matchesSearch =
-      pokemon.name.toLowerCase().includes(search) ||
-      formatNumber(id).includes(search) ||
-      String(id).includes(search);
+    const pokemon = getPokemon(id);
 
-    if (!matchesSearch) {
+    if (
+      !pokemon.name.toLowerCase().includes(search) &&
+      !formatNumber(id).includes(search) &&
+      !String(id).includes(search)
+    ) {
       continue;
     }
 
-    // Filtro de disponíveis
     if (
       currentFilter === "available" &&
       !pokemon.available
@@ -307,7 +376,6 @@ function renderPokemon() {
       continue;
     }
 
-    // Filtro de concluídos
     if (
       currentFilter === "completed" &&
       !pokemon.completed
@@ -315,84 +383,66 @@ function renderPokemon() {
       continue;
     }
 
-    pokemonGrid.appendChild(
-      createCard(pokemon)
-    );
-
-    visibleCount++;
+    matches.push(pokemon);
   }
 
+  visiblePokemon = matches;
+  renderedPokemonCount = 0;
+
+  pokemonGrid.replaceChildren();
+
   resultCount.textContent =
-    `${visibleCount} Pokémon encontrados`;
+    `${matches.length} Pokémon encontrados`;
 
   completedCount.textContent =
     `${getCompletedPokemon().length}/${TOTAL_POKEMON} concluídos`;
 
   emptyMessage.classList.toggle(
     "hidden",
-    visibleCount > 0
+    matches.length > 0
   );
-}
 
-// Modal
-function showModal(
-  title,
-  description,
-  pokemon,
-  actionText
-) {
-  modalTitle.textContent = title;
-  modalDescription.textContent = description;
+  if (!matches.length) return;
 
-  modalSprite.src = pokemon.sprite;
-  modalSprite.alt = pokemon.name;
+  if ("IntersectionObserver" in window) {
+    scrollObserver = new IntersectionObserver(
+      entries => {
+        if (
+          entries.some(entry => entry.isIntersecting) &&
+          version === renderVersion &&
+          renderFrame === null
+        ) {
+          renderFrame = requestAnimationFrame(
+            () => appendPokemonBatch(version)
+          );
+        }
+      },
+      { rootMargin: "600px 0px" }
+    );
+  }
 
-  modalSprite.style.filter = pokemon.completed
-    ? "none"
-    : "brightness(0)";
+  appendPokemonBatch(version);
 
-  modalAction.textContent = actionText;
-
-  pokemonModal.classList.remove("hidden");
-}
-
-// Fechar modal
-function hideModal() {
-  pokemonModal.classList.add("hidden");
-}
-
-closeModal.addEventListener(
-  "click",
-  hideModal
-);
-
-pokemonModal.addEventListener(
-  "click",
-  event => {
-    if (event.target === pokemonModal) {
-      hideModal();
+  // Alternativa para navegadores sem IntersectionObserver.
+  if (!scrollObserver) {
+    while (renderedPokemonCount < visiblePokemon.length) {
+      appendPokemonBatch(version);
     }
   }
-);
+}
 
-document.addEventListener(
-  "keydown",
-  event => {
-    if (event.key === "Escape") {
-      hideModal();
-    }
-  }
-);
+function schedulePokemonRender() {
+  clearTimeout(renderTimer);
 
-modalAction.addEventListener(
-  "click",
-  hideModal
-);
+  // Invalida renderizações anteriores imediatamente.
+  stopPendingRender();
 
-// Pesquisa
+  renderTimer = setTimeout(renderPokemon, 150);
+}
+
 searchInput.addEventListener(
   "input",
-  renderPokemon
+  schedulePokemonRender
 );
 
 regionSelect.addEventListener(
@@ -405,7 +455,6 @@ typeSelect.addEventListener(
   renderPokemon
 );
 
-// Filtros
 filterButtons.forEach(button => {
   button.addEventListener("click", () => {
     filterButtons.forEach(filter => {
@@ -413,7 +462,6 @@ filterButtons.forEach(button => {
     });
 
     button.classList.add("active");
-
     currentFilter = button.dataset.filter;
 
     renderPokemon();
