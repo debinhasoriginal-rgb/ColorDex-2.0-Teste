@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "com.colordex.app"
+    namespace "com.colordex.teste"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.colordex.app"
+        applicationId "com.colordex.teste"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 2
