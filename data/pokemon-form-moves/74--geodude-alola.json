@@ -1,0 +1,1184 @@
+{
+  "pokemon": "geodude-alola",
+  "pokeapi_id": 10109,
+  "versions": {
+    "ultra-sun-ultra-moon": [
+      {
+        "name": "fire-punch",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "thunder-punch",
+        "method": "level-up",
+        "level": 22
+      },
+      {
+        "name": "thunder-punch",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "double-edge",
+        "method": "level-up",
+        "level": 40
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "counter",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-throw",
+        "method": "level-up",
+        "level": 16
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "screech",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "defense-curl",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "self-destruct",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "fire-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "explosion",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "explosion",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "curse",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sandstorm",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "rollout",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "spark",
+        "method": "level-up",
+        "level": 12
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "focus-punch",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "nature-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "charge",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "superpower",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "brick-break",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-tomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "iron-defense",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "block",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "block",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "rock-blast",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "gyro-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fling",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "magnet-rise",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "magnet-rise",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "rock-polish",
+        "method": "level-up",
+        "level": 6
+      },
+      {
+        "name": "rock-polish",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earth-power",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "rock-climb",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "discharge",
+        "method": "level-up",
+        "level": 34
+      },
+      {
+        "name": "stone-edge",
+        "method": "level-up",
+        "level": 42
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stealth-rock",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "stealth-rock",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "charge-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "wide-guard",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "autotomize",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "smack-down",
+        "method": "level-up",
+        "level": 18
+      },
+      {
+        "name": "smack-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "volt-switch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "electroweb",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brutal-swing",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "lets-go-pikachu-lets-go-eevee": [
+      {
+        "name": "fire-punch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-punch",
+        "method": "level-up",
+        "level": 27
+      },
+      {
+        "name": "thunder-punch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "headbutt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "take-down",
+        "method": "level-up",
+        "level": 15
+      },
+      {
+        "name": "double-edge",
+        "method": "level-up",
+        "level": 31
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "seismic-toss",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-shock",
+        "method": "level-up",
+        "level": 3
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-throw",
+        "method": "level-up",
+        "level": 9
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dig",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "defense-curl",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "bide",
+        "method": "level-up",
+        "level": 6
+      },
+      {
+        "name": "self-destruct",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "self-destruct",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fire-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "explosion",
+        "method": "level-up",
+        "level": 35
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "level-up",
+        "level": 23
+      },
+      {
+        "name": "rock-slide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "superpower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brick-break",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stealth-rock",
+        "method": "level-up",
+        "level": 12
+      },
+      {
+        "name": "stealth-rock",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "scarlet-violet": [
+      {
+        "name": "fire-punch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-punch",
+        "method": "level-up",
+        "level": 22
+      },
+      {
+        "name": "thunder-punch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "body-slam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "take-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "double-edge",
+        "method": "level-up",
+        "level": 40
+      },
+      {
+        "name": "double-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "counter",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-throw",
+        "method": "level-up",
+        "level": 16
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dig",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "screech",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "defense-curl",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "self-destruct",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "fire-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "explosion",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "curse",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "curse",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "mud-slap",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "zap-cannon",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "sandstorm",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rollout",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "spark",
+        "method": "level-up",
+        "level": 12
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "focus-punch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "charge",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "charge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brick-break",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-tomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "iron-defense",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "block",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "mud-shot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-blast",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "rock-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "gyro-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fling",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-polish",
+        "method": "level-up",
+        "level": 6
+      },
+      {
+        "name": "earth-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "discharge",
+        "method": "level-up",
+        "level": 34
+      },
+      {
+        "name": "stone-edge",
+        "method": "level-up",
+        "level": 42
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stealth-rock",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "stealth-rock",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "charge-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "wide-guard",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "smack-down",
+        "method": "level-up",
+        "level": 18
+      },
+      {
+        "name": "smack-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "volt-switch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "electroweb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "wild-charge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "high-horsepower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "tera-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "supercell-slam",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "sun-moon": [
+      {
+        "name": "thunder-punch",
+        "method": "level-up",
+        "level": 22
+      },
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "double-edge",
+        "method": "level-up",
+        "level": 40
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "counter",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-throw",
+        "method": "level-up",
+        "level": 16
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "screech",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "defense-curl",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "self-destruct",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "fire-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "explosion",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "explosion",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "curse",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sandstorm",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "rollout",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "spark",
+        "method": "level-up",
+        "level": 12
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "nature-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "charge",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "brick-break",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-tomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "block",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "rock-blast",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "gyro-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fling",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "magnet-rise",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "rock-polish",
+        "method": "level-up",
+        "level": 6
+      },
+      {
+        "name": "rock-polish",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-climb",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "discharge",
+        "method": "level-up",
+        "level": 34
+      },
+      {
+        "name": "stone-edge",
+        "method": "level-up",
+        "level": 42
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "stealth-rock",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "charge-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "wide-guard",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "autotomize",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "smack-down",
+        "method": "level-up",
+        "level": 18
+      },
+      {
+        "name": "smack-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "volt-switch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brutal-swing",
+        "method": "machine",
+        "level": 0
+      }
+    ]
+  }
+}

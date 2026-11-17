@@ -1,43 +1,363 @@
 {
-  "6--charizard-mega-x": ["Fogo", "Dragão"],
-  "6--charizard-mega-y": ["Fogo", "Voador"],
-  "25--pikachu-starter": ["Elétrico"],
-  "479--rotom-heat": ["Elétrico", "Fogo"],
-  "479--rotom-wash": ["Elétrico", "Água"],
-  "479--rotom-frost": ["Elétrico", "Gelo"],
-  "479--rotom-fan": ["Elétrico", "Voador"],
-  "479--rotom-mow": ["Elétrico", "Planta"],
-  "646--kyurem-black": ["Dragão", "Gelo"],
-  "646--kyurem-white": ["Dragão", "Gelo"],
-  "3--venusaur-mega": ["Planta", "Venenoso"],
-  "9--blastoise-mega": ["Água"],
-  "94--gengar-mega": ["Fantasma", "Venenoso"],
-  "130--gyarados-mega": ["Água", "Sombrio"],
-  "181--ampharos-mega": ["Elétrico", "Dragão"],
-  "208--steelix-mega": ["Aço", "Terra"],
-  "212--scizor-mega": ["Inseto", "Aço"],
-  "214--heracross-mega": ["Inseto", "Lutador"],
-  "248--tyranitar-mega": ["Pedra", "Sombrio"],
-  "254--sceptile-mega": ["Planta", "Dragão"],
-  "257--blaziken-mega": ["Fogo", "Lutador"],
-  "260--swampert-mega": ["Água", "Terra"],
-  "282--gardevoir-mega": ["Psíquico", "Fada"],
-  "303--mawile-mega": ["Aço", "Fada"],
-  "306--aggron-mega": ["Aço"],
-  "308--medicham-mega": ["Lutador", "Psíquico"],
-  "310--manectric-mega": ["Elétrico"],
-  "334--altaria-mega": ["Dragão", "Fada"],
-  "354--banette-mega": ["Fantasma"],
-  "359--absol-mega": ["Sombrio"],
-  "373--salamence-mega": ["Dragão", "Voador"],
-  "376--metagross-mega": ["Aço", "Psíquico"],
-  "380--latias-mega": ["Dragão", "Psíquico"],
-  "381--latios-mega": ["Dragão", "Psíquico"],
-  "384--rayquaza-mega": ["Dragão", "Voador"],
-  "445--garchomp-mega": ["Dragão", "Terra"],
-  "448--lucario-mega": ["Lutador", "Aço"],
-  "460--abomasnow-mega": ["Planta", "Gelo"],
-  "475--gallade-mega": ["Psíquico", "Lutador"],
-  "531--audino-mega": ["Normal", "Fada"],
-  "719--diancie-mega": ["Pedra", "Fada"]
+  "6--charizard-mega-x": [
+    "Fogo",
+    "Dragão"
+  ],
+  "6--charizard-mega-y": [
+    "Fogo",
+    "Voador"
+  ],
+  "25--pikachu-starter": [
+    "Elétrico"
+  ],
+  "479--rotom-heat": [
+    "Elétrico",
+    "Fogo"
+  ],
+  "479--rotom-wash": [
+    "Elétrico",
+    "Água"
+  ],
+  "479--rotom-frost": [
+    "Elétrico",
+    "Gelo"
+  ],
+  "479--rotom-fan": [
+    "Elétrico",
+    "Voador"
+  ],
+  "479--rotom-mow": [
+    "Elétrico",
+    "Planta"
+  ],
+  "646--kyurem-black": [
+    "Dragão",
+    "Gelo"
+  ],
+  "646--kyurem-white": [
+    "Dragão",
+    "Gelo"
+  ],
+  "3--venusaur-mega": [
+    "Planta",
+    "Venenoso"
+  ],
+  "9--blastoise-mega": [
+    "Água"
+  ],
+  "94--gengar-mega": [
+    "Fantasma",
+    "Venenoso"
+  ],
+  "130--gyarados-mega": [
+    "Água",
+    "Sombrio"
+  ],
+  "181--ampharos-mega": [
+    "Elétrico",
+    "Dragão"
+  ],
+  "208--steelix-mega": [
+    "Aço",
+    "Terra"
+  ],
+  "212--scizor-mega": [
+    "Inseto",
+    "Aço"
+  ],
+  "214--heracross-mega": [
+    "Inseto",
+    "Lutador"
+  ],
+  "248--tyranitar-mega": [
+    "Pedra",
+    "Sombrio"
+  ],
+  "254--sceptile-mega": [
+    "Planta",
+    "Dragão"
+  ],
+  "257--blaziken-mega": [
+    "Fogo",
+    "Lutador"
+  ],
+  "260--swampert-mega": [
+    "Água",
+    "Terra"
+  ],
+  "282--gardevoir-mega": [
+    "Psíquico",
+    "Fada"
+  ],
+  "303--mawile-mega": [
+    "Aço",
+    "Fada"
+  ],
+  "306--aggron-mega": [
+    "Aço"
+  ],
+  "308--medicham-mega": [
+    "Lutador",
+    "Psíquico"
+  ],
+  "310--manectric-mega": [
+    "Elétrico"
+  ],
+  "334--altaria-mega": [
+    "Dragão",
+    "Fada"
+  ],
+  "354--banette-mega": [
+    "Fantasma"
+  ],
+  "359--absol-mega": [
+    "Sombrio"
+  ],
+  "373--salamence-mega": [
+    "Dragão",
+    "Voador"
+  ],
+  "376--metagross-mega": [
+    "Aço",
+    "Psíquico"
+  ],
+  "380--latias-mega": [
+    "Dragão",
+    "Psíquico"
+  ],
+  "381--latios-mega": [
+    "Dragão",
+    "Psíquico"
+  ],
+  "384--rayquaza-mega": [
+    "Dragão",
+    "Voador"
+  ],
+  "445--garchomp-mega": [
+    "Dragão",
+    "Terra"
+  ],
+  "448--lucario-mega": [
+    "Lutador",
+    "Aço"
+  ],
+  "460--abomasnow-mega": [
+    "Planta",
+    "Gelo"
+  ],
+  "475--gallade-mega": [
+    "Psíquico",
+    "Lutador"
+  ],
+  "531--audino-mega": [
+    "Normal",
+    "Fada"
+  ],
+  "719--diancie-mega": [
+    "Pedra",
+    "Fada"
+  ],
+  "19--rattata-alola": [
+    "Sombrio",
+    "Normal"
+  ],
+  "20--raticate-alola": [
+    "Sombrio",
+    "Normal"
+  ],
+  "26--raichu-alola": [
+    "Elétrico",
+    "Psíquico"
+  ],
+  "27--sandshrew-alola": [
+    "Gelo",
+    "Aço"
+  ],
+  "28--sandslash-alola": [
+    "Gelo",
+    "Aço"
+  ],
+  "37--vulpix-alola": [
+    "Gelo"
+  ],
+  "38--ninetales-alola": [
+    "Gelo",
+    "Fada"
+  ],
+  "50--diglett-alola": [
+    "Terrestre",
+    "Aço"
+  ],
+  "51--dugtrio-alola": [
+    "Terrestre",
+    "Aço"
+  ],
+  "52--meowth-alola": [
+    "Sombrio"
+  ],
+  "53--persian-alola": [
+    "Sombrio"
+  ],
+  "74--geodude-alola": [
+    "Pedra",
+    "Elétrico"
+  ],
+  "75--graveler-alola": [
+    "Pedra",
+    "Elétrico"
+  ],
+  "76--golem-alola": [
+    "Pedra",
+    "Elétrico"
+  ],
+  "88--grimer-alola": [
+    "Venenoso",
+    "Sombrio"
+  ],
+  "89--muk-alola": [
+    "Venenoso",
+    "Sombrio"
+  ],
+  "103--exeggutor-alola": [
+    "Grama",
+    "Dragão"
+  ],
+  "105--marowak-alola": [
+    "Fogo",
+    "Fantasma"
+  ],
+  "52--meowth-galar": [
+    "Aço"
+  ],
+  "77--ponyta-galar": [
+    "Psíquico"
+  ],
+  "78--rapidash-galar": [
+    "Psíquico",
+    "Fada"
+  ],
+  "79--slowpoke-galar": [
+    "Psíquico"
+  ],
+  "80--slowbro-galar": [
+    "Venenoso",
+    "Psíquico"
+  ],
+  "83--farfetchd-galar": [
+    "Lutador"
+  ],
+  "110--weezing-galar": [
+    "Venenoso",
+    "Fada"
+  ],
+  "122--mr-mime-galar": [
+    "Gelo",
+    "Psíquico"
+  ],
+  "144--articuno-galar": [
+    "Psíquico",
+    "Voador"
+  ],
+  "145--zapdos-galar": [
+    "Lutador",
+    "Voador"
+  ],
+  "146--moltres-galar": [
+    "Sombrio",
+    "Voador"
+  ],
+  "199--slowking-galar": [
+    "Venenoso",
+    "Psíquico"
+  ],
+  "222--corsola-galar": [
+    "Fantasma"
+  ],
+  "263--zigzagoon-galar": [
+    "Sombrio",
+    "Normal"
+  ],
+  "264--linoone-galar": [
+    "Sombrio",
+    "Normal"
+  ],
+  "554--darumaka-galar": [
+    "Gelo"
+  ],
+  "562--yamask-galar": [
+    "Terrestre",
+    "Fantasma"
+  ],
+  "618--stunfisk-galar": [
+    "Terrestre",
+    "Aço"
+  ],
+  "58--growlithe-hisui": [
+    "Fogo",
+    "Pedra"
+  ],
+  "59--arcanine-hisui": [
+    "Fogo",
+    "Pedra"
+  ],
+  "100--voltorb-hisui": [
+    "Elétrico",
+    "Grama"
+  ],
+  "101--electrode-hisui": [
+    "Elétrico",
+    "Grama"
+  ],
+  "157--typhlosion-hisui": [
+    "Fogo",
+    "Fantasma"
+  ],
+  "211--qwilfish-hisui": [
+    "Sombrio",
+    "Venenoso"
+  ],
+  "215--sneasel-hisui": [
+    "Lutador",
+    "Venenoso"
+  ],
+  "503--samurott-hisui": [
+    "Água",
+    "Sombrio"
+  ],
+  "549--lilligant-hisui": [
+    "Grama",
+    "Lutador"
+  ],
+  "570--zorua-hisui": [
+    "Normal",
+    "Fantasma"
+  ],
+  "571--zoroark-hisui": [
+    "Normal",
+    "Fantasma"
+  ],
+  "628--braviary-hisui": [
+    "Psíquico",
+    "Voador"
+  ],
+  "705--sliggoo-hisui": [
+    "Aço",
+    "Dragão"
+  ],
+  "706--goodra-hisui": [
+    "Aço",
+    "Dragão"
+  ],
+  "713--avalugg-hisui": [
+    "Gelo",
+    "Pedra"
+  ],
+  "724--decidueye-hisui": [
+    "Grama",
+    "Lutador"
+  ],
+  "194--wooper-paldea": [
+    "Venenoso",
+    "Terrestre"
+  ]
 }

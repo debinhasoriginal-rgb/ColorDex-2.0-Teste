@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ColorDex | Relatório completo</title>
+<link rel="stylesheet" href="../css/team-builder.css">
+<link rel="stylesheet" href="../css/team-builder-analysis.css">
+<style>
+body {
+  margin: 0;
+  background: #0d111c;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.report-page {
+  max-width: 950px;
+  margin: auto;
+  padding: 24px 16px 60px;
+}
+.report-back {
+  display: inline-block;
+  margin-bottom: 22px;
+  padding: 12px 16px;
+  border: 1px solid #465168;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+}
+.report-page h1 { margin-bottom: 8px; }
+.report-subtitle { color: #aab4c5; }
+</style>
+</head>
+<body>
+<main class="report-page">
+<a href="team-builder.html" class="report-back">← Voltar ao Team Builder</a>
+<h1 id="reportTitle">Relatório completo</h1>
+<p class="report-subtitle">Análise detalhada de tipos</p>
+<div id="reportContent">Carregando...</div>
+</main>
+<script src="../js/team-builder-analysis.js?v=20report2"></script>
+<script>
+(async () => {
+  const content = document.getElementById('reportContent');
+
+  try {
+    const id = new URLSearchParams(location.search).get('team');
+    const teams = JSON.parse(
+      localStorage.getItem('colordex_teams_v07') || '[]'
+    );
+
+    const team = Array.isArray(teams)
+      ? teams.find(t => String(t.id) === String(id))
+      : null;
+
+    if (!team) {
+      content.textContent = 'Time não encontrado.';
+      return;
+    }
+
+    document.getElementById('reportTitle').textContent =
+      team.name || 'Relatório do time';
+
+    const api = window.ColorDexTeamAnalysis;
+
+    const catalog = await api.getCatalog();
+    const forms = await api.getFormTypes().catch(() => ({}));
+
+    content.replaceChildren(
+      api.renderPanel(team, catalog, forms)
+    );
+  } catch (error) {
+    console.error(error);
+    content.textContent = 'Erro ao carregar o relatório.';
+  }
+})();
+</script>
+</body>
+</html>

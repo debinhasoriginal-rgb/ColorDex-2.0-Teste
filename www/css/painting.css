@@ -436,3 +436,348 @@ h2 {
     right: 12px;
   }
 }
+
+
+/* COLORDEX 2.0 — BOMBA DE TINTA */
+#bombMode.active {
+  background: #49301c;
+  border-color: #ffbb55;
+  color: #ffcf7c;
+}
+
+.canvas-frame.bomb-active #paintingCanvas {
+  cursor: crosshair;
+}
+
+.cd-bomb-burst {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #ffd66b;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 5;
+  transform: translate(-50%, -50%) scale(.2);
+  animation: cdBombBurst .32s ease-out forwards;
+  box-shadow: 0 0 15px #ffb74d88;
+}
+
+@keyframes cdBombBurst {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(.2);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(5);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cd-bomb-burst {
+    animation: none;
+    display: none;
+  }
+}
+
+
+/* COLORDEX 2.0 — SELETOR DE RAIO */
+.cd-bomb-radius {
+  margin: 0 0 14px;
+  padding: 12px;
+  background: #252b38;
+  border: 1px solid #45495b;
+  border-radius: 10px;
+}
+
+.cd-bomb-radius[hidden] {
+  display: none !important;
+}
+
+.cd-bomb-radius-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.cd-bomb-radius-heading strong {
+  color: #ffcf7c;
+}
+
+.cd-bomb-radius-options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.cd-bomb-radius-options button {
+  min-height: 40px;
+  background: #34394b;
+  border: 1px solid #555d70;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.cd-bomb-radius-options button.selected {
+  background: #49301c;
+  border-color: #ffbb55;
+  color: #ffcf7c;
+}
+
+.cd-bomb-radius-options button:focus-visible {
+  outline: 2px solid #ffcf7c;
+  outline-offset: 2px;
+}
+
+
+/* COLORDEX 2.0 — TELA CHEIA IMERSIVA */
+
+/* O modo imersivo não depende da Fullscreen API. */
+body.cd-fullscreen-active {
+  overflow: hidden !important;
+}
+
+body.cd-fullscreen-active .topbar,
+body.cd-fullscreen-active .palette-panel,
+body.cd-fullscreen-active .heading,
+body.cd-fullscreen-active .progress-track,
+body.cd-fullscreen-active .progress-info,
+body.cd-fullscreen-active .hint {
+  display: none !important;
+}
+
+body.cd-fullscreen-active .layout {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 900 !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100dvh !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: #10131c !important;
+}
+
+body.cd-fullscreen-active .painting-panel {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding:
+    calc(56px + env(safe-area-inset-top))
+    8px
+    calc(8px + env(safe-area-inset-bottom)) !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+body.cd-fullscreen-active #canvasFrame {
+  position: relative !important;
+  flex: 1 1 0 !important;
+  min-height: 0 !important;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  margin: 0 !important;
+}
+
+body.cd-fullscreen-active .toolbar {
+  flex: 0 0 auto !important;
+  margin-top: 8px !important;
+  padding: 0 !important;
+}
+
+body.cd-fullscreen-active .mode-controls {
+  flex: 0 0 auto !important;
+}
+
+body.cd-fullscreen-active #bombRadiusPanel:not([hidden]) {
+  flex: 0 0 auto !important;
+  margin-bottom: 8px !important;
+}
+
+body.cd-fullscreen-active #cd-fullscreen-button {
+  position: fixed !important;
+  top: calc(8px + env(safe-area-inset-top)) !important;
+  right: 8px !important;
+  bottom: auto !important;
+  z-index: 2000 !important;
+  display: block !important;
+  min-height: 40px !important;
+  padding: 8px 12px !important;
+  background: #29394b !important;
+  border: 1px solid #65cce8 !important;
+  border-radius: 9px !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+/* No celular, a bomba permanece visível,
+   enquanto Pintar e Mover continuam ocultos. */
+@media (max-width: 850px) {
+  body.cd-fullscreen-active .mode-controls {
+    display: flex !important;
+    margin-bottom: 8px !important;
+  }
+
+  body.cd-fullscreen-active #paintMode,
+  body.cd-fullscreen-active #moveMode {
+    display: none !important;
+  }
+
+  body.cd-fullscreen-active #bombMode {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px !important;
+  }
+
+  body.cd-fullscreen-active #canvasFrame {
+    height: auto !important;
+  }
+
+  body.cd-fullscreen-active .toolbar .reset {
+    display: none !important;
+  }
+}
+
+
+/* COLORDEX 2.0 — PALETA NO MODO IMERSIVO */
+
+body.cd-fullscreen-active .layout {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+body.cd-fullscreen-active .painting-panel {
+  flex: 1 1 0 !important;
+  min-height: 0 !important;
+}
+
+body.cd-fullscreen-active .palette-panel {
+  display: block !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+  max-width: none !important;
+  max-height: 125px !important;
+  margin: 0 !important;
+  padding: 8px 12px
+    calc(8px + env(safe-area-inset-bottom)) !important;
+  border-radius: 0 !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  background: #191f2b !important;
+  border-top: 1px solid #3c4759 !important;
+}
+
+body.cd-fullscreen-active #palette {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  padding: 4px 2px 8px !important;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x;
+}
+
+body.cd-fullscreen-active #palette > * {
+  flex: 0 0 auto !important;
+}
+
+@media (max-width: 850px) {
+  body.cd-fullscreen-active .palette-panel {
+    max-height: 110px !important;
+    padding: 6px 8px
+      calc(6px + env(safe-area-inset-bottom)) !important;
+  }
+
+  body.cd-fullscreen-active #palette {
+    scroll-snap-type: x proximity;
+  }
+
+  body.cd-fullscreen-active #palette > * {
+    scroll-snap-align: start;
+  }
+}
+
+
+/* COLORDEX 2.0 — PALETA COMPACTA FULLSCREEN */
+@media (max-width: 850px) {
+
+  body.cd-fullscreen-active .palette-panel {
+    display: flex !important;
+    flex-direction: column !important;
+    flex: 0 0 82px !important;
+    height: 82px !important;
+    min-height: 0 !important;
+    max-height: 82px !important;
+    padding:
+      5px 8px
+      calc(5px + env(safe-area-inset-bottom)) !important;
+    overflow: hidden !important;
+  }
+
+  body.cd-fullscreen-active .palette-panel > :not(#palette) {
+    display: none !important;
+  }
+
+  body.cd-fullscreen-active #palette {
+    display: flex !important;
+    flex: 1 1 auto !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 8px !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    max-height: 100% !important;
+    margin: 0 !important;
+    padding: 3px 2px !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x proximity;
+  }
+
+  body.cd-fullscreen-active #palette > * {
+    display: flex !important;
+    flex: 0 0 64px !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 64px !important;
+    min-width: 64px !important;
+    max-width: 64px !important;
+    height: 68px !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 3px !important;
+    box-sizing: border-box !important;
+    scroll-snap-align: start;
+  }
+
+  body.cd-fullscreen-active #palette button {
+    max-width: 100% !important;
+  }
+
+  body.cd-fullscreen-active #canvasFrame {
+    flex: 1 1 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+  }
+}

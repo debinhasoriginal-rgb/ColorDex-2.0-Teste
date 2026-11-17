@@ -137,6 +137,12 @@
     panel.append(element('p','cd-analysis-footnote','Cálculo baseado apenas em tipos. Habilidades, itens, clima, Terastal, movimentos reais e alterações temporárias de tipo não são considerados.'));
     return panel;
   }
+  window.ColorDexTeamAnalysis = {
+    renderPanel,
+    getCatalog,
+    getFormTypes: () => getFormTypes()
+  };
+
   let formTypesPromise;
   async function getFormTypes() {
     if (!formTypesPromise) formTypesPromise = fetch('../data/pokemon-form-types-v074.json')
@@ -166,7 +172,16 @@
       if (teams[i]) card.append(renderPanel(teams[i],catalog,formTypes));
     });
   }
-  function schedule() { requestAnimationFrame(()=>refresh()); }
+  let pendingFrame = null;
+
+  function schedule() {
+    if (pendingFrame !== null) return;
+
+    pendingFrame = requestAnimationFrame(() => {
+      pendingFrame = null;
+      refresh();
+    });
+  }
   function start() {
     const list=document.getElementById('teamsList');
     if (!list) return;

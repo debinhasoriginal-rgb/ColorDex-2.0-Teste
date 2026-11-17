@@ -563,14 +563,33 @@ function setMode(nextMode) {
     String(mode === "move")
   );
 
+  bombModeButton.classList.toggle(
+    "active",
+    mode === "bomb"
+  );
+
+  bombModeButton.setAttribute(
+    "aria-pressed",
+    String(mode === "bomb")
+  );
+
+  frame.classList.toggle(
+    "bomb-active",
+    mode === "bomb"
+  );
+
+  bombRadiusPanel.hidden = mode !== "bomb";
+
   frame.classList.toggle(
     "move-active",
     mode === "move"
   );
 
-  gestureHint.textContent = mode === "paint"
-    ? "Um dedo pinta. Dois dedos ampliam e movimentam."
-    : "Arraste com um dedo para mover. Use dois para zoom.";
+  gestureHint.textContent = mode === "bomb"
+    ? "Toque para explodir cores. Arraste para mover. Dois dedos para zoom."
+    : mode === "paint"
+      ? "Um dedo pinta. Dois dedos ampliam e movimentam."
+      : "Arraste com um dedo para mover. Use dois para zoom.";
 }
 
 function finishPainting() {
@@ -614,6 +633,110 @@ function selectNextColor() {
     }
   }
 }
+
+/* COLORDEX 2.0 — BOMBA DE TINTA */
+const bombModeButton = document.getElementById("bombMode");
+let BOMB_RADIUS = 4;
+
+const bombRadiusPanel = document.getElementById("bombRadiusPanel");
+const bombRadiusLabel = document.getElementById("bombRadiusLabel");
+const bombRadiusOptions = document.getElementById("bombRadius");
+
+const bombRadiusNames = {
+  2: "Pequena",
+  4: "Média",
+  6: "Grande",
+  8: "Gigante"
+};
+
+function setBombRadius(radius) {
+  if (!Object.hasOwn(bombRadiusNames, radius)) return;
+
+  BOMB_RADIUS = radius;
+
+  bombRadiusLabel.textContent =
+    `${bombRadiusNames[radius]} · ${radius} pixels`;
+
+  bombRadiusOptions.querySelectorAll("button").forEach(button => {
+    const selected = Number(button.dataset.radius) === radius;
+    button.classList.toggle("selected", selected);
+    button.setAttribute("aria-pressed", String(selected));
+  });
+}
+
+bombRadiusOptions.addEventListener("click", event => {
+  const button = event.target.closest("button[data-radius]");
+  if (!button || !bombRadiusOptions.contains(button)) return;
+  setBombRadius(Number(button.dataset.radius));
+});
+
+setBombRadius(4);
+
+function bombAtPoint(point) {
+  if (completed || !width || !height) return;
+
+  const cx = Math.floor((point.x - offsetX) / zoom);
+  const cy = Math.floor((point.y - offsetY) / zoom);
+
+  if (cx < 0 || cy < 0 || cx >= width || cy >= height) return;
+
+  let changed = 0;
+
+  const minX = Math.max(0, cx - BOMB_RADIUS);
+  const maxX = Math.min(width - 1, cx + BOMB_RADIUS);
+  const minY = Math.max(0, cy - BOMB_RADIUS);
+  const maxY = Math.min(height - 1, cy + BOMB_RADIUS);
+
+  for (let y = minY; y <= maxY; y++) {
+    for (let x = minX; x <= maxX; x++) {
+      const dx = x - cx;
+      const dy = y - cy;
+
+      if (dx * dx + dy * dy > BOMB_RADIUS * BOMB_RADIUS) {
+        continue;
+      }
+
+      const index = y * width + x;
+
+      if (pixels[index] === -1 || painted[index]) continue;
+
+      painted[index] = true;
+      changed++;
+    }
+  }
+
+  if (!changed) return;
+
+  paintedCount += changed;
+
+  saveProgress();
+  updateProgress();
+  renderPalette();
+  updateSpriteCanvas();
+  draw();
+
+  const burst = document.createElement("span");
+  burst.className = "cd-bomb-burst";
+  burst.style.left = `${point.x}px`;
+  burst.style.top = `${point.y}px`;
+  burst.setAttribute("aria-hidden", "true");
+  frame.appendChild(burst);
+
+  burst.addEventListener(
+    "animationend",
+    () => burst.remove(),
+    { once: true }
+  );
+
+  if (paintedCount === totalPixels) {
+    finishPainting();
+  }
+}
+
+bombModeButton.addEventListener("click", () => {
+  setMode("bomb");
+});
+
 function paintAtPoint(point) {
   if (completed || !width || !height) return;
 
@@ -789,7 +912,9 @@ singleGesture = {
   lastY: point.y,
   moved: false,
   canMove: !shouldPaint,
-  painting: shouldPaint
+  painting: shouldPaint,
+  bombing: !forceMove && mode === "bomb",
+  startedAt: point
 };
 
 if (shouldPaint) {
@@ -876,6 +1001,21 @@ function endPointer(event, cancelled = false) {
 
   const point = getPoint(event);
   const wasPinching = pinchGesture !== null;
+
+  const gesture = singleGesture;
+
+  if (
+    !cancelled &&
+    !wasPinching &&
+    pointers.size === 1 &&
+    gesture &&
+    gesture.id === event.pointerId &&
+    gesture.bombing &&
+    !gesture.moved &&
+    !spaceHeld
+  ) {
+    bombAtPoint(point);
+  }
 
   pointers.delete(event.pointerId);
   singleGesture = null;

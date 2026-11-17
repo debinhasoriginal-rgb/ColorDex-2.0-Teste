@@ -1,3 +1,8 @@
+/* COLORDEX 2.0 — FONTES OFFLINE */
+@import url("./fonts-local.css");
+
+500;600;700&family=Orbitron:wght@500;600;700;800&display=swap');
+
 :root {
   --background: #101117;
   --surface: #22232e;
@@ -18,7 +23,7 @@ body {
   margin: 0;
   background: #08090d;
   color: var(--text);
-  font-family: Arial, sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 button,
@@ -67,7 +72,7 @@ button {
 
 .hero-brand {
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 2px;
@@ -91,7 +96,7 @@ button {
 .pokemon-identity h1 {
   margin: 6px 0 0;
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-size: clamp(24px, 5vw, 36px);
   font-weight: 800;
   overflow-wrap: anywhere;

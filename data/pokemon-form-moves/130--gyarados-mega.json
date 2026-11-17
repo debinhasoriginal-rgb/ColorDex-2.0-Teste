@@ -1,0 +1,1743 @@
+{
+  "pokemon": "gyarados-mega",
+  "pokeapi_id": 10041,
+  "versions": {
+    "lets-go-pikachu-lets-go-eevee": [
+      {
+        "name": "bind",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "bind",
+        "method": "level-up",
+        "level": 16
+      },
+      {
+        "name": "headbutt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thrash",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 6
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 0
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hydro-pump",
+        "method": "level-up",
+        "level": 46
+      },
+      {
+        "name": "surf",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "blizzard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "level-up",
+        "level": 51
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-rage",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "dragon-rage",
+        "method": "level-up",
+        "level": 11
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rage",
+        "method": "level-up",
+        "level": 21
+      },
+      {
+        "name": "reflect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fire-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "waterfall",
+        "method": "level-up",
+        "level": 31
+      },
+      {
+        "name": "waterfall",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "outrage",
+        "method": "level-up",
+        "level": 41
+      },
+      {
+        "name": "outrage",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "iron-tail",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "crunch",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "taunt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dark-pulse",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-pulse",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scald",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-tail",
+        "method": "level-up",
+        "level": 26
+      },
+      {
+        "name": "dragon-tail",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "champions": [
+      {
+        "name": "body-slam",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thrash",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "double-edge",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "bite",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "roar",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "hydro-pump",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "surf",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "ice-beam",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "blizzard",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thunderbolt",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "fire-blast",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "waterfall",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "spite",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "scary-face",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "icy-wind",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "outrage",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sandstorm",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "iron-tail",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "crunch",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "whirlpool",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "uproar",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "taunt",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "helping-hand",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "endeavor",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "dive",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "muddy-water",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "bounce",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "dragon-dance",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "water-pulse",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "payback",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "dark-pulse",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "aqua-tail",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "dragon-pulse",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "dragon-rush",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "avalanche",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "ice-fang",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "power-whip",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "iron-head",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "stone-edge",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "scald",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "dragon-tail",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "hurricane",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "brutal-swing",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "scale-shot",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "lash-out",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "chilling-water",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "dragon-cheer",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "temper-flare",
+        "method": "train",
+        "level": 0
+      }
+    ],
+    "x-y": [
+      {
+        "name": "thrash",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 26
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 20
+      },
+      {
+        "name": "roar",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hydro-pump",
+        "method": "level-up",
+        "level": 41
+      },
+      {
+        "name": "surf",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "blizzard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "level-up",
+        "level": 47
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "strength",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-rage",
+        "method": "level-up",
+        "level": 23
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fire-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "waterfall",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sandstorm",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "twister",
+        "method": "level-up",
+        "level": 29
+      },
+      {
+        "name": "rain-dance",
+        "method": "level-up",
+        "level": 38
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-smash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hail",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "torment",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "taunt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-dance",
+        "method": "level-up",
+        "level": 44
+      },
+      {
+        "name": "payback",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dark-pulse",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "aqua-tail",
+        "method": "level-up",
+        "level": 35
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-fang",
+        "method": "level-up",
+        "level": 32
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scald",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "incinerate",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-tail",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "omega-ruby-alpha-sapphire": [
+      {
+        "name": "thrash",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 26
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 20
+      },
+      {
+        "name": "roar",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hydro-pump",
+        "method": "level-up",
+        "level": 44
+      },
+      {
+        "name": "surf",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "blizzard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "level-up",
+        "level": 50
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "strength",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-rage",
+        "method": "level-up",
+        "level": 23
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fire-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "waterfall",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "spite",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "icy-wind",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "outrage",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "sandstorm",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "iron-tail",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "twister",
+        "method": "level-up",
+        "level": 29
+      },
+      {
+        "name": "rain-dance",
+        "method": "level-up",
+        "level": 38
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "crunch",
+        "method": "level-up",
+        "level": 41
+      },
+      {
+        "name": "rock-smash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "uproar",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "hail",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "torment",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "taunt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "secret-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dive",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bounce",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "dragon-dance",
+        "method": "level-up",
+        "level": 47
+      },
+      {
+        "name": "water-pulse",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "payback",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dark-pulse",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "aqua-tail",
+        "method": "level-up",
+        "level": 35
+      },
+      {
+        "name": "aqua-tail",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "dragon-pulse",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-fang",
+        "method": "level-up",
+        "level": 32
+      },
+      {
+        "name": "iron-head",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scald",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "incinerate",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-tail",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "sun-moon": [
+      {
+        "name": "thrash",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 21
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 0
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "roar",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hydro-pump",
+        "method": "level-up",
+        "level": 42
+      },
+      {
+        "name": "surf",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "blizzard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "level-up",
+        "level": 54
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-rage",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fire-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "waterfall",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scary-face",
+        "method": "level-up",
+        "level": 33
+      },
+      {
+        "name": "sandstorm",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "twister",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "rain-dance",
+        "method": "level-up",
+        "level": 51
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "crunch",
+        "method": "level-up",
+        "level": 39
+      },
+      {
+        "name": "hail",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "torment",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "taunt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-dance",
+        "method": "level-up",
+        "level": 45
+      },
+      {
+        "name": "payback",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dark-pulse",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "aqua-tail",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-fang",
+        "method": "level-up",
+        "level": 27
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scald",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-tail",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hurricane",
+        "method": "level-up",
+        "level": 48
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brutal-swing",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "ultra-sun-ultra-moon": [
+      {
+        "name": "thrash",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 21
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 0
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "roar",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hydro-pump",
+        "method": "level-up",
+        "level": 42
+      },
+      {
+        "name": "surf",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "blizzard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "level-up",
+        "level": 54
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-rage",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earthquake",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fire-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "waterfall",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "spite",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scary-face",
+        "method": "level-up",
+        "level": 33
+      },
+      {
+        "name": "icy-wind",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "outrage",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "sandstorm",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "iron-tail",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "twister",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "rain-dance",
+        "method": "level-up",
+        "level": 51
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "crunch",
+        "method": "level-up",
+        "level": 39
+      },
+      {
+        "name": "uproar",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "hail",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "torment",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "taunt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bounce",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "dragon-dance",
+        "method": "level-up",
+        "level": 45
+      },
+      {
+        "name": "water-pulse",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "payback",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dark-pulse",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "aqua-tail",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "aqua-tail",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "dragon-pulse",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "ice-fang",
+        "method": "level-up",
+        "level": 27
+      },
+      {
+        "name": "iron-head",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "stone-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "scald",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulldoze",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dragon-tail",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hurricane",
+        "method": "level-up",
+        "level": 48
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brutal-swing",
+        "method": "machine",
+        "level": 0
+      }
+    ]
+  }
+}

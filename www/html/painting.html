@@ -6,11 +6,11 @@
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
   <title>ColorDex — Pintura</title>
-  <link rel="stylesheet" href="../css/painting.css?v101fix2">
+  <link rel="stylesheet" href="../css/painting.css?v20palettecompact1">
   <script src="../js/painting-identity.js?v101fix2" defer></script>
   <script src="../js/painting.js?v1014" defer></script>
 <link rel="stylesheet" href="../css/mobile-v10.css?v101fix2">
-<link rel="stylesheet" href="../css/painting-mobile-v109.css">
+<link rel="stylesheet" href="../css/painting-mobile-v109.css?v20bombmobile1">
 </head>
 <body>
 
@@ -53,6 +53,23 @@
                 type="button" aria-pressed="false">
           ✋ Mover
         </button>
+        <button id="bombMode" class="mode-button"
+                type="button" aria-pressed="false">
+          💣 Bomba
+        </button>
+      </div>
+
+      <div class="cd-bomb-radius" id="bombRadiusPanel" hidden>
+        <div class="cd-bomb-radius-heading">
+          <span>💣 Raio da explosão</span>
+          <strong id="bombRadiusLabel">Média · 4 pixels</strong>
+        </div>
+        <div class="cd-bomb-radius-options" id="bombRadius">
+          <button type="button" data-radius="2">P</button>
+          <button type="button" data-radius="4" class="selected">M</button>
+          <button type="button" data-radius="6">G</button>
+          <button type="button" data-radius="8">GG</button>
+        </div>
       </div>
 
       <div class="canvas-frame" id="canvasFrame">
@@ -103,7 +120,8 @@
     </div>
   </div>
 
-<script src="../js/painting-fullscreen-v101.js?v101fix2"></script>
+<script src="../js/backup-v10.js?v101fix2"></script>
+<script src="../js/painting-fullscreen-v101.js?v20fullscreen2"></script>
 <script src="../js/painting-mobile-v109.js"></script>
 </body>
 </html>

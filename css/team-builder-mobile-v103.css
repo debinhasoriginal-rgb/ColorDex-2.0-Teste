@@ -1,0 +1,79 @@
+
+/* ColorDex 1.0.3 — Team Builder mobile */
+@media (max-width: 700px) {
+
+  .team-card .team-slots {
+    display: grid !important;
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    gap: 2px !important;
+    width: 100%;
+    align-items: center;
+  }
+
+  .team-card .team-slot,
+  .team-card .team-slot.filled {
+    position: relative;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    height: 76px !important;
+    min-height: 76px !important;
+    aspect-ratio: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    gap: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    overflow: visible !important;
+  }
+
+  .team-card .team-slot .slot-sprite {
+    display: block !important;
+    width: 100% !important;
+    height: 68px !important;
+    max-width: 100% !important;
+    max-height: 68px !important;
+    min-width: 0 !important;
+    object-fit: contain !important;
+    image-rendering: pixelated;
+    flex-shrink: 0;
+  }
+
+  .team-card .team-slot .slot-name,
+  .team-card .team-slot .slot-form {
+    display: none !important;
+  }
+
+  .team-card .team-slot .slot-plus {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px !important;
+    line-height: 1 !important;
+  }
+
+  .team-card .team-slot .slot-remove {
+    display: none !important;
+  }
+
+  .team-card .team-slot .slot-mechanics {
+    display: none !important;
+  }
+
+  .team-card .team-slot:focus-visible {
+    outline: 2px solid #e43b50;
+    outline-offset: 3px;
+    border-radius: 8px;
+  }
+
+  .cd-backup-launcher {
+    right: 12px !important;
+    bottom: calc(12px + env(safe-area-inset-bottom)) !important;
+    padding: 8px 10px !important;
+    font-size: 10px !important;
+    opacity: .9;
+  }
+}

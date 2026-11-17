@@ -1,0 +1,163 @@
+{
+  "pokemon": "eevee-starter",
+  "pokeapi_id": 10159,
+  "versions": {
+    "lets-go-pikachu-lets-go-eevee": [
+      {
+        "name": "pay-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "double-kick",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "sand-attack",
+        "method": "level-up",
+        "level": 14
+      },
+      {
+        "name": "headbutt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "take-down",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "double-edge",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "tail-whip",
+        "method": "level-up",
+        "level": 3
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 17
+      },
+      {
+        "name": "growl",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "dig",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 6
+      },
+      {
+        "name": "reflect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swift",
+        "method": "level-up",
+        "level": 21
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "iron-tail",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "shadow-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "helping-hand",
+        "method": "level-up",
+        "level": 31
+      },
+      {
+        "name": "helping-hand",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bouncy-bubble",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "buzzy-buzz",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "sizzly-slide",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "glitzy-glow",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "baddy-bad",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "sappy-seed",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "freezy-frost",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "sparkly-swirl",
+        "method": "tutor",
+        "level": 0
+      }
+    ]
+  }
+}

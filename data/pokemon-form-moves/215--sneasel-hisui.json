@@ -1,0 +1,470 @@
+{
+  "pokemon": "sneasel-hisui",
+  "pokeapi_id": 10235,
+  "versions": {
+    "scarlet-violet": [
+      {
+        "name": "scratch",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "take-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "low-kick",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "counter",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "dig",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "agility",
+        "method": "level-up",
+        "level": 48
+      },
+      {
+        "name": "agility",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 12
+      },
+      {
+        "name": "screech",
+        "method": "level-up",
+        "level": 54
+      },
+      {
+        "name": "swift",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "slash",
+        "method": "level-up",
+        "level": 42
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "reversal",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "spite",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sludge-bomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "false-swipe",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "metal-claw",
+        "method": "level-up",
+        "level": 18
+      },
+      {
+        "name": "metal-claw",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "shadow-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-smash",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "fake-out",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "focus-punch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "taunt",
+        "method": "level-up",
+        "level": 6
+      },
+      {
+        "name": "taunt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brick-break",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "brick-break",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "aerial-ace",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bulk-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "poison-tail",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "calm-mind",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "feint",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "close-combat",
+        "method": "level-up",
+        "level": 60
+      },
+      {
+        "name": "close-combat",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fling",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic-spikes",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "poison-jab",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "poison-jab",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "night-slash",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "x-scissor",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "vacuum-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "focus-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "switcheroo",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "nasty-plot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "shadow-claw",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "gunk-shot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "grass-knot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "double-hit",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "hone-claws",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "venoshock",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sludge-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "low-sweep",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "acid-spray",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-guard",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "throat-chop",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "lash-out",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "coaching",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "tera-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "trailblaze",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "legends-arceus": [
+      {
+        "name": "swords-dance",
+        "method": "level-up",
+        "level": 34
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "focus-energy",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "swift",
+        "method": "level-up",
+        "level": 11
+      },
+      {
+        "name": "swift",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "slash",
+        "method": "level-up",
+        "level": 18
+      },
+      {
+        "name": "false-swipe",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "iron-tail",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "shadow-ball",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "rock-smash",
+        "method": "level-up",
+        "level": 6
+      },
+      {
+        "name": "rock-smash",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "aerial-ace",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "bulk-up",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "calm-mind",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "close-combat",
+        "method": "level-up",
+        "level": 43
+      },
+      {
+        "name": "poison-jab",
+        "method": "level-up",
+        "level": 25
+      },
+      {
+        "name": "poison-jab",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "x-scissor",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "drain-punch",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "shadow-claw",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "snarl",
+        "method": "tutor",
+        "level": 0
+      }
+    ]
+  }
+}

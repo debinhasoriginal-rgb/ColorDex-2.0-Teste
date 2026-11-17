@@ -1,0 +1,405 @@
+
+/* COLORDEX 2.0 — HALL DA FAMA V22 */
+
+body.cd-hall22 {
+  background: #0d111b;
+}
+
+body.cd-hall22 .team-card {
+  padding: 15px !important;
+  border: 1px solid #40516b !important;
+  border-radius: 18px !important;
+  background:
+    radial-gradient(ellipse at top, #263b5d, transparent 70%),
+    linear-gradient(150deg, #162339, #101725) !important;
+  overflow: visible !important;
+}
+
+body.cd-hall22 .team-card-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 10px !important;
+  margin-bottom: 15px !important;
+}
+
+body.cd-hall22 .team-name {
+  color: #fff !important;
+  font-weight: 800 !important;
+  overflow-wrap: anywhere;
+}
+
+body.cd-hall22 .team-slots,
+body.cd-hall22 .team-card.cd-mobile-open .team-slots {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 9px !important;
+}
+
+body.cd-hall22 .team-slot,
+body.cd-hall22 .team-slot.filled,
+body.cd-hall22 .team-card.cd-mobile-open .team-slot,
+body.cd-hall22 .team-card.cd-mobile-open .team-slot.filled {
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  min-height: 132px !important;
+  height: auto !important;
+  aspect-ratio: auto !important;
+  padding: 13px 4px 9px !important;
+  gap: 5px !important;
+  border: 1px solid #425672 !important;
+  border-radius: 13px !important;
+  background: linear-gradient(180deg, #273b56, #172437) !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  cursor: pointer;
+}
+
+body.cd-hall22 .team-slot.filled::before {
+  content: "";
+  position: absolute;
+  left: 17%;
+  right: 17%;
+  bottom: 36px;
+  height: 12px;
+  border-radius: 50%;
+  background: #f45b7033;
+  box-shadow: 0 0 15px #ff536555;
+  pointer-events: none;
+}
+
+body.cd-hall22 .team-slot .slot-sprite,
+body.cd-hall22 .team-card.cd-mobile-open .team-slot img.slot-sprite {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100px !important;
+  height: 78px !important;
+  max-height: 78px !important;
+  object-fit: contain !important;
+  image-rendering: pixelated;
+  z-index: 1;
+}
+
+body.cd-hall22 .slot-name,
+body.cd-hall22 .team-card.cd-mobile-open .slot-name {
+  display: block !important;
+  color: #fff !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  text-align: center !important;
+  overflow-wrap: anywhere;
+  z-index: 1;
+}
+
+body.cd-hall22 .slot-form,
+body.cd-hall22 .team-card.cd-mobile-open .slot-form {
+  display: block !important;
+  color: #b7c5d7 !important;
+  font-size: 9px !important;
+  text-align: center !important;
+  overflow-wrap: anywhere;
+}
+
+body.cd-hall22 .slot-plus {
+  color: #ff667a !important;
+  font-size: 29px !important;
+}
+
+body.cd-hall22 .team-slot .slot-mechanics,
+body.cd-hall22 .team-slot .slot-remove {
+  display: none !important;
+}
+
+body.cd-hall22 .cd-hall-number {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  color: #9cafc8;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+body.cd-hall22 .cd-hall-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 13px;
+  padding: 10px;
+  border: 1px solid #34465e;
+  border-radius: 10px;
+  background: #101b2d;
+  color: #afbed1;
+  font-size: 12px;
+}
+
+body.cd-hall22 .cd-hall-footer strong {
+  color: #ff7888;
+}
+
+body.cd-hall22 .cd-mobile-summary,
+body.cd-hall22 .cd-mobile-back {
+  display: none !important;
+}
+
+@media (max-width: 700px) {
+  body.cd-hall22 .team-card:not(.cd-mobile-open) > :not(.cd-mobile-summary) {
+    display: revert !important;
+  }
+
+  body.cd-hall22 .team-card .team-card-header {
+    display: flex !important;
+  }
+
+  body.cd-hall22 .team-card .team-slots {
+    display: grid !important;
+  }
+
+  body.cd-hall22 .team-card {
+    padding: 11px !important;
+  }
+
+  body.cd-hall22 .team-slots {
+    gap: 6px !important;
+  }
+
+  body.cd-hall22 .team-slot,
+  body.cd-hall22 .team-slot.filled {
+    min-height: 122px !important;
+  }
+}
+
+/* EDITOR INDIVIDUAL */
+
+.cd-hall-overlay[hidden] {
+  display: none !important;
+}
+
+.cd-hall-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 5000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background: #050910e8;
+  backdrop-filter: blur(7px);
+}
+
+.cd-hall-dialog {
+  width: min(100%, 540px);
+  max-height: 94dvh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid #47556a;
+  border-radius: 20px;
+  background: #11161f;
+  color: #fff;
+  box-shadow: 0 20px 65px #000a;
+}
+
+.cd-hall-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.cd-hall-heading h2 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.cd-hall-close {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: #303c4d;
+  color: white;
+  font-size: 23px;
+}
+
+.cd-hall-identity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 14px;
+  background: #202a39;
+}
+
+.cd-hall-identity img {
+  width: 90px;
+  height: 90px;
+  flex: 0 0 90px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.cd-hall-identity strong {
+  display: block;
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.cd-hall-identity small {
+  color: #b5c2d2;
+  font-size: 11px;
+}
+
+.cd-hall-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.cd-hall-type {
+  padding: 4px 8px;
+  border-radius: 15px;
+  background: #495772;
+  font-size: 10px;
+}
+
+.cd-hall-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0 16px;
+}
+
+.cd-hall-stat {
+  min-height: 68px;
+  padding: 11px;
+  border-radius: 12px;
+  background: #202a39;
+  box-sizing: border-box;
+}
+
+.cd-hall-stat small {
+  display: block;
+  margin-bottom: 9px;
+  color: #aebcd0;
+  font-size: 11px;
+}
+
+.cd-hall-stat strong {
+  display: block;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+.cd-hall-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cd-hall-section h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.cd-hall-section span {
+  color: #aebbd0;
+  font-size: 12px;
+}
+
+.cd-hall-moves {
+  display: grid;
+  gap: 8px;
+}
+
+.cd-hall-move {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 58px;
+  padding: 10px;
+  border: 1px solid #2c394c;
+  border-radius: 12px;
+  background: #202a39;
+  color: white;
+  text-align: left;
+}
+
+.cd-hall-move-num {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  border-radius: 8px;
+  background: #354155;
+  font-size: 12px;
+}
+
+.cd-hall-move-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.cd-hall-move-info strong {
+  display: block;
+  font-size: 13px;
+}
+
+.cd-hall-move-info small {
+  display: block;
+  margin-top: 3px;
+  color: #afbdd0;
+  font-size: 10px;
+}
+
+.cd-hall-tools {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.cd-hall-tools button {
+  min-height: 44px;
+  padding: 9px;
+  border: 1px solid #485971;
+  border-radius: 10px;
+  background: #27354a;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.cd-hall-tools button:disabled {
+  opacity: .4;
+}
+
+.cd-hall-save {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  margin-top: 15px;
+  border: 0;
+  border-radius: 12px;
+  background: #e7e9ee;
+  color: #121722;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.cd-hall-note {
+  margin: 10px 0 0;
+  color: #94a4b9;
+  font-size: 11px;
+  text-align: center;
+}

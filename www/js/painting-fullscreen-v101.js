@@ -1,50 +1,101 @@
-
 (() => {
   "use strict";
 
   function init() {
-    if (document.getElementById("cd-fullscreen-button")) return;
+    const frame = document.getElementById("canvasFrame");
+    const paintingPanel = document.querySelector(".painting-panel");
 
-    const button = document.createElement("button");
-    button.id = "cd-fullscreen-button";
-    button.type = "button";
-    button.textContent = "⛶ Tela cheia";
-    button.title = "Alternar tela cheia";
-    button.setAttribute("aria-label", "Ativar tela cheia");
+    if (!frame || !paintingPanel) return;
 
-    document.body.append(button);
+    let button = document.getElementById("cd-fullscreen-button");
 
-    function update() {
-      const active = Boolean(document.fullscreenElement);
-      button.textContent = active ? "⛶ Sair" : "⛶ Tela cheia";
-      button.setAttribute(
-        "aria-label",
-        active ? "Sair da tela cheia" : "Ativar tela cheia"
-      );
-      document.body.classList.toggle("cd-fullscreen-active", active);
+    if (!button) {
+      button = document.createElement("button");
+      button.id = "cd-fullscreen-button";
+      button.type = "button";
+      document.body.appendChild(button);
     }
 
-    button.addEventListener("click", async () => {
-      try {
-        if (document.fullscreenElement) {
-          await document.exitFullscreen();
-        } else if (document.documentElement.requestFullscreen) {
-          await document.documentElement.requestFullscreen();
-        } else {
-          throw new Error("Fullscreen API indisponível");
-        }
-      } catch (error) {
-        // Alternativa visual para navegadores que não
-        // permitem o modo de tela cheia.
-        document.body.classList.toggle("cd-fullscreen-fallback");
-        const active = document.body.classList.contains(
-          "cd-fullscreen-fallback"
-        );
-        button.textContent = active ? "⛶ Sair" : "⛶ Tela cheia";
+    let active = false;
+    let previousScrollY = 0;
+
+    function notifyResize() {
+      requestAnimationFrame(() => {
+        window.dispatchEvent(new Event("resize"));
+      });
+    }
+
+    function update() {
+      document.body.classList.toggle(
+        "cd-fullscreen-active",
+        active
+      );
+
+      document.body.classList.remove(
+        "cd-fullscreen-fallback"
+      );
+
+      button.textContent = active
+        ? "⛶ Sair"
+        : "⛶ Tela cheia";
+
+      button.setAttribute(
+        "aria-label",
+        active
+          ? "Sair da tela cheia"
+          : "Ativar tela cheia"
+      );
+
+      button.setAttribute(
+        "aria-pressed",
+        String(active)
+      );
+
+      notifyResize();
+    }
+
+    function enter() {
+      if (active) return;
+
+      previousScrollY = window.scrollY;
+      active = true;
+      update();
+    }
+
+    function exit() {
+      if (!active) return;
+
+      active = false;
+      update();
+
+      requestAnimationFrame(() => {
+        window.scrollTo(0, previousScrollY);
+      });
+    }
+
+    button.addEventListener("click", () => {
+      if (active) {
+        exit();
+      } else {
+        enter();
       }
     });
 
-    document.addEventListener("fullscreenchange", update);
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && active) {
+        exit();
+      }
+    });
+
+    window.addEventListener("pagehide", () => {
+      if (active) {
+        active = false;
+        document.body.classList.remove(
+          "cd-fullscreen-active"
+        );
+      }
+    });
+
     update();
   }
 

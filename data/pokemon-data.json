@@ -1,0 +1,7703 @@
+[
+  {
+    "id": 1,
+    "name": "bulbasaur",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ivysaur",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "venusaur",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "charmander",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "charmeleon",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "charizard",
+    "types": [
+      "Fogo",
+      "Voador"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "squirtle",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "wartortle",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "blastoise",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "caterpie",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "metapod",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "butterfree",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "weedle",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "kakuna",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "beedrill",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "pidgey",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "pidgeotto",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "pidgeot",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "rattata",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "raticate",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "spearow",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "fearow",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "ekans",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "arbok",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "pikachu",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "raichu",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "sandshrew",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "sandslash",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "nidoran-f",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "nidorina",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "nidoqueen",
+    "types": [
+      "Venenoso",
+      "Terra"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "nidoran-m",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "nidorino",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "nidoking",
+    "types": [
+      "Venenoso",
+      "Terra"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "clefairy",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "clefable",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "vulpix",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "ninetales",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "jigglypuff",
+    "types": [
+      "Normal",
+      "Fada"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "wigglytuff",
+    "types": [
+      "Normal",
+      "Fada"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "zubat",
+    "types": [
+      "Venenoso",
+      "Voador"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "golbat",
+    "types": [
+      "Venenoso",
+      "Voador"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "oddish",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "gloom",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "vileplume",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "paras",
+    "types": [
+      "Inseto",
+      "Planta"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "parasect",
+    "types": [
+      "Inseto",
+      "Planta"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "venonat",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "venomoth",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "diglett",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "dugtrio",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "meowth",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "persian",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "psyduck",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "golduck",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "mankey",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "primeape",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "growlithe",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "arcanine",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "poliwag",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "poliwhirl",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "poliwrath",
+    "types": [
+      "Água",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "abra",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "kadabra",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "alakazam",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "machop",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "machoke",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "machamp",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "bellsprout",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "weepinbell",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "victreebel",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "tentacool",
+    "types": [
+      "Água",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "tentacruel",
+    "types": [
+      "Água",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "geodude",
+    "types": [
+      "Pedra",
+      "Terra"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "graveler",
+    "types": [
+      "Pedra",
+      "Terra"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "golem",
+    "types": [
+      "Pedra",
+      "Terra"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "ponyta",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "rapidash",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "slowpoke",
+    "types": [
+      "Água",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "slowbro",
+    "types": [
+      "Água",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "magnemite",
+    "types": [
+      "Elétrico",
+      "Aço"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "magneton",
+    "types": [
+      "Elétrico",
+      "Aço"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "farfetchd",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "doduo",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "dodrio",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "seel",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "dewgong",
+    "types": [
+      "Água",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "grimer",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "muk",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "shellder",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "cloyster",
+    "types": [
+      "Água",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "gastly",
+    "types": [
+      "Fantasma",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "haunter",
+    "types": [
+      "Fantasma",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "gengar",
+    "types": [
+      "Fantasma",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "onix",
+    "types": [
+      "Pedra",
+      "Terra"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "drowzee",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "hypno",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "krabby",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "kingler",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "voltorb",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "electrode",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "exeggcute",
+    "types": [
+      "Planta",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "exeggutor",
+    "types": [
+      "Planta",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "cubone",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "marowak",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "hitmonlee",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "hitmonchan",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "lickitung",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "koffing",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "weezing",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "rhyhorn",
+    "types": [
+      "Terra",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "rhydon",
+    "types": [
+      "Terra",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "chansey",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "tangela",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "kangaskhan",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "horsea",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "seadra",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "goldeen",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "seaking",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "staryu",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "starmie",
+    "types": [
+      "Água",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "mr-mime",
+    "types": [
+      "Psíquico",
+      "Fada"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "scyther",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "jynx",
+    "types": [
+      "Gelo",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "electabuzz",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 126,
+    "name": "magmar",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "pinsir",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 128,
+    "name": "tauros",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "magikarp",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 130,
+    "name": "gyarados",
+    "types": [
+      "Água",
+      "Voador"
+    ]
+  },
+  {
+    "id": 131,
+    "name": "lapras",
+    "types": [
+      "Água",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 132,
+    "name": "ditto",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "eevee",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 134,
+    "name": "vaporeon",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 135,
+    "name": "jolteon",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 136,
+    "name": "flareon",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "porygon",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 138,
+    "name": "omanyte",
+    "types": [
+      "Pedra",
+      "Água"
+    ]
+  },
+  {
+    "id": 139,
+    "name": "omastar",
+    "types": [
+      "Pedra",
+      "Água"
+    ]
+  },
+  {
+    "id": 140,
+    "name": "kabuto",
+    "types": [
+      "Pedra",
+      "Água"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "kabutops",
+    "types": [
+      "Pedra",
+      "Água"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "aerodactyl",
+    "types": [
+      "Pedra",
+      "Voador"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "snorlax",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 144,
+    "name": "articuno",
+    "types": [
+      "Gelo",
+      "Voador"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "zapdos",
+    "types": [
+      "Elétrico",
+      "Voador"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "moltres",
+    "types": [
+      "Fogo",
+      "Voador"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "dratini",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "dragonair",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "dragonite",
+    "types": [
+      "Dragão",
+      "Voador"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "mewtwo",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "mew",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 152,
+    "name": "chikorita",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "bayleef",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 154,
+    "name": "meganium",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 155,
+    "name": "cyndaquil",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 156,
+    "name": "quilava",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "typhlosion",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 158,
+    "name": "totodile",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 159,
+    "name": "croconaw",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 160,
+    "name": "feraligatr",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 161,
+    "name": "sentret",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 162,
+    "name": "furret",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 163,
+    "name": "hoothoot",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "noctowl",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "ledyba",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 166,
+    "name": "ledian",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "spinarak",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 168,
+    "name": "ariados",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "crobat",
+    "types": [
+      "Venenoso",
+      "Voador"
+    ]
+  },
+  {
+    "id": 170,
+    "name": "chinchou",
+    "types": [
+      "Água",
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 171,
+    "name": "lanturn",
+    "types": [
+      "Água",
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 172,
+    "name": "pichu",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 173,
+    "name": "cleffa",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 174,
+    "name": "igglybuff",
+    "types": [
+      "Normal",
+      "Fada"
+    ]
+  },
+  {
+    "id": 175,
+    "name": "togepi",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 176,
+    "name": "togetic",
+    "types": [
+      "Fada",
+      "Voador"
+    ]
+  },
+  {
+    "id": 177,
+    "name": "natu",
+    "types": [
+      "Psíquico",
+      "Voador"
+    ]
+  },
+  {
+    "id": 178,
+    "name": "xatu",
+    "types": [
+      "Psíquico",
+      "Voador"
+    ]
+  },
+  {
+    "id": 179,
+    "name": "mareep",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 180,
+    "name": "flaaffy",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 181,
+    "name": "ampharos",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 182,
+    "name": "bellossom",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 183,
+    "name": "marill",
+    "types": [
+      "Água",
+      "Fada"
+    ]
+  },
+  {
+    "id": 184,
+    "name": "azumarill",
+    "types": [
+      "Água",
+      "Fada"
+    ]
+  },
+  {
+    "id": 185,
+    "name": "sudowoodo",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 186,
+    "name": "politoed",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "hoppip",
+    "types": [
+      "Planta",
+      "Voador"
+    ]
+  },
+  {
+    "id": 188,
+    "name": "skiploom",
+    "types": [
+      "Planta",
+      "Voador"
+    ]
+  },
+  {
+    "id": 189,
+    "name": "jumpluff",
+    "types": [
+      "Planta",
+      "Voador"
+    ]
+  },
+  {
+    "id": 190,
+    "name": "aipom",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 191,
+    "name": "sunkern",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 192,
+    "name": "sunflora",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 193,
+    "name": "yanma",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 194,
+    "name": "wooper",
+    "types": [
+      "Água",
+      "Terra"
+    ]
+  },
+  {
+    "id": 195,
+    "name": "quagsire",
+    "types": [
+      "Água",
+      "Terra"
+    ]
+  },
+  {
+    "id": 196,
+    "name": "espeon",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 197,
+    "name": "umbreon",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 198,
+    "name": "murkrow",
+    "types": [
+      "Sombrio",
+      "Voador"
+    ]
+  },
+  {
+    "id": 199,
+    "name": "slowking",
+    "types": [
+      "Água",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 200,
+    "name": "misdreavus",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 201,
+    "name": "unown",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 202,
+    "name": "wobbuffet",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "girafarig",
+    "types": [
+      "Normal",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 204,
+    "name": "pineco",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 205,
+    "name": "forretress",
+    "types": [
+      "Inseto",
+      "Aço"
+    ]
+  },
+  {
+    "id": 206,
+    "name": "dunsparce",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 207,
+    "name": "gligar",
+    "types": [
+      "Terra",
+      "Voador"
+    ]
+  },
+  {
+    "id": 208,
+    "name": "steelix",
+    "types": [
+      "Aço",
+      "Terra"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "snubbull",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "granbull",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "qwilfish",
+    "types": [
+      "Água",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 212,
+    "name": "scizor",
+    "types": [
+      "Inseto",
+      "Aço"
+    ]
+  },
+  {
+    "id": 213,
+    "name": "shuckle",
+    "types": [
+      "Inseto",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 214,
+    "name": "heracross",
+    "types": [
+      "Inseto",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "sneasel",
+    "types": [
+      "Sombrio",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 216,
+    "name": "teddiursa",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 217,
+    "name": "ursaring",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 218,
+    "name": "slugma",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 219,
+    "name": "magcargo",
+    "types": [
+      "Fogo",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 220,
+    "name": "swinub",
+    "types": [
+      "Gelo",
+      "Terra"
+    ]
+  },
+  {
+    "id": 221,
+    "name": "piloswine",
+    "types": [
+      "Gelo",
+      "Terra"
+    ]
+  },
+  {
+    "id": 222,
+    "name": "corsola",
+    "types": [
+      "Água",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 223,
+    "name": "remoraid",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 224,
+    "name": "octillery",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 225,
+    "name": "delibird",
+    "types": [
+      "Gelo",
+      "Voador"
+    ]
+  },
+  {
+    "id": 226,
+    "name": "mantine",
+    "types": [
+      "Água",
+      "Voador"
+    ]
+  },
+  {
+    "id": 227,
+    "name": "skarmory",
+    "types": [
+      "Aço",
+      "Voador"
+    ]
+  },
+  {
+    "id": 228,
+    "name": "houndour",
+    "types": [
+      "Sombrio",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 229,
+    "name": "houndoom",
+    "types": [
+      "Sombrio",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 230,
+    "name": "kingdra",
+    "types": [
+      "Água",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 231,
+    "name": "phanpy",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 232,
+    "name": "donphan",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "porygon2",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 234,
+    "name": "stantler",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 235,
+    "name": "smeargle",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 236,
+    "name": "tyrogue",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "hitmontop",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "smoochum",
+    "types": [
+      "Gelo",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "elekid",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 240,
+    "name": "magby",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 241,
+    "name": "miltank",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 242,
+    "name": "blissey",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 243,
+    "name": "raikou",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 244,
+    "name": "entei",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 245,
+    "name": "suicune",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 246,
+    "name": "larvitar",
+    "types": [
+      "Pedra",
+      "Terra"
+    ]
+  },
+  {
+    "id": 247,
+    "name": "pupitar",
+    "types": [
+      "Pedra",
+      "Terra"
+    ]
+  },
+  {
+    "id": 248,
+    "name": "tyranitar",
+    "types": [
+      "Pedra",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 249,
+    "name": "lugia",
+    "types": [
+      "Psíquico",
+      "Voador"
+    ]
+  },
+  {
+    "id": 250,
+    "name": "ho-oh",
+    "types": [
+      "Fogo",
+      "Voador"
+    ]
+  },
+  {
+    "id": 251,
+    "name": "celebi",
+    "types": [
+      "Psíquico",
+      "Planta"
+    ]
+  },
+  {
+    "id": 252,
+    "name": "treecko",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 253,
+    "name": "grovyle",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 254,
+    "name": "sceptile",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 255,
+    "name": "torchic",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 256,
+    "name": "combusken",
+    "types": [
+      "Fogo",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 257,
+    "name": "blaziken",
+    "types": [
+      "Fogo",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 258,
+    "name": "mudkip",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 259,
+    "name": "marshtomp",
+    "types": [
+      "Água",
+      "Terra"
+    ]
+  },
+  {
+    "id": 260,
+    "name": "swampert",
+    "types": [
+      "Água",
+      "Terra"
+    ]
+  },
+  {
+    "id": 261,
+    "name": "poochyena",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 262,
+    "name": "mightyena",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 263,
+    "name": "zigzagoon",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 264,
+    "name": "linoone",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 265,
+    "name": "wurmple",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 266,
+    "name": "silcoon",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 267,
+    "name": "beautifly",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 268,
+    "name": "cascoon",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 269,
+    "name": "dustox",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 270,
+    "name": "lotad",
+    "types": [
+      "Água",
+      "Planta"
+    ]
+  },
+  {
+    "id": 271,
+    "name": "lombre",
+    "types": [
+      "Água",
+      "Planta"
+    ]
+  },
+  {
+    "id": 272,
+    "name": "ludicolo",
+    "types": [
+      "Água",
+      "Planta"
+    ]
+  },
+  {
+    "id": 273,
+    "name": "seedot",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 274,
+    "name": "nuzleaf",
+    "types": [
+      "Planta",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 275,
+    "name": "shiftry",
+    "types": [
+      "Planta",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 276,
+    "name": "taillow",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 277,
+    "name": "swellow",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 278,
+    "name": "wingull",
+    "types": [
+      "Água",
+      "Voador"
+    ]
+  },
+  {
+    "id": 279,
+    "name": "pelipper",
+    "types": [
+      "Água",
+      "Voador"
+    ]
+  },
+  {
+    "id": 280,
+    "name": "ralts",
+    "types": [
+      "Psíquico",
+      "Fada"
+    ]
+  },
+  {
+    "id": 281,
+    "name": "kirlia",
+    "types": [
+      "Psíquico",
+      "Fada"
+    ]
+  },
+  {
+    "id": 282,
+    "name": "gardevoir",
+    "types": [
+      "Psíquico",
+      "Fada"
+    ]
+  },
+  {
+    "id": 283,
+    "name": "surskit",
+    "types": [
+      "Inseto",
+      "Água"
+    ]
+  },
+  {
+    "id": 284,
+    "name": "masquerain",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 285,
+    "name": "shroomish",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 286,
+    "name": "breloom",
+    "types": [
+      "Planta",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 287,
+    "name": "slakoth",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 288,
+    "name": "vigoroth",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 289,
+    "name": "slaking",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 290,
+    "name": "nincada",
+    "types": [
+      "Inseto",
+      "Terra"
+    ]
+  },
+  {
+    "id": 291,
+    "name": "ninjask",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 292,
+    "name": "shedinja",
+    "types": [
+      "Inseto",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 293,
+    "name": "whismur",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 294,
+    "name": "loudred",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 295,
+    "name": "exploud",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 296,
+    "name": "makuhita",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 297,
+    "name": "hariyama",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 298,
+    "name": "azurill",
+    "types": [
+      "Normal",
+      "Fada"
+    ]
+  },
+  {
+    "id": 299,
+    "name": "nosepass",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 300,
+    "name": "skitty",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 301,
+    "name": "delcatty",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 302,
+    "name": "sableye",
+    "types": [
+      "Sombrio",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 303,
+    "name": "mawile",
+    "types": [
+      "Aço",
+      "Fada"
+    ]
+  },
+  {
+    "id": 304,
+    "name": "aron",
+    "types": [
+      "Aço",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 305,
+    "name": "lairon",
+    "types": [
+      "Aço",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 306,
+    "name": "aggron",
+    "types": [
+      "Aço",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 307,
+    "name": "meditite",
+    "types": [
+      "Lutador",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 308,
+    "name": "medicham",
+    "types": [
+      "Lutador",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 309,
+    "name": "electrike",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 310,
+    "name": "manectric",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 311,
+    "name": "plusle",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 312,
+    "name": "minun",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 313,
+    "name": "volbeat",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 314,
+    "name": "illumise",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 315,
+    "name": "roselia",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 316,
+    "name": "gulpin",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 317,
+    "name": "swalot",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 318,
+    "name": "carvanha",
+    "types": [
+      "Água",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 319,
+    "name": "sharpedo",
+    "types": [
+      "Água",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 320,
+    "name": "wailmer",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 321,
+    "name": "wailord",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 322,
+    "name": "numel",
+    "types": [
+      "Fogo",
+      "Terra"
+    ]
+  },
+  {
+    "id": 323,
+    "name": "camerupt",
+    "types": [
+      "Fogo",
+      "Terra"
+    ]
+  },
+  {
+    "id": 324,
+    "name": "torkoal",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 325,
+    "name": "spoink",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 326,
+    "name": "grumpig",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 327,
+    "name": "spinda",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 328,
+    "name": "trapinch",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 329,
+    "name": "vibrava",
+    "types": [
+      "Terra",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 330,
+    "name": "flygon",
+    "types": [
+      "Terra",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 331,
+    "name": "cacnea",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 332,
+    "name": "cacturne",
+    "types": [
+      "Planta",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 333,
+    "name": "swablu",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 334,
+    "name": "altaria",
+    "types": [
+      "Dragão",
+      "Voador"
+    ]
+  },
+  {
+    "id": 335,
+    "name": "zangoose",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 336,
+    "name": "seviper",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 337,
+    "name": "lunatone",
+    "types": [
+      "Pedra",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 338,
+    "name": "solrock",
+    "types": [
+      "Pedra",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 339,
+    "name": "barboach",
+    "types": [
+      "Água",
+      "Terra"
+    ]
+  },
+  {
+    "id": 340,
+    "name": "whiscash",
+    "types": [
+      "Água",
+      "Terra"
+    ]
+  },
+  {
+    "id": 341,
+    "name": "corphish",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 342,
+    "name": "crawdaunt",
+    "types": [
+      "Água",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 343,
+    "name": "baltoy",
+    "types": [
+      "Terra",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 344,
+    "name": "claydol",
+    "types": [
+      "Terra",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 345,
+    "name": "lileep",
+    "types": [
+      "Pedra",
+      "Planta"
+    ]
+  },
+  {
+    "id": 346,
+    "name": "cradily",
+    "types": [
+      "Pedra",
+      "Planta"
+    ]
+  },
+  {
+    "id": 347,
+    "name": "anorith",
+    "types": [
+      "Pedra",
+      "Inseto"
+    ]
+  },
+  {
+    "id": 348,
+    "name": "armaldo",
+    "types": [
+      "Pedra",
+      "Inseto"
+    ]
+  },
+  {
+    "id": 349,
+    "name": "feebas",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 350,
+    "name": "milotic",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 351,
+    "name": "castform",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 352,
+    "name": "kecleon",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 353,
+    "name": "shuppet",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 354,
+    "name": "banette",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 355,
+    "name": "duskull",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 356,
+    "name": "dusclops",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 357,
+    "name": "tropius",
+    "types": [
+      "Planta",
+      "Voador"
+    ]
+  },
+  {
+    "id": 358,
+    "name": "chimecho",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 359,
+    "name": "absol",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 360,
+    "name": "wynaut",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 361,
+    "name": "snorunt",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 362,
+    "name": "glalie",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 363,
+    "name": "spheal",
+    "types": [
+      "Gelo",
+      "Água"
+    ]
+  },
+  {
+    "id": 364,
+    "name": "sealeo",
+    "types": [
+      "Gelo",
+      "Água"
+    ]
+  },
+  {
+    "id": 365,
+    "name": "walrein",
+    "types": [
+      "Gelo",
+      "Água"
+    ]
+  },
+  {
+    "id": 366,
+    "name": "clamperl",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 367,
+    "name": "huntail",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 368,
+    "name": "gorebyss",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 369,
+    "name": "relicanth",
+    "types": [
+      "Água",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 370,
+    "name": "luvdisc",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 371,
+    "name": "bagon",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 372,
+    "name": "shelgon",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 373,
+    "name": "salamence",
+    "types": [
+      "Dragão",
+      "Voador"
+    ]
+  },
+  {
+    "id": 374,
+    "name": "beldum",
+    "types": [
+      "Aço",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 375,
+    "name": "metang",
+    "types": [
+      "Aço",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 376,
+    "name": "metagross",
+    "types": [
+      "Aço",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 377,
+    "name": "regirock",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 378,
+    "name": "regice",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 379,
+    "name": "registeel",
+    "types": [
+      "Aço"
+    ]
+  },
+  {
+    "id": 380,
+    "name": "latias",
+    "types": [
+      "Dragão",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 381,
+    "name": "latios",
+    "types": [
+      "Dragão",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 382,
+    "name": "kyogre",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 383,
+    "name": "groudon",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 384,
+    "name": "rayquaza",
+    "types": [
+      "Dragão",
+      "Voador"
+    ]
+  },
+  {
+    "id": 385,
+    "name": "jirachi",
+    "types": [
+      "Aço",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 386,
+    "name": "deoxys",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 387,
+    "name": "turtwig",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 388,
+    "name": "grotle",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 389,
+    "name": "torterra",
+    "types": [
+      "Planta",
+      "Terra"
+    ]
+  },
+  {
+    "id": 390,
+    "name": "chimchar",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 391,
+    "name": "monferno",
+    "types": [
+      "Fogo",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 392,
+    "name": "infernape",
+    "types": [
+      "Fogo",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 393,
+    "name": "piplup",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 394,
+    "name": "prinplup",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 395,
+    "name": "empoleon",
+    "types": [
+      "Água",
+      "Aço"
+    ]
+  },
+  {
+    "id": 396,
+    "name": "starly",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 397,
+    "name": "staravia",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 398,
+    "name": "staraptor",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 399,
+    "name": "bidoof",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 400,
+    "name": "bibarel",
+    "types": [
+      "Normal",
+      "Água"
+    ]
+  },
+  {
+    "id": 401,
+    "name": "kricketot",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 402,
+    "name": "kricketune",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 403,
+    "name": "shinx",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 404,
+    "name": "luxio",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 405,
+    "name": "luxray",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 406,
+    "name": "budew",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 407,
+    "name": "roserade",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 408,
+    "name": "cranidos",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 409,
+    "name": "rampardos",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 410,
+    "name": "shieldon",
+    "types": [
+      "Pedra",
+      "Aço"
+    ]
+  },
+  {
+    "id": 411,
+    "name": "bastiodon",
+    "types": [
+      "Pedra",
+      "Aço"
+    ]
+  },
+  {
+    "id": 412,
+    "name": "burmy",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 413,
+    "name": "wormadam",
+    "types": [
+      "Inseto",
+      "Planta"
+    ]
+  },
+  {
+    "id": 414,
+    "name": "mothim",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 415,
+    "name": "combee",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 416,
+    "name": "vespiquen",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 417,
+    "name": "pachirisu",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 418,
+    "name": "buizel",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 419,
+    "name": "floatzel",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 420,
+    "name": "cherubi",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 421,
+    "name": "cherrim",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 422,
+    "name": "shellos",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 423,
+    "name": "gastrodon",
+    "types": [
+      "Água",
+      "Terra"
+    ]
+  },
+  {
+    "id": 424,
+    "name": "ambipom",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 425,
+    "name": "drifloon",
+    "types": [
+      "Fantasma",
+      "Voador"
+    ]
+  },
+  {
+    "id": 426,
+    "name": "drifblim",
+    "types": [
+      "Fantasma",
+      "Voador"
+    ]
+  },
+  {
+    "id": 427,
+    "name": "buneary",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 428,
+    "name": "lopunny",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 429,
+    "name": "mismagius",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 430,
+    "name": "honchkrow",
+    "types": [
+      "Sombrio",
+      "Voador"
+    ]
+  },
+  {
+    "id": 431,
+    "name": "glameow",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 432,
+    "name": "purugly",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 433,
+    "name": "chingling",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 434,
+    "name": "stunky",
+    "types": [
+      "Venenoso",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 435,
+    "name": "skuntank",
+    "types": [
+      "Venenoso",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 436,
+    "name": "bronzor",
+    "types": [
+      "Aço",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 437,
+    "name": "bronzong",
+    "types": [
+      "Aço",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 438,
+    "name": "bonsly",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 439,
+    "name": "mime-jr",
+    "types": [
+      "Psíquico",
+      "Fada"
+    ]
+  },
+  {
+    "id": 440,
+    "name": "happiny",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 441,
+    "name": "chatot",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 442,
+    "name": "spiritomb",
+    "types": [
+      "Fantasma",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 443,
+    "name": "gible",
+    "types": [
+      "Dragão",
+      "Terra"
+    ]
+  },
+  {
+    "id": 444,
+    "name": "gabite",
+    "types": [
+      "Dragão",
+      "Terra"
+    ]
+  },
+  {
+    "id": 445,
+    "name": "garchomp",
+    "types": [
+      "Dragão",
+      "Terra"
+    ]
+  },
+  {
+    "id": 446,
+    "name": "munchlax",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 447,
+    "name": "riolu",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 448,
+    "name": "lucario",
+    "types": [
+      "Lutador",
+      "Aço"
+    ]
+  },
+  {
+    "id": 449,
+    "name": "hippopotas",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 450,
+    "name": "hippowdon",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 451,
+    "name": "skorupi",
+    "types": [
+      "Venenoso",
+      "Inseto"
+    ]
+  },
+  {
+    "id": 452,
+    "name": "drapion",
+    "types": [
+      "Venenoso",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 453,
+    "name": "croagunk",
+    "types": [
+      "Venenoso",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 454,
+    "name": "toxicroak",
+    "types": [
+      "Venenoso",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 455,
+    "name": "carnivine",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 456,
+    "name": "finneon",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 457,
+    "name": "lumineon",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 458,
+    "name": "mantyke",
+    "types": [
+      "Água",
+      "Voador"
+    ]
+  },
+  {
+    "id": 459,
+    "name": "snover",
+    "types": [
+      "Planta",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 460,
+    "name": "abomasnow",
+    "types": [
+      "Planta",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 461,
+    "name": "weavile",
+    "types": [
+      "Sombrio",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 462,
+    "name": "magnezone",
+    "types": [
+      "Elétrico",
+      "Aço"
+    ]
+  },
+  {
+    "id": 463,
+    "name": "lickilicky",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 464,
+    "name": "rhyperior",
+    "types": [
+      "Terra",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 465,
+    "name": "tangrowth",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 466,
+    "name": "electivire",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 467,
+    "name": "magmortar",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 468,
+    "name": "togekiss",
+    "types": [
+      "Fada",
+      "Voador"
+    ]
+  },
+  {
+    "id": 469,
+    "name": "yanmega",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 470,
+    "name": "leafeon",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 471,
+    "name": "glaceon",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 472,
+    "name": "gliscor",
+    "types": [
+      "Terra",
+      "Voador"
+    ]
+  },
+  {
+    "id": 473,
+    "name": "mamoswine",
+    "types": [
+      "Gelo",
+      "Terra"
+    ]
+  },
+  {
+    "id": 474,
+    "name": "porygon-z",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 475,
+    "name": "gallade",
+    "types": [
+      "Psíquico",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 476,
+    "name": "probopass",
+    "types": [
+      "Pedra",
+      "Aço"
+    ]
+  },
+  {
+    "id": 477,
+    "name": "dusknoir",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 478,
+    "name": "froslass",
+    "types": [
+      "Gelo",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 479,
+    "name": "rotom",
+    "types": [
+      "Elétrico",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 480,
+    "name": "uxie",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 481,
+    "name": "mesprit",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 482,
+    "name": "azelf",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 483,
+    "name": "dialga",
+    "types": [
+      "Aço",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 484,
+    "name": "palkia",
+    "types": [
+      "Água",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 485,
+    "name": "heatran",
+    "types": [
+      "Fogo",
+      "Aço"
+    ]
+  },
+  {
+    "id": 486,
+    "name": "regigigas",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 487,
+    "name": "giratina",
+    "types": [
+      "Fantasma",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 488,
+    "name": "cresselia",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 489,
+    "name": "phione",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 490,
+    "name": "manaphy",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 491,
+    "name": "darkrai",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 492,
+    "name": "shaymin",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 493,
+    "name": "arceus",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 494,
+    "name": "victini",
+    "types": [
+      "Psíquico",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 495,
+    "name": "snivy",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 496,
+    "name": "servine",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 497,
+    "name": "serperior",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 498,
+    "name": "tepig",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 499,
+    "name": "pignite",
+    "types": [
+      "Fogo",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 500,
+    "name": "emboar",
+    "types": [
+      "Fogo",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 501,
+    "name": "oshawott",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 502,
+    "name": "dewott",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 503,
+    "name": "samurott",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 504,
+    "name": "patrat",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 505,
+    "name": "watchog",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 506,
+    "name": "lillipup",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 507,
+    "name": "herdier",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 508,
+    "name": "stoutland",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 509,
+    "name": "purrloin",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 510,
+    "name": "liepard",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 511,
+    "name": "pansage",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 512,
+    "name": "simisage",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 513,
+    "name": "pansear",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 514,
+    "name": "simisear",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 515,
+    "name": "panpour",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 516,
+    "name": "simipour",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 517,
+    "name": "munna",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 518,
+    "name": "musharna",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 519,
+    "name": "pidove",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 520,
+    "name": "tranquill",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 521,
+    "name": "unfezant",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 522,
+    "name": "blitzle",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 523,
+    "name": "zebstrika",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 524,
+    "name": "roggenrola",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 525,
+    "name": "boldore",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 526,
+    "name": "gigalith",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 527,
+    "name": "woobat",
+    "types": [
+      "Psíquico",
+      "Voador"
+    ]
+  },
+  {
+    "id": 528,
+    "name": "swoobat",
+    "types": [
+      "Psíquico",
+      "Voador"
+    ]
+  },
+  {
+    "id": 529,
+    "name": "drilbur",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 530,
+    "name": "excadrill",
+    "types": [
+      "Terra",
+      "Aço"
+    ]
+  },
+  {
+    "id": 531,
+    "name": "audino",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 532,
+    "name": "timburr",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 533,
+    "name": "gurdurr",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 534,
+    "name": "conkeldurr",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 535,
+    "name": "tympole",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 536,
+    "name": "palpitoad",
+    "types": [
+      "Água",
+      "Terra"
+    ]
+  },
+  {
+    "id": 537,
+    "name": "seismitoad",
+    "types": [
+      "Água",
+      "Terra"
+    ]
+  },
+  {
+    "id": 538,
+    "name": "throh",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 539,
+    "name": "sawk",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 540,
+    "name": "sewaddle",
+    "types": [
+      "Inseto",
+      "Planta"
+    ]
+  },
+  {
+    "id": 541,
+    "name": "swadloon",
+    "types": [
+      "Inseto",
+      "Planta"
+    ]
+  },
+  {
+    "id": 542,
+    "name": "leavanny",
+    "types": [
+      "Inseto",
+      "Planta"
+    ]
+  },
+  {
+    "id": 543,
+    "name": "venipede",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 544,
+    "name": "whirlipede",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 545,
+    "name": "scolipede",
+    "types": [
+      "Inseto",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 546,
+    "name": "cottonee",
+    "types": [
+      "Planta",
+      "Fada"
+    ]
+  },
+  {
+    "id": 547,
+    "name": "whimsicott",
+    "types": [
+      "Planta",
+      "Fada"
+    ]
+  },
+  {
+    "id": 548,
+    "name": "petilil",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 549,
+    "name": "lilligant",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 550,
+    "name": "basculin",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 551,
+    "name": "sandile",
+    "types": [
+      "Terra",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 552,
+    "name": "krokorok",
+    "types": [
+      "Terra",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 553,
+    "name": "krookodile",
+    "types": [
+      "Terra",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 554,
+    "name": "darumaka",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 555,
+    "name": "darmanitan",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 556,
+    "name": "maractus",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 557,
+    "name": "dwebble",
+    "types": [
+      "Inseto",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 558,
+    "name": "crustle",
+    "types": [
+      "Inseto",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 559,
+    "name": "scraggy",
+    "types": [
+      "Sombrio",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 560,
+    "name": "scrafty",
+    "types": [
+      "Sombrio",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 561,
+    "name": "sigilyph",
+    "types": [
+      "Psíquico",
+      "Voador"
+    ]
+  },
+  {
+    "id": 562,
+    "name": "yamask",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 563,
+    "name": "cofagrigus",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 564,
+    "name": "tirtouga",
+    "types": [
+      "Água",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 565,
+    "name": "carracosta",
+    "types": [
+      "Água",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 566,
+    "name": "archen",
+    "types": [
+      "Pedra",
+      "Voador"
+    ]
+  },
+  {
+    "id": 567,
+    "name": "archeops",
+    "types": [
+      "Pedra",
+      "Voador"
+    ]
+  },
+  {
+    "id": 568,
+    "name": "trubbish",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 569,
+    "name": "garbodor",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 570,
+    "name": "zorua",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 571,
+    "name": "zoroark",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 572,
+    "name": "minccino",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 573,
+    "name": "cinccino",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 574,
+    "name": "gothita",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 575,
+    "name": "gothorita",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 576,
+    "name": "gothitelle",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 577,
+    "name": "solosis",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 578,
+    "name": "duosion",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 579,
+    "name": "reuniclus",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 580,
+    "name": "ducklett",
+    "types": [
+      "Água",
+      "Voador"
+    ]
+  },
+  {
+    "id": 581,
+    "name": "swanna",
+    "types": [
+      "Água",
+      "Voador"
+    ]
+  },
+  {
+    "id": 582,
+    "name": "vanillite",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 583,
+    "name": "vanillish",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 584,
+    "name": "vanilluxe",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 585,
+    "name": "deerling",
+    "types": [
+      "Normal",
+      "Planta"
+    ]
+  },
+  {
+    "id": 586,
+    "name": "sawsbuck",
+    "types": [
+      "Normal",
+      "Planta"
+    ]
+  },
+  {
+    "id": 587,
+    "name": "emolga",
+    "types": [
+      "Elétrico",
+      "Voador"
+    ]
+  },
+  {
+    "id": 588,
+    "name": "karrablast",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 589,
+    "name": "escavalier",
+    "types": [
+      "Inseto",
+      "Aço"
+    ]
+  },
+  {
+    "id": 590,
+    "name": "foongus",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 591,
+    "name": "amoonguss",
+    "types": [
+      "Planta",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 592,
+    "name": "frillish",
+    "types": [
+      "Água",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 593,
+    "name": "jellicent",
+    "types": [
+      "Água",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 594,
+    "name": "alomomola",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 595,
+    "name": "joltik",
+    "types": [
+      "Inseto",
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 596,
+    "name": "galvantula",
+    "types": [
+      "Inseto",
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 597,
+    "name": "ferroseed",
+    "types": [
+      "Planta",
+      "Aço"
+    ]
+  },
+  {
+    "id": 598,
+    "name": "ferrothorn",
+    "types": [
+      "Planta",
+      "Aço"
+    ]
+  },
+  {
+    "id": 599,
+    "name": "klink",
+    "types": [
+      "Aço"
+    ]
+  },
+  {
+    "id": 600,
+    "name": "klang",
+    "types": [
+      "Aço"
+    ]
+  },
+  {
+    "id": 601,
+    "name": "klinklang",
+    "types": [
+      "Aço"
+    ]
+  },
+  {
+    "id": 602,
+    "name": "tynamo",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 603,
+    "name": "eelektrik",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 604,
+    "name": "eelektross",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 605,
+    "name": "elgyem",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 606,
+    "name": "beheeyem",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 607,
+    "name": "litwick",
+    "types": [
+      "Fantasma",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 608,
+    "name": "lampent",
+    "types": [
+      "Fantasma",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 609,
+    "name": "chandelure",
+    "types": [
+      "Fantasma",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 610,
+    "name": "axew",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 611,
+    "name": "fraxure",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 612,
+    "name": "haxorus",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 613,
+    "name": "cubchoo",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 614,
+    "name": "beartic",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 615,
+    "name": "cryogonal",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 616,
+    "name": "shelmet",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 617,
+    "name": "accelgor",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 618,
+    "name": "stunfisk",
+    "types": [
+      "Terra",
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 619,
+    "name": "mienfoo",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 620,
+    "name": "mienshao",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 621,
+    "name": "druddigon",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 622,
+    "name": "golett",
+    "types": [
+      "Terra",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 623,
+    "name": "golurk",
+    "types": [
+      "Terra",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 624,
+    "name": "pawniard",
+    "types": [
+      "Sombrio",
+      "Aço"
+    ]
+  },
+  {
+    "id": 625,
+    "name": "bisharp",
+    "types": [
+      "Sombrio",
+      "Aço"
+    ]
+  },
+  {
+    "id": 626,
+    "name": "bouffalant",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 627,
+    "name": "rufflet",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 628,
+    "name": "braviary",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 629,
+    "name": "vullaby",
+    "types": [
+      "Sombrio",
+      "Voador"
+    ]
+  },
+  {
+    "id": 630,
+    "name": "mandibuzz",
+    "types": [
+      "Sombrio",
+      "Voador"
+    ]
+  },
+  {
+    "id": 631,
+    "name": "heatmor",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 632,
+    "name": "durant",
+    "types": [
+      "Inseto",
+      "Aço"
+    ]
+  },
+  {
+    "id": 633,
+    "name": "deino",
+    "types": [
+      "Sombrio",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 634,
+    "name": "zweilous",
+    "types": [
+      "Sombrio",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 635,
+    "name": "hydreigon",
+    "types": [
+      "Sombrio",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 636,
+    "name": "larvesta",
+    "types": [
+      "Inseto",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 637,
+    "name": "volcarona",
+    "types": [
+      "Inseto",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 638,
+    "name": "cobalion",
+    "types": [
+      "Aço",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 639,
+    "name": "terrakion",
+    "types": [
+      "Pedra",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 640,
+    "name": "virizion",
+    "types": [
+      "Planta",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 641,
+    "name": "tornadus",
+    "types": [
+      "Voador"
+    ]
+  },
+  {
+    "id": 642,
+    "name": "thundurus",
+    "types": [
+      "Elétrico",
+      "Voador"
+    ]
+  },
+  {
+    "id": 643,
+    "name": "reshiram",
+    "types": [
+      "Dragão",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 644,
+    "name": "zekrom",
+    "types": [
+      "Dragão",
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 645,
+    "name": "landorus",
+    "types": [
+      "Terra",
+      "Voador"
+    ]
+  },
+  {
+    "id": 646,
+    "name": "kyurem",
+    "types": [
+      "Dragão",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 647,
+    "name": "keldeo",
+    "types": [
+      "Água",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 648,
+    "name": "meloetta",
+    "types": [
+      "Normal",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 649,
+    "name": "genesect",
+    "types": [
+      "Inseto",
+      "Aço"
+    ]
+  },
+  {
+    "id": 650,
+    "name": "chespin",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 651,
+    "name": "quilladin",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 652,
+    "name": "chesnaught",
+    "types": [
+      "Planta",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 653,
+    "name": "fennekin",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 654,
+    "name": "braixen",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 655,
+    "name": "delphox",
+    "types": [
+      "Fogo",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 656,
+    "name": "froakie",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 657,
+    "name": "frogadier",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 658,
+    "name": "greninja",
+    "types": [
+      "Água",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 659,
+    "name": "bunnelby",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 660,
+    "name": "diggersby",
+    "types": [
+      "Normal",
+      "Terra"
+    ]
+  },
+  {
+    "id": 661,
+    "name": "fletchling",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 662,
+    "name": "fletchinder",
+    "types": [
+      "Fogo",
+      "Voador"
+    ]
+  },
+  {
+    "id": 663,
+    "name": "talonflame",
+    "types": [
+      "Fogo",
+      "Voador"
+    ]
+  },
+  {
+    "id": 664,
+    "name": "scatterbug",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 665,
+    "name": "spewpa",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 666,
+    "name": "vivillon",
+    "types": [
+      "Inseto",
+      "Voador"
+    ]
+  },
+  {
+    "id": 667,
+    "name": "litleo",
+    "types": [
+      "Fogo",
+      "Normal"
+    ]
+  },
+  {
+    "id": 668,
+    "name": "pyroar",
+    "types": [
+      "Fogo",
+      "Normal"
+    ]
+  },
+  {
+    "id": 669,
+    "name": "flabebe",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 670,
+    "name": "floette",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 671,
+    "name": "florges",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 672,
+    "name": "skiddo",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 673,
+    "name": "gogoat",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 674,
+    "name": "pancham",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 675,
+    "name": "pangoro",
+    "types": [
+      "Lutador",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 676,
+    "name": "furfrou",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 677,
+    "name": "espurr",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 678,
+    "name": "meowstic",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 679,
+    "name": "honedge",
+    "types": [
+      "Aço",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 680,
+    "name": "doublade",
+    "types": [
+      "Aço",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 681,
+    "name": "aegislash",
+    "types": [
+      "Aço",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 682,
+    "name": "spritzee",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 683,
+    "name": "aromatisse",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 684,
+    "name": "swirlix",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 685,
+    "name": "slurpuff",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 686,
+    "name": "inkay",
+    "types": [
+      "Sombrio",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 687,
+    "name": "malamar",
+    "types": [
+      "Sombrio",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 688,
+    "name": "binacle",
+    "types": [
+      "Pedra",
+      "Água"
+    ]
+  },
+  {
+    "id": 689,
+    "name": "barbaracle",
+    "types": [
+      "Pedra",
+      "Água"
+    ]
+  },
+  {
+    "id": 690,
+    "name": "skrelp",
+    "types": [
+      "Venenoso",
+      "Água"
+    ]
+  },
+  {
+    "id": 691,
+    "name": "dragalge",
+    "types": [
+      "Venenoso",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 692,
+    "name": "clauncher",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 693,
+    "name": "clawitzer",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 694,
+    "name": "helioptile",
+    "types": [
+      "Elétrico",
+      "Normal"
+    ]
+  },
+  {
+    "id": 695,
+    "name": "heliolisk",
+    "types": [
+      "Elétrico",
+      "Normal"
+    ]
+  },
+  {
+    "id": 696,
+    "name": "tyrunt",
+    "types": [
+      "Pedra",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 697,
+    "name": "tyrantrum",
+    "types": [
+      "Pedra",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 698,
+    "name": "amaura",
+    "types": [
+      "Pedra",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 699,
+    "name": "aurorus",
+    "types": [
+      "Pedra",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 700,
+    "name": "sylveon",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 701,
+    "name": "hawlucha",
+    "types": [
+      "Lutador",
+      "Voador"
+    ]
+  },
+  {
+    "id": 702,
+    "name": "dedenne",
+    "types": [
+      "Elétrico",
+      "Fada"
+    ]
+  },
+  {
+    "id": 703,
+    "name": "carbink",
+    "types": [
+      "Pedra",
+      "Fada"
+    ]
+  },
+  {
+    "id": 704,
+    "name": "goomy",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 705,
+    "name": "sliggoo",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 706,
+    "name": "goodra",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 707,
+    "name": "klefki",
+    "types": [
+      "Aço",
+      "Fada"
+    ]
+  },
+  {
+    "id": 708,
+    "name": "phantump",
+    "types": [
+      "Fantasma",
+      "Planta"
+    ]
+  },
+  {
+    "id": 709,
+    "name": "trevenant",
+    "types": [
+      "Fantasma",
+      "Planta"
+    ]
+  },
+  {
+    "id": 710,
+    "name": "pumpkaboo",
+    "types": [
+      "Fantasma",
+      "Planta"
+    ]
+  },
+  {
+    "id": 711,
+    "name": "gourgeist",
+    "types": [
+      "Fantasma",
+      "Planta"
+    ]
+  },
+  {
+    "id": 712,
+    "name": "bergmite",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 713,
+    "name": "avalugg",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 714,
+    "name": "noibat",
+    "types": [
+      "Voador",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 715,
+    "name": "noivern",
+    "types": [
+      "Voador",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 716,
+    "name": "xerneas",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 717,
+    "name": "yveltal",
+    "types": [
+      "Sombrio",
+      "Voador"
+    ]
+  },
+  {
+    "id": 718,
+    "name": "zygarde",
+    "types": [
+      "Dragão",
+      "Terra"
+    ]
+  },
+  {
+    "id": 719,
+    "name": "diancie",
+    "types": [
+      "Pedra",
+      "Fada"
+    ]
+  },
+  {
+    "id": 720,
+    "name": "hoopa",
+    "types": [
+      "Psíquico",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 721,
+    "name": "volcanion",
+    "types": [
+      "Fogo",
+      "Água"
+    ]
+  },
+  {
+    "id": 722,
+    "name": "rowlet",
+    "types": [
+      "Planta",
+      "Voador"
+    ]
+  },
+  {
+    "id": 723,
+    "name": "dartrix",
+    "types": [
+      "Planta",
+      "Voador"
+    ]
+  },
+  {
+    "id": 724,
+    "name": "decidueye",
+    "types": [
+      "Planta",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 725,
+    "name": "litten",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 726,
+    "name": "torracat",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 727,
+    "name": "incineroar",
+    "types": [
+      "Fogo",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 728,
+    "name": "popplio",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 729,
+    "name": "brionne",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 730,
+    "name": "primarina",
+    "types": [
+      "Água",
+      "Fada"
+    ]
+  },
+  {
+    "id": 731,
+    "name": "pikipek",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 732,
+    "name": "trumbeak",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 733,
+    "name": "toucannon",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 734,
+    "name": "yungoos",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 735,
+    "name": "gumshoos",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 736,
+    "name": "grubbin",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 737,
+    "name": "charjabug",
+    "types": [
+      "Inseto",
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 738,
+    "name": "vikavolt",
+    "types": [
+      "Inseto",
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 739,
+    "name": "crabrawler",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 740,
+    "name": "crabominable",
+    "types": [
+      "Lutador",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 741,
+    "name": "oricorio",
+    "types": [
+      "Fogo",
+      "Voador"
+    ]
+  },
+  {
+    "id": 742,
+    "name": "cutiefly",
+    "types": [
+      "Inseto",
+      "Fada"
+    ]
+  },
+  {
+    "id": 743,
+    "name": "ribombee",
+    "types": [
+      "Inseto",
+      "Fada"
+    ]
+  },
+  {
+    "id": 744,
+    "name": "rockruff",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 745,
+    "name": "lycanroc",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 746,
+    "name": "wishiwashi",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 747,
+    "name": "mareanie",
+    "types": [
+      "Venenoso",
+      "Água"
+    ]
+  },
+  {
+    "id": 748,
+    "name": "toxapex",
+    "types": [
+      "Venenoso",
+      "Água"
+    ]
+  },
+  {
+    "id": 749,
+    "name": "mudbray",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 750,
+    "name": "mudsdale",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 751,
+    "name": "dewpider",
+    "types": [
+      "Água",
+      "Inseto"
+    ]
+  },
+  {
+    "id": 752,
+    "name": "araquanid",
+    "types": [
+      "Água",
+      "Inseto"
+    ]
+  },
+  {
+    "id": 753,
+    "name": "fomantis",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 754,
+    "name": "lurantis",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 755,
+    "name": "morelull",
+    "types": [
+      "Planta",
+      "Fada"
+    ]
+  },
+  {
+    "id": 756,
+    "name": "shiinotic",
+    "types": [
+      "Planta",
+      "Fada"
+    ]
+  },
+  {
+    "id": 757,
+    "name": "salandit",
+    "types": [
+      "Venenoso",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 758,
+    "name": "salazzle",
+    "types": [
+      "Venenoso",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 759,
+    "name": "stufful",
+    "types": [
+      "Normal",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 760,
+    "name": "bewear",
+    "types": [
+      "Normal",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 761,
+    "name": "bounsweet",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 762,
+    "name": "steenee",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 763,
+    "name": "tsareena",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 764,
+    "name": "comfey",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 765,
+    "name": "oranguru",
+    "types": [
+      "Normal",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 766,
+    "name": "passimian",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 767,
+    "name": "wimpod",
+    "types": [
+      "Inseto",
+      "Água"
+    ]
+  },
+  {
+    "id": 768,
+    "name": "golisopod",
+    "types": [
+      "Inseto",
+      "Água"
+    ]
+  },
+  {
+    "id": 769,
+    "name": "sandygast",
+    "types": [
+      "Fantasma",
+      "Terra"
+    ]
+  },
+  {
+    "id": 770,
+    "name": "palossand",
+    "types": [
+      "Fantasma",
+      "Terra"
+    ]
+  },
+  {
+    "id": 771,
+    "name": "pyukumuku",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 772,
+    "name": "type-null",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 773,
+    "name": "silvally",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 774,
+    "name": "minior",
+    "types": [
+      "Pedra",
+      "Voador"
+    ]
+  },
+  {
+    "id": 775,
+    "name": "komala",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 776,
+    "name": "turtonator",
+    "types": [
+      "Fogo",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 777,
+    "name": "togedemaru",
+    "types": [
+      "Elétrico",
+      "Aço"
+    ]
+  },
+  {
+    "id": 778,
+    "name": "mimikyu",
+    "types": [
+      "Fantasma",
+      "Fada"
+    ]
+  },
+  {
+    "id": 779,
+    "name": "bruxish",
+    "types": [
+      "Água",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 780,
+    "name": "drampa",
+    "types": [
+      "Normal",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 781,
+    "name": "dhelmise",
+    "types": [
+      "Fantasma",
+      "Planta"
+    ]
+  },
+  {
+    "id": 782,
+    "name": "jangmo-o",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 783,
+    "name": "hakamo-o",
+    "types": [
+      "Dragão",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 784,
+    "name": "kommo-o",
+    "types": [
+      "Dragão",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 785,
+    "name": "tapu-koko",
+    "types": [
+      "Elétrico",
+      "Fada"
+    ]
+  },
+  {
+    "id": 786,
+    "name": "tapu-lele",
+    "types": [
+      "Psíquico",
+      "Fada"
+    ]
+  },
+  {
+    "id": 787,
+    "name": "tapu-bulu",
+    "types": [
+      "Planta",
+      "Fada"
+    ]
+  },
+  {
+    "id": 788,
+    "name": "tapu-fini",
+    "types": [
+      "Água",
+      "Fada"
+    ]
+  },
+  {
+    "id": 789,
+    "name": "cosmog",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 790,
+    "name": "cosmoem",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 791,
+    "name": "solgaleo",
+    "types": [
+      "Psíquico",
+      "Aço"
+    ]
+  },
+  {
+    "id": 792,
+    "name": "lunala",
+    "types": [
+      "Psíquico",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 793,
+    "name": "nihilego",
+    "types": [
+      "Pedra",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 794,
+    "name": "buzzwole",
+    "types": [
+      "Inseto",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 795,
+    "name": "pheromosa",
+    "types": [
+      "Inseto",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 796,
+    "name": "xurkitree",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 797,
+    "name": "celesteela",
+    "types": [
+      "Aço",
+      "Voador"
+    ]
+  },
+  {
+    "id": 798,
+    "name": "kartana",
+    "types": [
+      "Planta",
+      "Aço"
+    ]
+  },
+  {
+    "id": 799,
+    "name": "guzzlord",
+    "types": [
+      "Sombrio",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 800,
+    "name": "necrozma",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 801,
+    "name": "magearna",
+    "types": [
+      "Aço",
+      "Fada"
+    ]
+  },
+  {
+    "id": 802,
+    "name": "marshadow",
+    "types": [
+      "Lutador",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 803,
+    "name": "poipole",
+    "types": [
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 804,
+    "name": "naganadel",
+    "types": [
+      "Venenoso",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 805,
+    "name": "stakataka",
+    "types": [
+      "Pedra",
+      "Aço"
+    ]
+  },
+  {
+    "id": 806,
+    "name": "blacephalon",
+    "types": [
+      "Fogo",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 807,
+    "name": "zeraora",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 808,
+    "name": "meltan",
+    "types": [
+      "Aço"
+    ]
+  },
+  {
+    "id": 809,
+    "name": "melmetal",
+    "types": [
+      "Aço"
+    ]
+  },
+  {
+    "id": 810,
+    "name": "grookey",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 811,
+    "name": "thwackey",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 812,
+    "name": "rillaboom",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 813,
+    "name": "scorbunny",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 814,
+    "name": "raboot",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 815,
+    "name": "cinderace",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 816,
+    "name": "sobble",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 817,
+    "name": "drizzile",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 818,
+    "name": "inteleon",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 819,
+    "name": "skwovet",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 820,
+    "name": "greedent",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 821,
+    "name": "rookidee",
+    "types": [
+      "Voador"
+    ]
+  },
+  {
+    "id": 822,
+    "name": "corvisquire",
+    "types": [
+      "Voador"
+    ]
+  },
+  {
+    "id": 823,
+    "name": "corviknight",
+    "types": [
+      "Voador",
+      "Aço"
+    ]
+  },
+  {
+    "id": 824,
+    "name": "blipbug",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 825,
+    "name": "dottler",
+    "types": [
+      "Inseto",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 826,
+    "name": "orbeetle",
+    "types": [
+      "Inseto",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 827,
+    "name": "nickit",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 828,
+    "name": "thievul",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 829,
+    "name": "gossifleur",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 830,
+    "name": "eldegoss",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 831,
+    "name": "wooloo",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 832,
+    "name": "dubwool",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 833,
+    "name": "chewtle",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 834,
+    "name": "drednaw",
+    "types": [
+      "Água",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 835,
+    "name": "yamper",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 836,
+    "name": "boltund",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 837,
+    "name": "rolycoly",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 838,
+    "name": "carkol",
+    "types": [
+      "Pedra",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 839,
+    "name": "coalossal",
+    "types": [
+      "Pedra",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 840,
+    "name": "applin",
+    "types": [
+      "Planta",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 841,
+    "name": "flapple",
+    "types": [
+      "Planta",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 842,
+    "name": "appletun",
+    "types": [
+      "Planta",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 843,
+    "name": "silicobra",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 844,
+    "name": "sandaconda",
+    "types": [
+      "Terra"
+    ]
+  },
+  {
+    "id": 845,
+    "name": "cramorant",
+    "types": [
+      "Voador",
+      "Água"
+    ]
+  },
+  {
+    "id": 846,
+    "name": "arrokuda",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 847,
+    "name": "barraskewda",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 848,
+    "name": "toxel",
+    "types": [
+      "Elétrico",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 849,
+    "name": "toxtricity",
+    "types": [
+      "Elétrico",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 850,
+    "name": "sizzlipede",
+    "types": [
+      "Fogo",
+      "Inseto"
+    ]
+  },
+  {
+    "id": 851,
+    "name": "centiskorch",
+    "types": [
+      "Fogo",
+      "Inseto"
+    ]
+  },
+  {
+    "id": 852,
+    "name": "clobbopus",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 853,
+    "name": "grapploct",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 854,
+    "name": "sinistea",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 855,
+    "name": "polteageist",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 856,
+    "name": "hatenna",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 857,
+    "name": "hattrem",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 858,
+    "name": "hatterene",
+    "types": [
+      "Psíquico",
+      "Fada"
+    ]
+  },
+  {
+    "id": 859,
+    "name": "impidimp",
+    "types": [
+      "Sombrio",
+      "Fada"
+    ]
+  },
+  {
+    "id": 860,
+    "name": "morgrem",
+    "types": [
+      "Sombrio",
+      "Fada"
+    ]
+  },
+  {
+    "id": 861,
+    "name": "grimmsnarl",
+    "types": [
+      "Sombrio",
+      "Fada"
+    ]
+  },
+  {
+    "id": 862,
+    "name": "obstagoon",
+    "types": [
+      "Sombrio",
+      "Normal"
+    ]
+  },
+  {
+    "id": 863,
+    "name": "perrserker",
+    "types": [
+      "Aço"
+    ]
+  },
+  {
+    "id": 864,
+    "name": "cursola",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 865,
+    "name": "sirfetchd",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 866,
+    "name": "mr-rime",
+    "types": [
+      "Gelo",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 867,
+    "name": "runerigus",
+    "types": [
+      "Terra",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 868,
+    "name": "milcery",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 869,
+    "name": "alcremie",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 870,
+    "name": "falinks",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 871,
+    "name": "pincurchin",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 872,
+    "name": "snom",
+    "types": [
+      "Gelo",
+      "Inseto"
+    ]
+  },
+  {
+    "id": 873,
+    "name": "frosmoth",
+    "types": [
+      "Gelo",
+      "Inseto"
+    ]
+  },
+  {
+    "id": 874,
+    "name": "stonjourner",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 875,
+    "name": "eiscue",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 876,
+    "name": "indeedee",
+    "types": [
+      "Psíquico",
+      "Normal"
+    ]
+  },
+  {
+    "id": 877,
+    "name": "morpeko",
+    "types": [
+      "Elétrico",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 878,
+    "name": "cufant",
+    "types": [
+      "Aço"
+    ]
+  },
+  {
+    "id": 879,
+    "name": "copperajah",
+    "types": [
+      "Aço"
+    ]
+  },
+  {
+    "id": 880,
+    "name": "dracozolt",
+    "types": [
+      "Elétrico",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 881,
+    "name": "arctozolt",
+    "types": [
+      "Elétrico",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 882,
+    "name": "dracovish",
+    "types": [
+      "Água",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 883,
+    "name": "arctovish",
+    "types": [
+      "Água",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 884,
+    "name": "duraludon",
+    "types": [
+      "Aço",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 885,
+    "name": "dreepy",
+    "types": [
+      "Dragão",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 886,
+    "name": "drakloak",
+    "types": [
+      "Dragão",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 887,
+    "name": "dragapult",
+    "types": [
+      "Dragão",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 888,
+    "name": "zacian",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 889,
+    "name": "zamazenta",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 890,
+    "name": "eternatus",
+    "types": [
+      "Venenoso",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 891,
+    "name": "kubfu",
+    "types": [
+      "Lutador"
+    ]
+  },
+  {
+    "id": 892,
+    "name": "urshifu",
+    "types": [
+      "Lutador",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 893,
+    "name": "zarude",
+    "types": [
+      "Sombrio",
+      "Planta"
+    ]
+  },
+  {
+    "id": 894,
+    "name": "regieleki",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 895,
+    "name": "regidrago",
+    "types": [
+      "Dragão"
+    ]
+  },
+  {
+    "id": 896,
+    "name": "glastrier",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 897,
+    "name": "spectrier",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 898,
+    "name": "calyrex",
+    "types": [
+      "Psíquico",
+      "Planta"
+    ]
+  },
+  {
+    "id": 899,
+    "name": "wyrdeer",
+    "types": [
+      "Normal",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 900,
+    "name": "kleavor",
+    "types": [
+      "Inseto",
+      "Pedra"
+    ]
+  },
+  {
+    "id": 901,
+    "name": "ursaluna",
+    "types": [
+      "Terra",
+      "Normal"
+    ]
+  },
+  {
+    "id": 902,
+    "name": "basculegion",
+    "types": [
+      "Água",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 903,
+    "name": "sneasler",
+    "types": [
+      "Lutador",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 904,
+    "name": "overqwil",
+    "types": [
+      "Sombrio",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 905,
+    "name": "enamorus",
+    "types": [
+      "Fada",
+      "Voador"
+    ]
+  },
+  {
+    "id": 906,
+    "name": "sprigatito",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 907,
+    "name": "floragato",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 908,
+    "name": "meowscarada",
+    "types": [
+      "Planta",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 909,
+    "name": "fuecoco",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 910,
+    "name": "crocalor",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 911,
+    "name": "skeledirge",
+    "types": [
+      "Fogo",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 912,
+    "name": "quaxly",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 913,
+    "name": "quaxwell",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 914,
+    "name": "quaquaval",
+    "types": [
+      "Água",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 915,
+    "name": "lechonk",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 916,
+    "name": "oinkologne",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 917,
+    "name": "tarountula",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 918,
+    "name": "spidops",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 919,
+    "name": "nymble",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 920,
+    "name": "lokix",
+    "types": [
+      "Inseto",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 921,
+    "name": "pawmi",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 922,
+    "name": "pawmo",
+    "types": [
+      "Elétrico",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 923,
+    "name": "pawmot",
+    "types": [
+      "Elétrico",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 924,
+    "name": "tandemaus",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 925,
+    "name": "maushold",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 926,
+    "name": "fidough",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 927,
+    "name": "dachsbun",
+    "types": [
+      "Fada"
+    ]
+  },
+  {
+    "id": 928,
+    "name": "smoliv",
+    "types": [
+      "Planta",
+      "Normal"
+    ]
+  },
+  {
+    "id": 929,
+    "name": "dolliv",
+    "types": [
+      "Planta",
+      "Normal"
+    ]
+  },
+  {
+    "id": 930,
+    "name": "arboliva",
+    "types": [
+      "Planta",
+      "Normal"
+    ]
+  },
+  {
+    "id": 931,
+    "name": "squawkabilly",
+    "types": [
+      "Normal",
+      "Voador"
+    ]
+  },
+  {
+    "id": 932,
+    "name": "nacli",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 933,
+    "name": "naclstack",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 934,
+    "name": "garganacl",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 935,
+    "name": "charcadet",
+    "types": [
+      "Fogo"
+    ]
+  },
+  {
+    "id": 936,
+    "name": "armarouge",
+    "types": [
+      "Fogo",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 937,
+    "name": "ceruledge",
+    "types": [
+      "Fogo",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 938,
+    "name": "tadbulb",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 939,
+    "name": "bellibolt",
+    "types": [
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 940,
+    "name": "wattrel",
+    "types": [
+      "Elétrico",
+      "Voador"
+    ]
+  },
+  {
+    "id": 941,
+    "name": "kilowattrel",
+    "types": [
+      "Elétrico",
+      "Voador"
+    ]
+  },
+  {
+    "id": 942,
+    "name": "maschiff",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 943,
+    "name": "mabosstiff",
+    "types": [
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 944,
+    "name": "shroodle",
+    "types": [
+      "Venenoso",
+      "Normal"
+    ]
+  },
+  {
+    "id": 945,
+    "name": "grafaiai",
+    "types": [
+      "Venenoso",
+      "Normal"
+    ]
+  },
+  {
+    "id": 946,
+    "name": "bramblin",
+    "types": [
+      "Planta",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 947,
+    "name": "brambleghast",
+    "types": [
+      "Planta",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 948,
+    "name": "toedscool",
+    "types": [
+      "Terra",
+      "Planta"
+    ]
+  },
+  {
+    "id": 949,
+    "name": "toedscruel",
+    "types": [
+      "Terra",
+      "Planta"
+    ]
+  },
+  {
+    "id": 950,
+    "name": "klawf",
+    "types": [
+      "Pedra"
+    ]
+  },
+  {
+    "id": 951,
+    "name": "capsakid",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 952,
+    "name": "scovillain",
+    "types": [
+      "Planta",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 953,
+    "name": "rellor",
+    "types": [
+      "Inseto"
+    ]
+  },
+  {
+    "id": 954,
+    "name": "rabsca",
+    "types": [
+      "Inseto",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 955,
+    "name": "flittle",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 956,
+    "name": "espathra",
+    "types": [
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 957,
+    "name": "tinkatink",
+    "types": [
+      "Fada",
+      "Aço"
+    ]
+  },
+  {
+    "id": 958,
+    "name": "tinkatuff",
+    "types": [
+      "Fada",
+      "Aço"
+    ]
+  },
+  {
+    "id": 959,
+    "name": "tinkaton",
+    "types": [
+      "Fada",
+      "Aço"
+    ]
+  },
+  {
+    "id": 960,
+    "name": "wiglett",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 961,
+    "name": "wugtrio",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 962,
+    "name": "bombirdier",
+    "types": [
+      "Voador",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 963,
+    "name": "finizen",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 964,
+    "name": "palafin",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 965,
+    "name": "varoom",
+    "types": [
+      "Aço",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 966,
+    "name": "revavroom",
+    "types": [
+      "Aço",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 967,
+    "name": "cyclizar",
+    "types": [
+      "Dragão",
+      "Normal"
+    ]
+  },
+  {
+    "id": 968,
+    "name": "orthworm",
+    "types": [
+      "Aço"
+    ]
+  },
+  {
+    "id": 969,
+    "name": "glimmet",
+    "types": [
+      "Pedra",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 970,
+    "name": "glimmora",
+    "types": [
+      "Pedra",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 971,
+    "name": "greavard",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 972,
+    "name": "houndstone",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 973,
+    "name": "flamigo",
+    "types": [
+      "Voador",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 974,
+    "name": "cetoddle",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 975,
+    "name": "cetitan",
+    "types": [
+      "Gelo"
+    ]
+  },
+  {
+    "id": 976,
+    "name": "veluza",
+    "types": [
+      "Água",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 977,
+    "name": "dondozo",
+    "types": [
+      "Água"
+    ]
+  },
+  {
+    "id": 978,
+    "name": "tatsugiri",
+    "types": [
+      "Dragão",
+      "Água"
+    ]
+  },
+  {
+    "id": 979,
+    "name": "annihilape",
+    "types": [
+      "Lutador",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 980,
+    "name": "clodsire",
+    "types": [
+      "Venenoso",
+      "Terra"
+    ]
+  },
+  {
+    "id": 981,
+    "name": "farigiraf",
+    "types": [
+      "Normal",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 982,
+    "name": "dudunsparce",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 983,
+    "name": "kingambit",
+    "types": [
+      "Sombrio",
+      "Aço"
+    ]
+  },
+  {
+    "id": 984,
+    "name": "great-tusk",
+    "types": [
+      "Terra",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 985,
+    "name": "scream-tail",
+    "types": [
+      "Fada",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 986,
+    "name": "brute-bonnet",
+    "types": [
+      "Planta",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 987,
+    "name": "flutter-mane",
+    "types": [
+      "Fantasma",
+      "Fada"
+    ]
+  },
+  {
+    "id": 988,
+    "name": "slither-wing",
+    "types": [
+      "Inseto",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 989,
+    "name": "sandy-shocks",
+    "types": [
+      "Elétrico",
+      "Terra"
+    ]
+  },
+  {
+    "id": 990,
+    "name": "iron-treads",
+    "types": [
+      "Terra",
+      "Aço"
+    ]
+  },
+  {
+    "id": 991,
+    "name": "iron-bundle",
+    "types": [
+      "Gelo",
+      "Água"
+    ]
+  },
+  {
+    "id": 992,
+    "name": "iron-hands",
+    "types": [
+      "Lutador",
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 993,
+    "name": "iron-jugulis",
+    "types": [
+      "Sombrio",
+      "Voador"
+    ]
+  },
+  {
+    "id": 994,
+    "name": "iron-moth",
+    "types": [
+      "Fogo",
+      "Venenoso"
+    ]
+  },
+  {
+    "id": 995,
+    "name": "iron-thorns",
+    "types": [
+      "Pedra",
+      "Elétrico"
+    ]
+  },
+  {
+    "id": 996,
+    "name": "frigibax",
+    "types": [
+      "Dragão",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 997,
+    "name": "arctibax",
+    "types": [
+      "Dragão",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 998,
+    "name": "baxcalibur",
+    "types": [
+      "Dragão",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 999,
+    "name": "gimmighoul",
+    "types": [
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 1000,
+    "name": "gholdengo",
+    "types": [
+      "Aço",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 1001,
+    "name": "wo-chien",
+    "types": [
+      "Sombrio",
+      "Planta"
+    ]
+  },
+  {
+    "id": 1002,
+    "name": "chien-pao",
+    "types": [
+      "Sombrio",
+      "Gelo"
+    ]
+  },
+  {
+    "id": 1003,
+    "name": "ting-lu",
+    "types": [
+      "Sombrio",
+      "Terra"
+    ]
+  },
+  {
+    "id": 1004,
+    "name": "chi-yu",
+    "types": [
+      "Sombrio",
+      "Fogo"
+    ]
+  },
+  {
+    "id": 1005,
+    "name": "roaring-moon",
+    "types": [
+      "Dragão",
+      "Sombrio"
+    ]
+  },
+  {
+    "id": 1006,
+    "name": "iron-valiant",
+    "types": [
+      "Fada",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 1007,
+    "name": "koraidon",
+    "types": [
+      "Lutador",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 1008,
+    "name": "miraidon",
+    "types": [
+      "Elétrico",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 1009,
+    "name": "walking-wake",
+    "types": [
+      "Água",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 1010,
+    "name": "iron-leaves",
+    "types": [
+      "Planta",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 1011,
+    "name": "dipplin",
+    "types": [
+      "Planta",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 1012,
+    "name": "poltchageist",
+    "types": [
+      "Planta",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 1013,
+    "name": "sinistcha",
+    "types": [
+      "Planta",
+      "Fantasma"
+    ]
+  },
+  {
+    "id": 1014,
+    "name": "okidogi",
+    "types": [
+      "Venenoso",
+      "Lutador"
+    ]
+  },
+  {
+    "id": 1015,
+    "name": "munkidori",
+    "types": [
+      "Venenoso",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 1016,
+    "name": "fezandipiti",
+    "types": [
+      "Venenoso",
+      "Fada"
+    ]
+  },
+  {
+    "id": 1017,
+    "name": "ogerpon",
+    "types": [
+      "Planta"
+    ]
+  },
+  {
+    "id": 1018,
+    "name": "archaludon",
+    "types": [
+      "Aço",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 1019,
+    "name": "hydrapple",
+    "types": [
+      "Planta",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 1020,
+    "name": "gouging-fire",
+    "types": [
+      "Fogo",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 1021,
+    "name": "raging-bolt",
+    "types": [
+      "Elétrico",
+      "Dragão"
+    ]
+  },
+  {
+    "id": 1022,
+    "name": "iron-boulder",
+    "types": [
+      "Pedra",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 1023,
+    "name": "iron-crown",
+    "types": [
+      "Aço",
+      "Psíquico"
+    ]
+  },
+  {
+    "id": 1024,
+    "name": "terapagos",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "id": 1025,
+    "name": "pecharunt",
+    "types": [
+      "Venenoso",
+      "Fantasma"
+    ]
+  }
+]

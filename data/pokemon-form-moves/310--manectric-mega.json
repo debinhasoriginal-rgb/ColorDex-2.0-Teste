@@ -1,0 +1,1316 @@
+{
+  "pokemon": "manectric-mega",
+  "pokeapi_id": 10055,
+  "versions": {
+    "x-y": [
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 9
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "roar",
+        "method": "level-up",
+        "level": 42
+      },
+      {
+        "name": "roar",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "strength",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "thunder-wave",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "level-up",
+        "level": 66
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 17
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "light-screen",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "spark",
+        "method": "level-up",
+        "level": 20
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "charge",
+        "method": "level-up",
+        "level": 54
+      },
+      {
+        "name": "overheat",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "odor-sleuth",
+        "method": "level-up",
+        "level": 25
+      },
+      {
+        "name": "howl",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "howl",
+        "method": "level-up",
+        "level": 12
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-fang",
+        "method": "level-up",
+        "level": 37
+      },
+      {
+        "name": "fire-fang",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "discharge",
+        "method": "level-up",
+        "level": 49
+      },
+      {
+        "name": "charge-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "volt-switch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "wild-charge",
+        "method": "level-up",
+        "level": 61
+      },
+      {
+        "name": "wild-charge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snarl",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "electric-terrain",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "electric-terrain",
+        "method": "level-up",
+        "level": 70
+      }
+    ],
+    "omega-ruby-alpha-sapphire": [
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "roar",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "roar",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "strength",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "level-up",
+        "level": 54
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "light-screen",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "spark",
+        "method": "level-up",
+        "level": 13
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "iron-tail",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "uproar",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "charge",
+        "method": "level-up",
+        "level": 48
+      },
+      {
+        "name": "secret-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "overheat",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "odor-sleuth",
+        "method": "level-up",
+        "level": 16
+      },
+      {
+        "name": "signal-beam",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "howl",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "howl",
+        "method": "level-up",
+        "level": 7
+      },
+      {
+        "name": "shock-wave",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "magnet-rise",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-fang",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "fire-fang",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "discharge",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "charge-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "volt-switch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "wild-charge",
+        "method": "level-up",
+        "level": 42
+      },
+      {
+        "name": "wild-charge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snarl",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "electric-terrain",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "electric-terrain",
+        "method": "level-up",
+        "level": 60
+      }
+    ],
+    "sun-moon": [
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "roar",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "roar",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "level-up",
+        "level": 54
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "light-screen",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "spark",
+        "method": "level-up",
+        "level": 13
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "charge",
+        "method": "level-up",
+        "level": 48
+      },
+      {
+        "name": "overheat",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "odor-sleuth",
+        "method": "level-up",
+        "level": 16
+      },
+      {
+        "name": "howl",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "howl",
+        "method": "level-up",
+        "level": 7
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-fang",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "fire-fang",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "discharge",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "charge-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "volt-switch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "wild-charge",
+        "method": "level-up",
+        "level": 42
+      },
+      {
+        "name": "wild-charge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snarl",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "electric-terrain",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "electric-terrain",
+        "method": "level-up",
+        "level": 60
+      }
+    ],
+    "ultra-sun-ultra-moon": [
+      {
+        "name": "tackle",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 4
+      },
+      {
+        "name": "bite",
+        "method": "level-up",
+        "level": 24
+      },
+      {
+        "name": "roar",
+        "method": "level-up",
+        "level": 36
+      },
+      {
+        "name": "roar",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunderbolt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "thunder-wave",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "level-up",
+        "level": 54
+      },
+      {
+        "name": "thunder",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "light-screen",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "spark",
+        "method": "level-up",
+        "level": 13
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "iron-tail",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "uproar",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "charge",
+        "method": "level-up",
+        "level": 48
+      },
+      {
+        "name": "overheat",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "odor-sleuth",
+        "method": "level-up",
+        "level": 16
+      },
+      {
+        "name": "signal-beam",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "howl",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "howl",
+        "method": "level-up",
+        "level": 7
+      },
+      {
+        "name": "shock-wave",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "magnet-rise",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "thunder-fang",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "fire-fang",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "discharge",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "charge-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "volt-switch",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "wild-charge",
+        "method": "level-up",
+        "level": 42
+      },
+      {
+        "name": "wild-charge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snarl",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "electric-terrain",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "electric-terrain",
+        "method": "level-up",
+        "level": 60
+      },
+      {
+        "name": "laser-focus",
+        "method": "tutor",
+        "level": 0
+      }
+    ],
+    "champions": [
+      {
+        "name": "body-slam",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "bite",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "roar",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thunderbolt",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thunder-wave",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thunder",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "agility",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "light-screen",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "curse",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "scary-face",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "iron-tail",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "crunch",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "uproar",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "charge",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "hyper-voice",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "overheat",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "howl",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "switcheroo",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thunder-fang",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "ice-fang",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "fire-fang",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "discharge",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "charge-beam",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "electro-ball",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "volt-switch",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "wild-charge",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "snarl",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "eerie-impulse",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "electric-terrain",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "psychic-fangs",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rising-voltage",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "pounce",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "trailblaze",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "supercell-slam",
+        "method": "train",
+        "level": 0
+      }
+    ]
+  }
+}

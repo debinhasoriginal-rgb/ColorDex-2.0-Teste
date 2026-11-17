@@ -1,0 +1,85 @@
+
+/* ColorDex 1.0 — Mobile */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+img, video, canvas {
+  max-width: 100%;
+}
+button, a, select, input {
+  touch-action: manipulation;
+}
+@media (max-width: 600px) {
+  button, select, input[type="button"],
+  input[type="submit"] {
+    min-height: 40px;
+  }
+  .topbar {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .topbar .logo {
+    font-size: clamp(16px, 5vw, 23px);
+  }
+  .cd-backup-launcher {
+    bottom: calc(14px + env(safe-area-inset-bottom)) !important;
+    right: 12px !important;
+  }
+}
+.cd-backup-launcher {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 9998;
+  padding: 11px 14px;
+  border-radius: 14px;
+  border: 1px solid #e65367;
+  background: #351820;
+  color: #fff;
+  font: 700 12px Arial,sans-serif;
+  box-shadow: 0 5px 20px #0009;
+  cursor: pointer;
+}
+.cd-backup-dialog {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #000b;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+}
+.cd-backup-panel {
+  width: min(100%, 420px);
+  max-height: 85dvh;
+  overflow-y: auto;
+  background: #171a22;
+  color: #fff;
+  border: 1px solid #b84455;
+  border-radius: 18px;
+  padding: 22px;
+  font: 14px/1.5 Arial,sans-serif;
+}
+.cd-backup-panel h2 { margin-top: 0; }
+.cd-backup-panel p { color: #c5c5cf; }
+.cd-backup-actions {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+}
+.cd-backup-actions button {
+  padding: 12px;
+  border-radius: 10px;
+  background: #3d2029;
+  color: white;
+  border: 1px solid #ad4c5b;
+  cursor: pointer;
+  font: inherit;
+}
+.cd-backup-actions button:first-child {
+  background: #a42c40;
+}

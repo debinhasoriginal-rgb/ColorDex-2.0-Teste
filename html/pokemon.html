@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11141e">
+
+  <title>ColorDex | Ficha Pokémon</title>
+
+  <link rel="stylesheet" href="../css/pokemon.css">
+  <script src="../js/pokemon.js" defer></script>
+  <script src="../js/pokemon-variants.js" defer></script>
+<link rel="stylesheet" href="../css/mobile-v10.css">
+  <link rel="stylesheet" href="../css/fonts-local.css" data-colordex-fonts="offline">
+</head>
+
+<body>
+  <div class="pokemon-page">
+
+    <!-- CABEÇALHO -->
+    <header class="pokemon-hero" id="pokemonHero">
+
+      <div class="hero-top">
+        <a href="pokedex.html"
+           class="back-button"
+           aria-label="Voltar à Pokédex">
+          &#8592;
+        </a>
+
+        <span class="hero-brand">
+          COLORDEX / 0.6
+        </span>
+
+        <span class="hero-symbol"
+              aria-hidden="true">◈</span>
+      </div>
+
+      <div class="pokemon-identity">
+        <span class="pokemon-number"
+              id="pokemonNumber">
+          #001
+        </span>
+
+        <h1 id="pokemonName">Bulbasaur</h1>
+      </div>
+
+      <!-- SPRITE E NAVEGAÇÃO -->
+      <div class="pokemon-showcase">
+
+        <button
+          type="button"
+          id="previousPokemon"
+          class="navigation-arrow"
+          aria-label="Pokémon anterior">
+          &#10094;
+        </button>
+
+        <div class="sprite-container">
+          <img
+            id="pokemonSprite"
+            src="../assets/pokemon/normal/001.png"
+            alt="Bulbasaur">
+        </div>
+
+        <button
+          type="button"
+          id="nextPokemon"
+          class="navigation-arrow"
+          aria-label="Próximo Pokémon">
+          &#10095;
+        </button>
+
+      </div>
+
+      <!-- TIPOS -->
+      <div class="pokemon-types"
+           id="pokemonTypes">
+        <span class="type-badge">Planta</span>
+        <span class="type-badge">Venenoso</span>
+      </div>
+
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="pokemon-content">
+
+      <!-- NAVEGAÇÃO POR ABAS -->
+      <nav class="pokemon-tabs"
+           role="tablist"
+           aria-label="Informações do Pokémon">
+
+        <button
+          type="button"
+          id="tab-about"
+          class="tab-button active"
+          role="tab"
+          aria-selected="true"
+          aria-controls="about"
+          data-tab="about">
+          Sobre
+        </button>
+
+        <button
+          type="button"
+          id="tab-stats"
+          class="tab-button"
+          role="tab"
+          aria-selected="false"
+          aria-controls="stats"
+          data-tab="stats">
+          Atributos
+        </button>
+
+        <button
+          type="button"
+          id="tab-evolution"
+          class="tab-button"
+          role="tab"
+          aria-selected="false"
+          aria-controls="evolution"
+          data-tab="evolution">
+          Evoluções
+        </button>
+
+        <button
+          type="button"
+          id="tab-moves"
+          class="tab-button"
+          role="tab"
+          aria-selected="false"
+          aria-controls="moves"
+          data-tab="moves">
+          Movimentos
+        </button>
+
+      </nav>
+
+      <!-- ABA: SOBRE -->
+      <section
+        id="about"
+        class="tab-panel active"
+        role="tabpanel"
+        aria-labelledby="tab-about">
+
+        <h2>Informações gerais</h2>
+
+        <div class="info-grid">
+          <div class="info-card">
+            <span>ALTURA</span>
+            <strong id="pokemonHeight">—</strong>
+          </div>
+
+          <div class="info-card">
+            <span>PESO</span>
+            <strong id="pokemonWeight">—</strong>
+          </div>
+        </div>
+
+        <h3>Habilidades</h3>
+        <div
+          id="pokemonAbilities"
+          class="pokemon-abilities">
+          Carregando...
+        </div>
+
+        <h3>Descrição da Pokédex</h3>
+        <p
+          id="pokemonDescription"
+          class="pokemon-description">
+          Carregando descrição...
+        </p>
+
+      </section>
+
+      <!-- ABA: ATRIBUTOS -->
+      <section
+        id="stats"
+        class="tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-stats"
+        hidden>
+
+        <h2>Atributos base</h2>
+
+        <div
+          id="pokemonStats"
+          class="pokemon-stats">
+        </div>
+
+        <div class="stats-total">
+          Total:
+          <strong id="statsTotal">—</strong>
+        </div>
+
+      </section>
+
+      <!-- ABA: EVOLUÇÕES -->
+      <section
+        id="evolution"
+        class="tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-evolution"
+        hidden>
+
+        <h2>Linha evolutiva</h2>
+
+        <div
+          id="pokemonEvolution"
+          class="pokemon-evolution">
+        </div>
+
+      </section>
+
+      <!-- ABA: MOVIMENTOS -->
+
+      <section
+        id="moves"
+        class="tab-panel"
+        role="tabpanel"
+        aria-labelledby="tab-moves"
+        hidden>
+
+        <h2>Movimentos</h2>
+
+        <p class="moves-description">
+          Consulte os movimentos que este Pokémon pode
+          aprender em diferentes versões dos jogos.
+        </p>
+
+        <div class="moves-controls">
+
+          <label class="moves-field">
+            <span>Versão do jogo</span>
+            <select id="moveVersion">
+              <option value="">Carregando versões...</option>
+            </select>
+          </label>
+
+          <label class="moves-field">
+            <span>Método de aprendizagem</span>
+            <select id="moveMethod">
+              <option value="all">Todos os métodos</option>
+              <option value="level-up">Por nível</option>
+              <option value="machine">MT / MO</option>
+              <option value="egg">Por reprodução</option>
+              <option value="tutor">Por tutor</option>
+            </select>
+          </label>
+
+          <label class="moves-field">
+            <span>Pesquisar movimento</span>
+            <input
+              id="moveSearch"
+              type="search"
+              placeholder="Nome do movimento..."
+              autocomplete="off"
+            >
+          </label>
+
+        </div>
+
+        <p id="movesCount" class="moves-count"></p>
+
+        <div
+          id="pokemonMoves"
+          class="pokemon-moves">
+        </div>
+
+      </section>
+
+
+      <!-- FORMAS E VARIANTES - COLORDEX 0.6 -->
+      <section class="pokemon-variants" aria-labelledby="variantsTitle">
+
+        <div class="variants-heading">
+          <h2 id="variantsTitle">Formas e Variantes</h2>
+          <span class="variants-version">V0.6</span>
+        </div>
+
+        <label class="variant-field" for="pokemonFormSelect">
+          Forma do Pokémon
+        </label>
+
+        <select id="pokemonFormSelect" class="variant-select">
+          <option value="normal">Forma normal</option>
+        </select>
+
+        <label class="shiny-option">
+          <input type="checkbox" id="pokemonShinyToggle">
+          <span>✨ Versão Shiny</span>
+        </label>
+
+        <p id="variantStatus" class="variant-status">
+          Escolha uma forma para começar a pintura.
+        </p>
+
+        <!-- PROGRESSO DA VARIANTE -->
+        <div class="variant-progress">
+
+          <div class="variant-progress-heading">
+            <span>Progresso da pintura</span>
+            <strong id="variantProgressValue">0%</strong>
+          </div>
+
+          <div
+            id="variantProgressTrack"
+            class="variant-progress-track"
+            role="progressbar"
+            aria-label="Progresso da pintura selecionada"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+          >
+            <div
+              id="variantProgressFill"
+              class="variant-progress-fill">
+            </div>
+          </div>
+
+          <p id="variantProgressMessage" class="variant-progress-message">
+            Pintura ainda não iniciada.
+          </p>
+
+        </div>
+
+      </section>
+
+      <!-- BOTÃO DE PINTURA -->
+      <a
+        id="paintButton"
+        href="painting.html?id=1"
+        class="paint-button">
+        🎨 COMEÇAR A PINTURA
+      </a>
+
+    </main>
+
+    <footer class="pokemon-footer">
+      COLORDEX SYSTEM • NATIONAL DEX
+    </footer>
+
+  </div>
+<script src="../js/backup-v10.js"></script>
+</body>
+</html>

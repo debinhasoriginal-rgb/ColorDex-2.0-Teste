@@ -1,0 +1,275 @@
+
+/* COLORDEX 2.0 — TEAM BUILDER FUTURISTA */
+
+body.cd-team-v20 {
+  background: #0d111a;
+}
+
+body.cd-team-v20 .builder-brand {
+  color: #ff6875;
+  letter-spacing: .12em;
+}
+
+body.cd-team-v20 .team-card {
+  position: relative;
+  overflow: visible;
+  border: 1px solid #394456;
+  border-radius: 18px;
+  background: linear-gradient(145deg, #1d2633, #121923);
+  box-shadow: 0 12px 32px #0004;
+}
+
+body.cd-team-v20 .team-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+body.cd-team-v20 .team-name {
+  color: #fff;
+  font-weight: 800;
+  overflow-wrap: anywhere;
+}
+
+body.cd-team-v20 .team-slots {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 12px !important;
+}
+
+body.cd-team-v20 .team-slot,
+body.cd-team-v20 .team-slot.filled {
+  position: relative;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 7px !important;
+  min-width: 0 !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 165px !important;
+  aspect-ratio: auto !important;
+  padding: 14px 8px !important;
+  border: 1px dashed #47556c !important;
+  border-radius: 14px !important;
+  background: #18212e !important;
+  overflow: hidden !important;
+  cursor: pointer;
+  transition: border-color .2s, background .2s;
+}
+
+body.cd-team-v20 .team-slot.filled {
+  border-style: solid !important;
+  border-color: #394b63 !important;
+  background: linear-gradient(150deg, #273448, #17202d) !important;
+}
+
+body.cd-team-v20 .team-slot:focus-visible {
+  outline: 2px solid #ff6474;
+  outline-offset: 3px;
+}
+
+body.cd-team-v20 .team-slot.filled:hover {
+  border-color: #ff6474 !important;
+}
+
+body.cd-team-v20 .team-slot .slot-sprite {
+  display: block !important;
+  width: 92px !important;
+  height: 88px !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
+  image-rendering: pixelated;
+}
+
+body.cd-team-v20 .slot-name {
+  display: block !important;
+  color: #fff;
+  font-weight: 800;
+  font-size: 14px !important;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+body.cd-team-v20 .slot-form {
+  display: block !important;
+  color: #aab9cb;
+  font-size: 11px !important;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+body.cd-team-v20 .slot-plus {
+  color: #ff6371;
+  font-size: 34px;
+}
+
+body.cd-team-v20 .team-slot .slot-mechanics,
+body.cd-team-v20 .team-slot .slot-remove {
+  display: none !important;
+}
+
+body.cd-team-v20 .cd-v20-slot-number {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  color: #94a5bc;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+body.cd-team-v20 .cd-v20-slot-edit {
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  color: #ff7180;
+  font-size: 14px;
+}
+
+body.cd-team-v20 .cd-analysis {
+  margin-top: 18px;
+}
+
+/* Janela central de edição */
+.cd-v20-overlay[hidden] {
+  display: none !important;
+}
+
+.cd-v20-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 4000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  background: #050910d9;
+  backdrop-filter: blur(7px);
+}
+
+.cd-v20-dialog {
+  width: min(100%, 460px);
+  max-height: min(88dvh, 760px);
+  overflow-y: auto;
+  padding: 20px;
+  border: 1px solid #57657a;
+  border-radius: 20px;
+  background: linear-gradient(155deg, #253246, #111824);
+  box-shadow: 0 24px 70px #000a;
+  color: #fff;
+}
+
+.cd-v20-dialog-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.cd-v20-dialog-head h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.cd-v20-close {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #58667a;
+  border-radius: 10px;
+  background: #303b4d;
+  color: #fff;
+  font-size: 24px;
+}
+
+.cd-v20-pokemon {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 18px 0;
+  padding: 14px;
+  border-radius: 14px;
+  background: #192433;
+}
+
+.cd-v20-pokemon img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.cd-v20-pokemon strong {
+  display: block;
+  font-size: 20px;
+}
+
+.cd-v20-pokemon small {
+  display: block;
+  margin-top: 6px;
+  color: #aebdd0;
+}
+
+.cd-v20-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.cd-v20-actions button {
+  min-height: 64px;
+  padding: 12px 8px;
+  border: 1px solid #48576e;
+  border-radius: 12px;
+  background: #263347;
+  color: #fff;
+  font-weight: 700;
+}
+
+.cd-v20-actions button:disabled {
+  opacity: .45;
+}
+
+.cd-v20-actions .cd-v20-danger {
+  border-color: #8c4650;
+  background: #42242c;
+}
+
+@media (max-width: 700px) {
+  body.cd-team-v20 .team-card:not(.cd-mobile-open) > :not(.cd-mobile-summary) {
+    display: revert !important;
+  }
+
+  body.cd-team-v20 .cd-mobile-summary,
+  body.cd-team-v20 .cd-mobile-back {
+    display: none !important;
+  }
+
+  body.cd-team-v20 .team-slots {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 9px !important;
+  }
+
+  body.cd-team-v20 .team-slot,
+  body.cd-team-v20 .team-slot.filled {
+    min-height: 146px !important;
+    padding: 12px 6px !important;
+  }
+
+  body.cd-team-v20 .team-slot .slot-sprite {
+    width: 78px !important;
+    height: 75px !important;
+  }
+
+  .cd-v20-overlay {
+    padding: 10px;
+  }
+
+  .cd-v20-dialog {
+    max-height: 92dvh;
+    padding: 16px;
+  }
+}

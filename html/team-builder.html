@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11141e">
+
+  <title>ColorDex | Team Builder</title>
+
+  <link rel="stylesheet" href="../css/team-builder.css?v=20movesScroll3">
+  <link rel="stylesheet" href="../css/team-builder-analysis.css?v20report2">
+  <script src="../js/painting-identity.js?v101fix2" defer></script>
+  <script src="../js/team-builder.js?v101fix2" defer></script>
+  <script src="../js/team-builder-picker.js?v101fix2" defer></script>
+  <script src="../js/team-builder-mega.js?v101fix2" defer></script>
+  <script src="../js/team-builder-moves.js?v101fix2" defer></script>
+  <script src="../js/team-builder-battle.js?v101fix2" defer></script>
+  <script src="../js/team-builder-analysis.js?v20report2" defer></script>
+<link rel="stylesheet" href="../css/mobile-v10.css?v101fix2">
+<link rel="stylesheet" href="../css/team-builder-mobile-v103.css">
+<link rel="stylesheet" href="../css/team-builder-mobile-v104.css">
+    <link rel="stylesheet" href="../css/team-builder-hall-v22.css?v2">
+  <link rel="stylesheet" href="../css/team-builder-grid-v23.css?v=1">
+</head>
+
+<body>
+  <div class="builder-page">
+
+    <header class="builder-header">
+      <div class="header-top">
+        <a href="pokedex.html" class="back-button"
+           aria-label="Voltar à Pokédex">←</a>
+
+        <span class="builder-brand">COLORDEX / 2.0</span>
+        <span class="builder-symbol">◈</span>
+      </div>
+
+      <div class="header-content">
+        <span class="header-label">TEAM MANAGEMENT SYSTEM</span>
+        <h1>Team Builder</h1>
+        <p>Monte, organize e personalize seus times Pokémon.</p>
+      </div>
+    </header>
+
+    <main class="builder-content">
+
+      <section class="teams-toolbar">
+        <div>
+          <h2>Meus times</h2>
+          <p id="teamCount">0 times criados</p>
+        </div>
+
+        <button id="createTeamButton" class="primary-button">
+          + NOVO TIME
+        </button>
+      </section>
+
+      <section id="emptyTeams" class="empty-teams">
+        <div class="empty-icon">◈</div>
+        <h3>Sua jornada começa aqui</h3>
+        <p>Crie seu primeiro time Pokémon para começar.</p>
+      </section>
+
+      <section id="teamsList" class="teams-list"
+               aria-label="Lista de times">
+      </section>
+
+    </main>
+
+    <!-- SELETOR DE POKÉMON - V0.7.2 -->
+    <div id="pokemonPicker" class="picker-overlay" hidden>
+      <section
+        class="picker-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="pickerTitle"
+      >
+        <div class="picker-header">
+          <div>
+            <h2 id="pickerTitle">Escolher Pokémon</h2>
+            <p>Somente pinturas concluídas estão disponíveis.</p>
+          </div>
+
+          <button
+            id="closePokemonPicker"
+            type="button"
+            class="picker-close"
+            aria-label="Fechar seleção"
+          >×</button>
+        </div>
+
+        <input
+          id="pokemonPickerSearch"
+          class="picker-search"
+          type="search"
+          placeholder="Pesquisar por nome ou número..."
+          autocomplete="off"
+        >
+
+        <p id="pokemonPickerCount" class="picker-count"></p>
+
+        <div id="pokemonPickerList" class="picker-list"></div>
+      </section>
+    </div>
+
+    <!-- COLORDEX 0.7.3A - EDITOR DE MOVESETS -->
+    <div id="movesEditor" class="picker-overlay" hidden>
+      <section class="picker-dialog moves-dialog"
+               role="dialog"
+               aria-modal="true"
+               aria-labelledby="movesEditorTitle">
+
+        <div class="picker-header">
+          <div>
+            <h2 id="movesEditorTitle">Editar Moveset</h2>
+            <p id="movesPokemonName"></p>
+            <p id="movesValidationNotice" class="moves-validation-notice"></p>
+          </div>
+
+          <button id="closeMovesEditor"
+                  class="picker-close"
+                  type="button"
+                  aria-label="Fechar editor">×</button>
+        </div>
+
+        <label class="moves-label" for="movesGameVersion">
+          Versão do jogo
+        </label>
+
+        <select id="movesGameVersion" class="moves-select"></select>
+
+        <h3>Movimentos selecionados</h3>
+        <div id="selectedMoves" class="selected-moves"></div>
+
+        <label class="moves-label" for="movesSearch">
+          Pesquisar movimentos
+        </label>
+
+        <input id="movesSearch"
+               class="picker-search"
+               type="search"
+               placeholder="Nome, tipo ou método...">
+
+        <p id="movesCount" class="picker-count"></p>
+        <div id="availableMoves" class="available-moves"></div>
+
+        <button id="saveMovesButton"
+                class="primary-button moves-save"
+                type="button">
+          SALVAR MOVESET
+        </button>
+
+      </section>
+    </div>
+
+    <footer class="builder-footer">
+      COLORDEX SYSTEM • TEAM BUILDER V2.0
+    </footer>
+
+  </div>
+<script src="../js/backup-v10.js?v101fix2"></script>
+
+    <script src="../js/team-builder-hall-v22.js?v2"></script>
+  <script src="../js/team-builder-grid-v20.js?v=3x2fix1"></script>
+<script src="../js/team-builder-report-link-v20.js?v=2"></script>
+</body>
+</html>

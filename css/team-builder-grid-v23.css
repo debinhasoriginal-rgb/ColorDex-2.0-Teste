@@ -1,0 +1,57 @@
+
+/* COLORDEX 2.0 — TEAM BUILDER MOBILE 3x2 */
+@media (max-width: 850px) {
+
+  body.cd-hall22 .team-card .team-slots,
+  body.cd-hall22 .team-card.cd-mobile-open .team-slots {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    grid-auto-flow: row !important;
+    gap: 8px !important;
+    width: 100% !important;
+    align-items: stretch !important;
+  }
+
+  body.cd-hall22 .team-card .team-slot,
+  body.cd-hall22 .team-card .team-slot.filled,
+  body.cd-hall22 .team-card.cd-mobile-open .team-slot,
+  body.cd-hall22 .team-card.cd-mobile-open .team-slot.filled {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: 4 / 5 !important;
+    margin: 0 !important;
+    padding: 6px 3px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  body.cd-hall22 .team-slot img.slot-sprite,
+  body.cd-hall22 .team-card.cd-mobile-open .team-slot img.slot-sprite {
+    max-width: 78% !important;
+    max-height: 65% !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain !important;
+    image-rendering: pixelated;
+  }
+
+  body.cd-hall22 .team-slot .slot-plus {
+    font-size: 27px !important;
+    line-height: 1 !important;
+  }
+
+  body.cd-hall22 .team-slot .slot-name {
+    font-size: 10px !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  body.cd-hall22 .team-slot .slot-form {
+    font-size: 9px !important;
+  }
+}

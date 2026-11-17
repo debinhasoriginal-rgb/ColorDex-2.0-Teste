@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101117">
+  <title>ColorDex | Pokédex Nacional</title>
+  <link rel="stylesheet" href="../css/pokedex.css">
+ 
+<link rel="stylesheet" href="../css/mobile-v10.css">
+  <link rel="stylesheet" href="../css/fonts-local.css" data-colordex-fonts="offline">
+</head>
+<body>
+
+  <div class="app">
+
+    <header class="topbar">
+<a href="badges.html" class="cd-badges-shortcut"
+   aria-label="Abrir estojo de insígnias">
+  🏅 <span>INSÍGNIAS</span>
+</a>
+      <a href="../index.html"
+         class="back-btn"
+         aria-label="Voltar">←</a>
+
+      <div class="logo">
+        COLOR<span>DEX</span>
+      </div>
+
+
+      <a href="team-builder.html"
+         class="team-builder-shortcut"
+         aria-label="Acessar meus times">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+        </svg>
+        <span>MEUS TIMES</span>
+      </a>
+
+    </header>
+
+    <main>
+      <section class="heading">
+        <h1>Pokédex Nacional</h1>
+        <p>9 GERAÇÕES • 001–1025</p>
+      </section>
+      <div class="search-box">
+        <span class="search-icon">⌕</span>
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Pokémon"
+          aria-label="Pesquisar Pokémon"
+          autocomplete="off">
+      </div>
+
+      <div class="region-filter">
+        <label for="regionSelect">REGIÃO</label>
+
+        <select id="regionSelect" aria-label="Filtrar por região">
+          <option value="all">Todas as regiões</option>
+          <option value="kanto">Kanto — 001 a 151</option>
+          <option value="johto">Johto — 152 a 251</option>
+          <option value="hoenn">Hoenn — 252 a 386</option>
+          <option value="sinnoh">Sinnoh — 387 a 493</option>
+          <option value="unova">Unova — 494 a 649</option>
+          <option value="kalos">Kalos — 650 a 721</option>
+          <option value="alola">Alola — 722 a 809</option>
+          <option value="galar">Galar / Hisui — 810 a 905</option>
+          <option value="paldea">Paldea — 906 a 1025</option>
+        </select>
+      </div>
+
+      <div class="type-filter">
+        <label for="typeSelect">TIPO</label>
+
+        <select id="typeSelect" aria-label="Filtrar por tipo">
+          <option value="all">Todos os tipos</option>
+          <option value="Normal">Normal</option>
+          <option value="Fogo">Fogo</option>
+          <option value="Água">Água</option>
+          <option value="Elétrico">Elétrico</option>
+          <option value="Planta">Planta</option>
+          <option value="Gelo">Gelo</option>
+          <option value="Lutador">Lutador</option>
+          <option value="Venenoso">Venenoso</option>
+          <option value="Terra">Terra</option>
+          <option value="Voador">Voador</option>
+          <option value="Psíquico">Psíquico</option>
+          <option value="Inseto">Inseto</option>
+          <option value="Pedra">Pedra</option>
+          <option value="Fantasma">Fantasma</option>
+          <option value="Dragão">Dragão</option>
+          <option value="Sombrio">Sombrio</option>
+          <option value="Aço">Aço</option>
+          <option value="Fada">Fada</option>
+        </select>
+      </div>
+
+      <div class="filters">
+        <button class="filter active"
+                data-filter="all">
+          Todos
+        </button>
+
+        <button class="filter"
+                data-filter="available">
+          Disponíveis
+        </button>
+
+        <button class="filter"
+                data-filter="completed">
+          Concluídos
+        </button>
+      </div>
+
+      <div class="collection-status">
+        <span id="resultCount">1025 Pokémon</span>
+        <span id="completedCount">0/1025 concluídos</span>
+      </div>
+
+      <section
+        id="pokemonGrid"
+        class="pokemon-grid"
+        aria-label="Pokédex Nacional"
+      </section>
+
+      <p id="emptyMessage"
+         class="empty-message"
+         hidden>
+        Nenhum Pokémon encontrado.
+      </p>
+    </main>
+
+    <footer>
+      COLORDEX SYSTEM • NATIONAL DEX
+    </footer>
+
+  </div>
+
+  <div id="pokemonModal"
+       class="modal hidden"
+       role="dialog"
+       aria-modal="true"
+       aria-labelledby="modalTitle">
+
+    <div class="modal-box">
+      <button id="closeModal"
+              class="close-modal"
+              aria-label="Fechar">×</button>
+
+      <img id="modalSprite"
+           src=""
+           alt=""
+           class="modal-sprite">
+
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+
+      <button id="modalAction"
+              class="action-btn">
+        ENTENDIDO
+      </button>
+    </div>
+  </div>
+
+  <script src="../js/pokedex.js"></script>
+<script src="../js/backup-v10.js"></script>
+</body>
+</html>

@@ -1,0 +1,3446 @@
+{
+  "3": [
+    {
+      "id": "venusaur-gmax",
+      "nome": "Venusaur Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/3--venusaur-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/3--venusaur-gmax.png"
+    },
+    {
+      "id": "venusaur-mega",
+      "nome": "Venusaur Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/3--venusaur-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/3--venusaur-mega.png"
+    }
+  ],
+  "6": [
+    {
+      "id": "charizard-gmax",
+      "nome": "Charizard Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/6--charizard-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/6--charizard-gmax.png"
+    },
+    {
+      "id": "charizard-mega-x",
+      "nome": "Charizard Mega X",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/6--charizard-mega-x.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/6--charizard-mega-x.png"
+    },
+    {
+      "id": "charizard-mega-y",
+      "nome": "Charizard Mega Y",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/6--charizard-mega-y.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/6--charizard-mega-y.png"
+    }
+  ],
+  "9": [
+    {
+      "id": "blastoise-gmax",
+      "nome": "Blastoise Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/9--blastoise-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/9--blastoise-gmax.png"
+    },
+    {
+      "id": "blastoise-mega",
+      "nome": "Blastoise Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/9--blastoise-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/9--blastoise-mega.png"
+    }
+  ],
+  "12": [
+    {
+      "id": "butterfree-gmax",
+      "nome": "Butterfree Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/12--butterfree-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/12--butterfree-gmax.png"
+    }
+  ],
+  "15": [
+    {
+      "id": "beedrill-mega",
+      "nome": "Beedrill Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/15--beedrill-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/15--beedrill-mega.png"
+    }
+  ],
+  "18": [
+    {
+      "id": "pidgeot-mega",
+      "nome": "Pidgeot Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/18--pidgeot-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/18--pidgeot-mega.png"
+    }
+  ],
+  "19": [
+    {
+      "id": "rattata-alola",
+      "nome": "Rattata Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/19--rattata-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/19--rattata-alola.png"
+    }
+  ],
+  "20": [
+    {
+      "id": "raticate-alola",
+      "nome": "Raticate Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/20--raticate-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/20--raticate-alola.png"
+    },
+    {
+      "id": "raticate-totem-alola",
+      "nome": "Raticate Totem Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/20--raticate-totem-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/20--raticate-totem-alola.png"
+    }
+  ],
+  "25": [
+    {
+      "id": "pikachu-gmax",
+      "nome": "Pikachu Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/25--pikachu-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/25--pikachu-gmax.png"
+    },
+    {
+      "id": "pikachu-starter",
+      "nome": "Pikachu Starter",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/25--pikachu-starter.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/25--pikachu-starter.png"
+    }
+  ],
+  "26": [
+    {
+      "id": "raichu-alola",
+      "nome": "Raichu Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/26--raichu-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/26--raichu-alola.png"
+    },
+    {
+      "id": "raichu-mega-x",
+      "nome": "Raichu Mega X",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/26--raichu-mega-x.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/26--raichu-mega-x.png"
+    },
+    {
+      "id": "raichu-mega-y",
+      "nome": "Raichu Mega Y",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/26--raichu-mega-y.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/26--raichu-mega-y.png"
+    }
+  ],
+  "27": [
+    {
+      "id": "sandshrew-alola",
+      "nome": "Sandshrew Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/27--sandshrew-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/27--sandshrew-alola.png"
+    }
+  ],
+  "28": [
+    {
+      "id": "sandslash-alola",
+      "nome": "Sandslash Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/28--sandslash-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/28--sandslash-alola.png"
+    }
+  ],
+  "36": [
+    {
+      "id": "clefable-mega",
+      "nome": "Clefable Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/36--clefable-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/36--clefable-mega.png"
+    }
+  ],
+  "37": [
+    {
+      "id": "vulpix-alola",
+      "nome": "Vulpix Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/37--vulpix-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/37--vulpix-alola.png"
+    }
+  ],
+  "38": [
+    {
+      "id": "ninetales-alola",
+      "nome": "Ninetales Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/38--ninetales-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/38--ninetales-alola.png"
+    }
+  ],
+  "50": [
+    {
+      "id": "diglett-alola",
+      "nome": "Diglett Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/50--diglett-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/50--diglett-alola.png"
+    }
+  ],
+  "51": [
+    {
+      "id": "dugtrio-alola",
+      "nome": "Dugtrio Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/51--dugtrio-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/51--dugtrio-alola.png"
+    }
+  ],
+  "52": [
+    {
+      "id": "meowth-alola",
+      "nome": "Meowth Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/52--meowth-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/52--meowth-alola.png"
+    },
+    {
+      "id": "meowth-galar",
+      "nome": "Meowth Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/52--meowth-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/52--meowth-galar.png"
+    },
+    {
+      "id": "meowth-gmax",
+      "nome": "Meowth Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/52--meowth-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/52--meowth-gmax.png"
+    }
+  ],
+  "53": [
+    {
+      "id": "persian-alola",
+      "nome": "Persian Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/53--persian-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/53--persian-alola.png"
+    }
+  ],
+  "58": [
+    {
+      "id": "growlithe-hisui",
+      "nome": "Growlithe Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/58--growlithe-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/58--growlithe-hisui.png"
+    }
+  ],
+  "59": [
+    {
+      "id": "arcanine-hisui",
+      "nome": "Arcanine Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/59--arcanine-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/59--arcanine-hisui.png"
+    }
+  ],
+  "65": [
+    {
+      "id": "alakazam-mega",
+      "nome": "Alakazam Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/65--alakazam-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/65--alakazam-mega.png"
+    }
+  ],
+  "68": [
+    {
+      "id": "machamp-gmax",
+      "nome": "Machamp Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/68--machamp-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/68--machamp-gmax.png"
+    }
+  ],
+  "71": [
+    {
+      "id": "victreebel-mega",
+      "nome": "Victreebel Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/71--victreebel-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/71--victreebel-mega.png"
+    }
+  ],
+  "74": [
+    {
+      "id": "geodude-alola",
+      "nome": "Geodude Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/74--geodude-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/74--geodude-alola.png"
+    }
+  ],
+  "75": [
+    {
+      "id": "graveler-alola",
+      "nome": "Graveler Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/75--graveler-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/75--graveler-alola.png"
+    }
+  ],
+  "76": [
+    {
+      "id": "golem-alola",
+      "nome": "Golem Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/76--golem-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/76--golem-alola.png"
+    }
+  ],
+  "77": [
+    {
+      "id": "ponyta-galar",
+      "nome": "Ponyta Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/77--ponyta-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/77--ponyta-galar.png"
+    }
+  ],
+  "78": [
+    {
+      "id": "rapidash-galar",
+      "nome": "Rapidash Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/78--rapidash-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/78--rapidash-galar.png"
+    }
+  ],
+  "79": [
+    {
+      "id": "slowpoke-galar",
+      "nome": "Slowpoke Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/79--slowpoke-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/79--slowpoke-galar.png"
+    }
+  ],
+  "80": [
+    {
+      "id": "slowbro-galar",
+      "nome": "Slowbro Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/80--slowbro-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/80--slowbro-galar.png"
+    },
+    {
+      "id": "slowbro-mega",
+      "nome": "Slowbro Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/80--slowbro-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/80--slowbro-mega.png"
+    }
+  ],
+  "83": [
+    {
+      "id": "farfetchd-galar",
+      "nome": "Farfetchd Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/83--farfetchd-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/83--farfetchd-galar.png"
+    }
+  ],
+  "88": [
+    {
+      "id": "grimer-alola",
+      "nome": "Grimer Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/88--grimer-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/88--grimer-alola.png"
+    }
+  ],
+  "89": [
+    {
+      "id": "muk-alola",
+      "nome": "Muk Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/89--muk-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/89--muk-alola.png"
+    }
+  ],
+  "94": [
+    {
+      "id": "gengar-gmax",
+      "nome": "Gengar Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/94--gengar-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/94--gengar-gmax.png"
+    },
+    {
+      "id": "gengar-mega",
+      "nome": "Gengar Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/94--gengar-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/94--gengar-mega.png"
+    }
+  ],
+  "99": [
+    {
+      "id": "kingler-gmax",
+      "nome": "Kingler Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/99--kingler-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/99--kingler-gmax.png"
+    }
+  ],
+  "100": [
+    {
+      "id": "voltorb-hisui",
+      "nome": "Voltorb Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/100--voltorb-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/100--voltorb-hisui.png"
+    }
+  ],
+  "101": [
+    {
+      "id": "electrode-hisui",
+      "nome": "Electrode Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/101--electrode-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/101--electrode-hisui.png"
+    }
+  ],
+  "103": [
+    {
+      "id": "exeggutor-alola",
+      "nome": "Exeggutor Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/103--exeggutor-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/103--exeggutor-alola.png"
+    }
+  ],
+  "105": [
+    {
+      "id": "marowak-alola",
+      "nome": "Marowak Alola",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/105--marowak-alola.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/105--marowak-alola.png"
+    },
+    {
+      "id": "marowak-totem",
+      "nome": "Marowak Totem",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/105--marowak-totem.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/105--marowak-totem.png"
+    }
+  ],
+  "110": [
+    {
+      "id": "weezing-galar",
+      "nome": "Weezing Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/110--weezing-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/110--weezing-galar.png"
+    }
+  ],
+  "115": [
+    {
+      "id": "kangaskhan-mega",
+      "nome": "Kangaskhan Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/115--kangaskhan-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/115--kangaskhan-mega.png"
+    }
+  ],
+  "121": [
+    {
+      "id": "starmie-mega",
+      "nome": "Starmie Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/121--starmie-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/121--starmie-mega.png"
+    }
+  ],
+  "122": [
+    {
+      "id": "mr-mime-galar",
+      "nome": "Mr Mime Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/122--mr-mime-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/122--mr-mime-galar.png"
+    }
+  ],
+  "127": [
+    {
+      "id": "pinsir-mega",
+      "nome": "Pinsir Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/127--pinsir-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/127--pinsir-mega.png"
+    }
+  ],
+  "128": [
+    {
+      "id": "tauros-paldea-aqua-breed",
+      "nome": "Tauros Paldea Aqua Breed",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/128--tauros-paldea-aqua-breed.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/128--tauros-paldea-aqua-breed.png"
+    },
+    {
+      "id": "tauros-paldea-blaze-breed",
+      "nome": "Tauros Paldea Blaze Breed",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/128--tauros-paldea-blaze-breed.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/128--tauros-paldea-blaze-breed.png"
+    },
+    {
+      "id": "tauros-paldea-combat-breed",
+      "nome": "Tauros Paldea Combat Breed",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/128--tauros-paldea-combat-breed.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/128--tauros-paldea-combat-breed.png"
+    }
+  ],
+  "130": [
+    {
+      "id": "gyarados-mega",
+      "nome": "Gyarados Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/130--gyarados-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/130--gyarados-mega.png"
+    }
+  ],
+  "131": [
+    {
+      "id": "lapras-gmax",
+      "nome": "Lapras Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/131--lapras-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/131--lapras-gmax.png"
+    }
+  ],
+  "133": [
+    {
+      "id": "eevee-gmax",
+      "nome": "Eevee Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/133--eevee-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/133--eevee-gmax.png"
+    },
+    {
+      "id": "eevee-starter",
+      "nome": "Eevee Starter",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/133--eevee-starter.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/133--eevee-starter.png"
+    }
+  ],
+  "142": [
+    {
+      "id": "aerodactyl-mega",
+      "nome": "Aerodactyl Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/142--aerodactyl-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/142--aerodactyl-mega.png"
+    }
+  ],
+  "143": [
+    {
+      "id": "snorlax-gmax",
+      "nome": "Snorlax Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/143--snorlax-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/143--snorlax-gmax.png"
+    }
+  ],
+  "144": [
+    {
+      "id": "articuno-galar",
+      "nome": "Articuno Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/144--articuno-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/144--articuno-galar.png"
+    }
+  ],
+  "145": [
+    {
+      "id": "zapdos-galar",
+      "nome": "Zapdos Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/145--zapdos-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/145--zapdos-galar.png"
+    }
+  ],
+  "146": [
+    {
+      "id": "moltres-galar",
+      "nome": "Moltres Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/146--moltres-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/146--moltres-galar.png"
+    }
+  ],
+  "149": [
+    {
+      "id": "dragonite-mega",
+      "nome": "Dragonite Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/149--dragonite-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/149--dragonite-mega.png"
+    }
+  ],
+  "150": [
+    {
+      "id": "mewtwo-mega-x",
+      "nome": "Mewtwo Mega X",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/150--mewtwo-mega-x.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/150--mewtwo-mega-x.png"
+    },
+    {
+      "id": "mewtwo-mega-y",
+      "nome": "Mewtwo Mega Y",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/150--mewtwo-mega-y.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/150--mewtwo-mega-y.png"
+    },
+    {
+      "id": "armored-mewtwo",
+      "nome": "Armored Mewtwo",
+      "sprite": "../assets/pokemon/v06-auditoria/manuais/armored-mewtwo.png",
+      "shiny": null
+    },
+    {
+      "id": "shadow-mewtwo",
+      "nome": "Shadow Mewtwo",
+      "sprite": "../assets/pokemon/v06-auditoria/manuais/shadow-mewtwo.png",
+      "shiny": null
+    }
+  ],
+  "154": [
+    {
+      "id": "meganium-mega",
+      "nome": "Meganium Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/154--meganium-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/154--meganium-mega.png"
+    }
+  ],
+  "157": [
+    {
+      "id": "typhlosion-hisui",
+      "nome": "Typhlosion Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/157--typhlosion-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/157--typhlosion-hisui.png"
+    }
+  ],
+  "160": [
+    {
+      "id": "feraligatr-mega",
+      "nome": "Feraligatr Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/160--feraligatr-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/160--feraligatr-mega.png"
+    }
+  ],
+  "172": [
+    {
+      "id": "pichu-spiky-eared",
+      "nome": "Pichu Spiky Eared",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/172--pichu-spiky-eared.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/172--pichu-spiky-eared.png"
+    }
+  ],
+  "181": [
+    {
+      "id": "ampharos-mega",
+      "nome": "Ampharos Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/181--ampharos-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/181--ampharos-mega.png"
+    }
+  ],
+  "194": [
+    {
+      "id": "wooper-paldea",
+      "nome": "Wooper Paldea",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/194--wooper-paldea.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/194--wooper-paldea.png"
+    }
+  ],
+  "199": [
+    {
+      "id": "slowking-galar",
+      "nome": "Slowking Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/199--slowking-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/199--slowking-galar.png"
+    }
+  ],
+  "201": [
+    {
+      "id": "unown-b",
+      "nome": "Unown B",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-b.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-b.png"
+    },
+    {
+      "id": "unown-c",
+      "nome": "Unown C",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-c.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-c.png"
+    },
+    {
+      "id": "unown-d",
+      "nome": "Unown D",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-d.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-d.png"
+    },
+    {
+      "id": "unown-e",
+      "nome": "Unown E",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-e.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-e.png"
+    },
+    {
+      "id": "unown-exclamation",
+      "nome": "Unown Exclamation",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-exclamation.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-exclamation.png"
+    },
+    {
+      "id": "unown-f",
+      "nome": "Unown F",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-f.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-f.png"
+    },
+    {
+      "id": "unown-g",
+      "nome": "Unown G",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-g.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-g.png"
+    },
+    {
+      "id": "unown-h",
+      "nome": "Unown H",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-h.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-h.png"
+    },
+    {
+      "id": "unown-i",
+      "nome": "Unown I",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-i.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-i.png"
+    },
+    {
+      "id": "unown-j",
+      "nome": "Unown J",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-j.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-j.png"
+    },
+    {
+      "id": "unown-k",
+      "nome": "Unown K",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-k.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-k.png"
+    },
+    {
+      "id": "unown-l",
+      "nome": "Unown L",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-l.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-l.png"
+    },
+    {
+      "id": "unown-m",
+      "nome": "Unown M",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-m.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-m.png"
+    },
+    {
+      "id": "unown-n",
+      "nome": "Unown N",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-n.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-n.png"
+    },
+    {
+      "id": "unown-o",
+      "nome": "Unown O",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-o.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-o.png"
+    },
+    {
+      "id": "unown-p",
+      "nome": "Unown P",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-p.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-p.png"
+    },
+    {
+      "id": "unown-q",
+      "nome": "Unown Q",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-q.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-q.png"
+    },
+    {
+      "id": "unown-question",
+      "nome": "Unown Question",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-question.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-question.png"
+    },
+    {
+      "id": "unown-r",
+      "nome": "Unown R",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-r.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-r.png"
+    },
+    {
+      "id": "unown-s",
+      "nome": "Unown S",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-s.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-s.png"
+    },
+    {
+      "id": "unown-t",
+      "nome": "Unown T",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-t.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-t.png"
+    },
+    {
+      "id": "unown-u",
+      "nome": "Unown U",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-u.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-u.png"
+    },
+    {
+      "id": "unown-v",
+      "nome": "Unown V",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-v.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-v.png"
+    },
+    {
+      "id": "unown-w",
+      "nome": "Unown W",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-w.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-w.png"
+    },
+    {
+      "id": "unown-x",
+      "nome": "Unown X",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-x.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-x.png"
+    },
+    {
+      "id": "unown-y",
+      "nome": "Unown Y",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-y.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-y.png"
+    },
+    {
+      "id": "unown-z",
+      "nome": "Unown Z",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/201--unown-z.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/201--unown-z.png"
+    }
+  ],
+  "208": [
+    {
+      "id": "steelix-mega",
+      "nome": "Steelix Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/208--steelix-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/208--steelix-mega.png"
+    }
+  ],
+  "211": [
+    {
+      "id": "qwilfish-hisui",
+      "nome": "Qwilfish Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/211--qwilfish-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/211--qwilfish-hisui.png"
+    }
+  ],
+  "212": [
+    {
+      "id": "scizor-mega",
+      "nome": "Scizor Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/212--scizor-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/212--scizor-mega.png"
+    }
+  ],
+  "214": [
+    {
+      "id": "heracross-mega",
+      "nome": "Heracross Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/214--heracross-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/214--heracross-mega.png"
+    }
+  ],
+  "215": [
+    {
+      "id": "sneasel-hisui",
+      "nome": "Sneasel Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/215--sneasel-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/215--sneasel-hisui.png"
+    }
+  ],
+  "222": [
+    {
+      "id": "corsola-galar",
+      "nome": "Corsola Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/222--corsola-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/222--corsola-galar.png"
+    }
+  ],
+  "227": [
+    {
+      "id": "skarmory-mega",
+      "nome": "Skarmory Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/227--skarmory-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/227--skarmory-mega.png"
+    }
+  ],
+  "229": [
+    {
+      "id": "houndoom-mega",
+      "nome": "Houndoom Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/229--houndoom-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/229--houndoom-mega.png"
+    }
+  ],
+  "248": [
+    {
+      "id": "tyranitar-mega",
+      "nome": "Tyranitar Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/248--tyranitar-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/248--tyranitar-mega.png"
+    }
+  ],
+  "254": [
+    {
+      "id": "sceptile-mega",
+      "nome": "Sceptile Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/254--sceptile-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/254--sceptile-mega.png"
+    }
+  ],
+  "257": [
+    {
+      "id": "blaziken-mega",
+      "nome": "Blaziken Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/257--blaziken-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/257--blaziken-mega.png"
+    }
+  ],
+  "260": [
+    {
+      "id": "swampert-mega",
+      "nome": "Swampert Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/260--swampert-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/260--swampert-mega.png"
+    }
+  ],
+  "263": [
+    {
+      "id": "zigzagoon-galar",
+      "nome": "Zigzagoon Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/263--zigzagoon-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/263--zigzagoon-galar.png"
+    }
+  ],
+  "264": [
+    {
+      "id": "linoone-galar",
+      "nome": "Linoone Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/264--linoone-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/264--linoone-galar.png"
+    }
+  ],
+  "282": [
+    {
+      "id": "gardevoir-mega",
+      "nome": "Gardevoir Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/282--gardevoir-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/282--gardevoir-mega.png"
+    }
+  ],
+  "302": [
+    {
+      "id": "sableye-mega",
+      "nome": "Sableye Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/302--sableye-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/302--sableye-mega.png"
+    }
+  ],
+  "303": [
+    {
+      "id": "mawile-mega",
+      "nome": "Mawile Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/303--mawile-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/303--mawile-mega.png"
+    }
+  ],
+  "306": [
+    {
+      "id": "aggron-mega",
+      "nome": "Aggron Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/306--aggron-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/306--aggron-mega.png"
+    }
+  ],
+  "308": [
+    {
+      "id": "medicham-mega",
+      "nome": "Medicham Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/308--medicham-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/308--medicham-mega.png"
+    }
+  ],
+  "310": [
+    {
+      "id": "manectric-mega",
+      "nome": "Manectric Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/310--manectric-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/310--manectric-mega.png"
+    }
+  ],
+  "319": [
+    {
+      "id": "sharpedo-mega",
+      "nome": "Sharpedo Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/319--sharpedo-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/319--sharpedo-mega.png"
+    }
+  ],
+  "323": [
+    {
+      "id": "camerupt-mega",
+      "nome": "Camerupt Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/323--camerupt-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/323--camerupt-mega.png"
+    }
+  ],
+  "334": [
+    {
+      "id": "altaria-mega",
+      "nome": "Altaria Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/334--altaria-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/334--altaria-mega.png"
+    }
+  ],
+  "351": [
+    {
+      "id": "castform-rainy",
+      "nome": "Castform Rainy",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/351--castform-rainy.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/351--castform-rainy.png"
+    },
+    {
+      "id": "castform-snowy",
+      "nome": "Castform Snowy",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/351--castform-snowy.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/351--castform-snowy.png"
+    },
+    {
+      "id": "castform-sunny",
+      "nome": "Castform Sunny",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/351--castform-sunny.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/351--castform-sunny.png"
+    }
+  ],
+  "354": [
+    {
+      "id": "banette-mega",
+      "nome": "Banette Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/354--banette-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/354--banette-mega.png"
+    }
+  ],
+  "358": [
+    {
+      "id": "chimecho-mega",
+      "nome": "Chimecho Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/358--chimecho-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/358--chimecho-mega.png"
+    }
+  ],
+  "359": [
+    {
+      "id": "absol-mega",
+      "nome": "Absol Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/359--absol-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/359--absol-mega.png"
+    },
+    {
+      "id": "absol-mega-z",
+      "nome": "Absol Mega Z",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/359--absol-mega-z.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/359--absol-mega-z.png"
+    }
+  ],
+  "362": [
+    {
+      "id": "glalie-mega",
+      "nome": "Glalie Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/362--glalie-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/362--glalie-mega.png"
+    }
+  ],
+  "373": [
+    {
+      "id": "salamence-mega",
+      "nome": "Salamence Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/373--salamence-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/373--salamence-mega.png"
+    }
+  ],
+  "376": [
+    {
+      "id": "metagross-mega",
+      "nome": "Metagross Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/376--metagross-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/376--metagross-mega.png"
+    }
+  ],
+  "380": [
+    {
+      "id": "latias-mega",
+      "nome": "Latias Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/380--latias-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/380--latias-mega.png"
+    }
+  ],
+  "381": [
+    {
+      "id": "latios-mega",
+      "nome": "Latios Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/381--latios-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/381--latios-mega.png"
+    }
+  ],
+  "382": [
+    {
+      "id": "kyogre-primal",
+      "nome": "Kyogre Primal",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/382--kyogre-primal.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/382--kyogre-primal.png"
+    }
+  ],
+  "383": [
+    {
+      "id": "groudon-primal",
+      "nome": "Groudon Primal",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/383--groudon-primal.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/383--groudon-primal.png"
+    }
+  ],
+  "384": [
+    {
+      "id": "rayquaza-mega",
+      "nome": "Rayquaza Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/384--rayquaza-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/384--rayquaza-mega.png"
+    }
+  ],
+  "386": [
+    {
+      "id": "deoxys-attack",
+      "nome": "Deoxys Attack",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/386--deoxys-attack.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/386--deoxys-attack.png"
+    },
+    {
+      "id": "deoxys-defense",
+      "nome": "Deoxys Defense",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/386--deoxys-defense.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/386--deoxys-defense.png"
+    },
+    {
+      "id": "deoxys-speed",
+      "nome": "Deoxys Speed",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/386--deoxys-speed.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/386--deoxys-speed.png"
+    }
+  ],
+  "398": [
+    {
+      "id": "staraptor-mega",
+      "nome": "Staraptor Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/398--staraptor-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/398--staraptor-mega.png"
+    }
+  ],
+  "412": [
+    {
+      "id": "burmy-sandy",
+      "nome": "Burmy Sandy",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/412--burmy-sandy.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/412--burmy-sandy.png"
+    },
+    {
+      "id": "burmy-trash",
+      "nome": "Burmy Trash",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/412--burmy-trash.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/412--burmy-trash.png"
+    }
+  ],
+  "413": [
+    {
+      "id": "wormadam-sandy",
+      "nome": "Wormadam Sandy",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/413--wormadam-sandy.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/413--wormadam-sandy.png"
+    },
+    {
+      "id": "wormadam-trash",
+      "nome": "Wormadam Trash",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/413--wormadam-trash.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/413--wormadam-trash.png"
+    }
+  ],
+  "421": [
+    {
+      "id": "cherrim-sunshine",
+      "nome": "Cherrim Sunshine",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/421--cherrim-sunshine.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/421--cherrim-sunshine.png"
+    }
+  ],
+  "422": [
+    {
+      "id": "shellos-east",
+      "nome": "Shellos East",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/422--shellos-east.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/422--shellos-east.png"
+    }
+  ],
+  "423": [
+    {
+      "id": "gastrodon-east",
+      "nome": "Gastrodon East",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/423--gastrodon-east.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/423--gastrodon-east.png"
+    }
+  ],
+  "428": [
+    {
+      "id": "lopunny-mega",
+      "nome": "Lopunny Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/428--lopunny-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/428--lopunny-mega.png"
+    }
+  ],
+  "445": [
+    {
+      "id": "garchomp-mega",
+      "nome": "Garchomp Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/445--garchomp-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/445--garchomp-mega.png"
+    },
+    {
+      "id": "garchomp-mega-z",
+      "nome": "Garchomp Mega Z",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/445--garchomp-mega-z.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/445--garchomp-mega-z.png"
+    }
+  ],
+  "448": [
+    {
+      "id": "lucario-mega",
+      "nome": "Lucario Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/448--lucario-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/448--lucario-mega.png"
+    },
+    {
+      "id": "lucario-mega-z",
+      "nome": "Lucario Mega Z",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/448--lucario-mega-z.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/448--lucario-mega-z.png"
+    }
+  ],
+  "460": [
+    {
+      "id": "abomasnow-mega",
+      "nome": "Abomasnow Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/460--abomasnow-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/460--abomasnow-mega.png"
+    }
+  ],
+  "475": [
+    {
+      "id": "gallade-mega",
+      "nome": "Gallade Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/475--gallade-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/475--gallade-mega.png"
+    }
+  ],
+  "478": [
+    {
+      "id": "froslass-mega",
+      "nome": "Froslass Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/478--froslass-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/478--froslass-mega.png"
+    }
+  ],
+  "479": [
+    {
+      "id": "rotom-fan",
+      "nome": "Rotom Fan",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/479--rotom-fan.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/479--rotom-fan.png"
+    },
+    {
+      "id": "rotom-frost",
+      "nome": "Rotom Frost",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/479--rotom-frost.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/479--rotom-frost.png"
+    },
+    {
+      "id": "rotom-heat",
+      "nome": "Rotom Heat",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/479--rotom-heat.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/479--rotom-heat.png"
+    },
+    {
+      "id": "rotom-mow",
+      "nome": "Rotom Mow",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/479--rotom-mow.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/479--rotom-mow.png"
+    },
+    {
+      "id": "rotom-wash",
+      "nome": "Rotom Wash",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/479--rotom-wash.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/479--rotom-wash.png"
+    }
+  ],
+  "483": [
+    {
+      "id": "dialga-origin",
+      "nome": "Dialga Origin",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/483--dialga-origin.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/483--dialga-origin.png"
+    },
+    {
+      "id": "primal-dialga",
+      "nome": "Primal Dialga",
+      "sprite": "../assets/pokemon/v06-auditoria/manuais/primal-dialga.png",
+      "shiny": null
+    }
+  ],
+  "484": [
+    {
+      "id": "palkia-origin",
+      "nome": "Palkia Origin",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/484--palkia-origin.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/484--palkia-origin.png"
+    }
+  ],
+  "485": [
+    {
+      "id": "heatran-mega",
+      "nome": "Heatran Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/485--heatran-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/485--heatran-mega.png"
+    }
+  ],
+  "487": [
+    {
+      "id": "giratina-origin",
+      "nome": "Giratina Origin",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/487--giratina-origin.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/487--giratina-origin.png"
+    }
+  ],
+  "491": [
+    {
+      "id": "darkrai-mega",
+      "nome": "Darkrai Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/491--darkrai-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/491--darkrai-mega.png"
+    }
+  ],
+  "492": [
+    {
+      "id": "shaymin-sky",
+      "nome": "Shaymin Sky",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/492--shaymin-sky.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/492--shaymin-sky.png"
+    }
+  ],
+  "493": [
+    {
+      "id": "arceus-bug",
+      "nome": "Arceus Bug",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-bug.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-bug.png"
+    },
+    {
+      "id": "arceus-dark",
+      "nome": "Arceus Dark",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-dark.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-dark.png"
+    },
+    {
+      "id": "arceus-dragon",
+      "nome": "Arceus Dragon",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-dragon.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-dragon.png"
+    },
+    {
+      "id": "arceus-electric",
+      "nome": "Arceus Electric",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-electric.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-electric.png"
+    },
+    {
+      "id": "arceus-fairy",
+      "nome": "Arceus Fairy",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-fairy.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-fairy.png"
+    },
+    {
+      "id": "arceus-fighting",
+      "nome": "Arceus Fighting",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-fighting.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-fighting.png"
+    },
+    {
+      "id": "arceus-fire",
+      "nome": "Arceus Fire",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-fire.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-fire.png"
+    },
+    {
+      "id": "arceus-flying",
+      "nome": "Arceus Flying",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-flying.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-flying.png"
+    },
+    {
+      "id": "arceus-ghost",
+      "nome": "Arceus Ghost",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-ghost.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-ghost.png"
+    },
+    {
+      "id": "arceus-grass",
+      "nome": "Arceus Grass",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-grass.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-grass.png"
+    },
+    {
+      "id": "arceus-ground",
+      "nome": "Arceus Ground",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-ground.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-ground.png"
+    },
+    {
+      "id": "arceus-ice",
+      "nome": "Arceus Ice",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-ice.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-ice.png"
+    },
+    {
+      "id": "arceus-poison",
+      "nome": "Arceus Poison",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-poison.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-poison.png"
+    },
+    {
+      "id": "arceus-psychic",
+      "nome": "Arceus Psychic",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-psychic.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-psychic.png"
+    },
+    {
+      "id": "arceus-rock",
+      "nome": "Arceus Rock",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-rock.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-rock.png"
+    },
+    {
+      "id": "arceus-steel",
+      "nome": "Arceus Steel",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-steel.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-steel.png"
+    },
+    {
+      "id": "arceus-unknown",
+      "nome": "Arceus Unknown",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-unknown.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-unknown.png"
+    },
+    {
+      "id": "arceus-water",
+      "nome": "Arceus Water",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/493--arceus-water.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/493--arceus-water.png"
+    }
+  ],
+  "500": [
+    {
+      "id": "emboar-mega",
+      "nome": "Emboar Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/500--emboar-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/500--emboar-mega.png"
+    }
+  ],
+  "503": [
+    {
+      "id": "samurott-hisui",
+      "nome": "Samurott Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/503--samurott-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/503--samurott-hisui.png"
+    }
+  ],
+  "530": [
+    {
+      "id": "excadrill-mega",
+      "nome": "Excadrill Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/530--excadrill-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/530--excadrill-mega.png"
+    }
+  ],
+  "531": [
+    {
+      "id": "audino-mega",
+      "nome": "Audino Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/531--audino-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/531--audino-mega.png"
+    }
+  ],
+  "545": [
+    {
+      "id": "scolipede-mega",
+      "nome": "Scolipede Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/545--scolipede-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/545--scolipede-mega.png"
+    }
+  ],
+  "549": [
+    {
+      "id": "lilligant-hisui",
+      "nome": "Lilligant Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/549--lilligant-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/549--lilligant-hisui.png"
+    }
+  ],
+  "550": [
+    {
+      "id": "basculin-blue-striped",
+      "nome": "Basculin Blue Striped",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/550--basculin-blue-striped.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/550--basculin-blue-striped.png"
+    },
+    {
+      "id": "basculin-white-striped",
+      "nome": "Basculin White Striped",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/550--basculin-white-striped.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/550--basculin-white-striped.png"
+    }
+  ],
+  "554": [
+    {
+      "id": "darumaka-galar",
+      "nome": "Darumaka Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/554--darumaka-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/554--darumaka-galar.png"
+    }
+  ],
+  "555": [
+    {
+      "id": "darmanitan-galar-standard",
+      "nome": "Darmanitan Galar Standard",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/555--darmanitan-galar-standard.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/555--darmanitan-galar-standard.png"
+    },
+    {
+      "id": "darmanitan-galar-zen",
+      "nome": "Darmanitan Galar Zen",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/555--darmanitan-galar-zen.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/555--darmanitan-galar-zen.png"
+    },
+    {
+      "id": "darmanitan-zen",
+      "nome": "Darmanitan Zen",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/555--darmanitan-zen.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/555--darmanitan-zen.png"
+    }
+  ],
+  "560": [
+    {
+      "id": "scrafty-mega",
+      "nome": "Scrafty Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/560--scrafty-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/560--scrafty-mega.png"
+    }
+  ],
+  "562": [
+    {
+      "id": "yamask-galar",
+      "nome": "Yamask Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/562--yamask-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/562--yamask-galar.png"
+    }
+  ],
+  "569": [
+    {
+      "id": "garbodor-gmax",
+      "nome": "Garbodor Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/569--garbodor-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/569--garbodor-gmax.png"
+    }
+  ],
+  "570": [
+    {
+      "id": "zorua-hisui",
+      "nome": "Zorua Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/570--zorua-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/570--zorua-hisui.png"
+    }
+  ],
+  "571": [
+    {
+      "id": "zoroark-hisui",
+      "nome": "Zoroark Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/571--zoroark-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/571--zoroark-hisui.png"
+    }
+  ],
+  "585": [
+    {
+      "id": "deerling-autumn",
+      "nome": "Deerling Autumn",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/585--deerling-autumn.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/585--deerling-autumn.png"
+    },
+    {
+      "id": "deerling-summer",
+      "nome": "Deerling Summer",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/585--deerling-summer.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/585--deerling-summer.png"
+    },
+    {
+      "id": "deerling-winter",
+      "nome": "Deerling Winter",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/585--deerling-winter.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/585--deerling-winter.png"
+    }
+  ],
+  "586": [
+    {
+      "id": "sawsbuck-autumn",
+      "nome": "Sawsbuck Autumn",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/586--sawsbuck-autumn.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/586--sawsbuck-autumn.png"
+    },
+    {
+      "id": "sawsbuck-summer",
+      "nome": "Sawsbuck Summer",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/586--sawsbuck-summer.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/586--sawsbuck-summer.png"
+    },
+    {
+      "id": "sawsbuck-winter",
+      "nome": "Sawsbuck Winter",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/586--sawsbuck-winter.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/586--sawsbuck-winter.png"
+    }
+  ],
+  "604": [
+    {
+      "id": "eelektross-mega",
+      "nome": "Eelektross Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/604--eelektross-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/604--eelektross-mega.png"
+    }
+  ],
+  "609": [
+    {
+      "id": "chandelure-mega",
+      "nome": "Chandelure Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/609--chandelure-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/609--chandelure-mega.png"
+    }
+  ],
+  "618": [
+    {
+      "id": "stunfisk-galar",
+      "nome": "Stunfisk Galar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/618--stunfisk-galar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/618--stunfisk-galar.png"
+    }
+  ],
+  "623": [
+    {
+      "id": "golurk-mega",
+      "nome": "Golurk Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/623--golurk-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/623--golurk-mega.png"
+    }
+  ],
+  "628": [
+    {
+      "id": "braviary-hisui",
+      "nome": "Braviary Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/628--braviary-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/628--braviary-hisui.png"
+    }
+  ],
+  "641": [
+    {
+      "id": "tornadus-therian",
+      "nome": "Tornadus Therian",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/641--tornadus-therian.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/641--tornadus-therian.png"
+    }
+  ],
+  "642": [
+    {
+      "id": "thundurus-therian",
+      "nome": "Thundurus Therian",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/642--thundurus-therian.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/642--thundurus-therian.png"
+    }
+  ],
+  "645": [
+    {
+      "id": "landorus-therian",
+      "nome": "Landorus Therian",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/645--landorus-therian.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/645--landorus-therian.png"
+    }
+  ],
+  "646": [
+    {
+      "id": "kyurem-black",
+      "nome": "Kyurem Black",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/646--kyurem-black.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/646--kyurem-black.png"
+    },
+    {
+      "id": "kyurem-white",
+      "nome": "Kyurem White",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/646--kyurem-white.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/646--kyurem-white.png"
+    }
+  ],
+  "647": [
+    {
+      "id": "keldeo-resolute",
+      "nome": "Keldeo Resolute",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/647--keldeo-resolute.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/647--keldeo-resolute.png"
+    }
+  ],
+  "648": [
+    {
+      "id": "meloetta-pirouette",
+      "nome": "Meloetta Pirouette",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/648--meloetta-pirouette.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/648--meloetta-pirouette.png"
+    }
+  ],
+  "649": [
+    {
+      "id": "genesect-burn",
+      "nome": "Genesect Burn",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/649--genesect-burn.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/649--genesect-burn.png"
+    },
+    {
+      "id": "genesect-chill",
+      "nome": "Genesect Chill",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/649--genesect-chill.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/649--genesect-chill.png"
+    },
+    {
+      "id": "genesect-douse",
+      "nome": "Genesect Douse",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/649--genesect-douse.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/649--genesect-douse.png"
+    },
+    {
+      "id": "genesect-shock",
+      "nome": "Genesect Shock",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/649--genesect-shock.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/649--genesect-shock.png"
+    }
+  ],
+  "652": [
+    {
+      "id": "chesnaught-mega",
+      "nome": "Chesnaught Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/652--chesnaught-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/652--chesnaught-mega.png"
+    }
+  ],
+  "655": [
+    {
+      "id": "delphox-mega",
+      "nome": "Delphox Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/655--delphox-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/655--delphox-mega.png"
+    }
+  ],
+  "658": [
+    {
+      "id": "greninja-ash",
+      "nome": "Greninja Ash",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/658--greninja-ash.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/658--greninja-ash.png"
+    },
+    {
+      "id": "greninja-battle-bond",
+      "nome": "Greninja Battle Bond",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/658--greninja-battle-bond.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/658--greninja-battle-bond.png"
+    },
+    {
+      "id": "greninja-mega",
+      "nome": "Greninja Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/658--greninja-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/658--greninja-mega.png"
+    }
+  ],
+  "666": [
+    {
+      "id": "vivillon-archipelago",
+      "nome": "Vivillon Archipelago",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-archipelago.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-archipelago.png"
+    },
+    {
+      "id": "vivillon-continental",
+      "nome": "Vivillon Continental",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-continental.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-continental.png"
+    },
+    {
+      "id": "vivillon-elegant",
+      "nome": "Vivillon Elegant",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-elegant.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-elegant.png"
+    },
+    {
+      "id": "vivillon-fancy",
+      "nome": "Vivillon Fancy",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-fancy.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-fancy.png"
+    },
+    {
+      "id": "vivillon-garden",
+      "nome": "Vivillon Garden",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-garden.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-garden.png"
+    },
+    {
+      "id": "vivillon-high-plains",
+      "nome": "Vivillon High Plains",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-high-plains.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-high-plains.png"
+    },
+    {
+      "id": "vivillon-icy-snow",
+      "nome": "Vivillon Icy Snow",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-icy-snow.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-icy-snow.png"
+    },
+    {
+      "id": "vivillon-jungle",
+      "nome": "Vivillon Jungle",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-jungle.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-jungle.png"
+    },
+    {
+      "id": "vivillon-marine",
+      "nome": "Vivillon Marine",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-marine.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-marine.png"
+    },
+    {
+      "id": "vivillon-modern",
+      "nome": "Vivillon Modern",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-modern.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-modern.png"
+    },
+    {
+      "id": "vivillon-monsoon",
+      "nome": "Vivillon Monsoon",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-monsoon.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-monsoon.png"
+    },
+    {
+      "id": "vivillon-ocean",
+      "nome": "Vivillon Ocean",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-ocean.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-ocean.png"
+    },
+    {
+      "id": "vivillon-poke-ball",
+      "nome": "Vivillon Poke Ball",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-poke-ball.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-poke-ball.png"
+    },
+    {
+      "id": "vivillon-polar",
+      "nome": "Vivillon Polar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-polar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-polar.png"
+    },
+    {
+      "id": "vivillon-river",
+      "nome": "Vivillon River",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-river.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-river.png"
+    },
+    {
+      "id": "vivillon-sandstorm",
+      "nome": "Vivillon Sandstorm",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-sandstorm.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-sandstorm.png"
+    },
+    {
+      "id": "vivillon-savanna",
+      "nome": "Vivillon Savanna",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-savanna.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-savanna.png"
+    },
+    {
+      "id": "vivillon-sun",
+      "nome": "Vivillon Sun",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-sun.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-sun.png"
+    },
+    {
+      "id": "vivillon-tundra",
+      "nome": "Vivillon Tundra",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/666--vivillon-tundra.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/666--vivillon-tundra.png"
+    }
+  ],
+  "668": [
+    {
+      "id": "pyroar-mega",
+      "nome": "Pyroar Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/668--pyroar-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/668--pyroar-mega.png"
+    }
+  ],
+  "669": [
+    {
+      "id": "flabebe-blue",
+      "nome": "Flabebe Blue",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/669--flabebe-blue.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/669--flabebe-blue.png"
+    },
+    {
+      "id": "flabebe-orange",
+      "nome": "Flabebe Orange",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/669--flabebe-orange.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/669--flabebe-orange.png"
+    },
+    {
+      "id": "flabebe-white",
+      "nome": "Flabebe White",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/669--flabebe-white.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/669--flabebe-white.png"
+    },
+    {
+      "id": "flabebe-yellow",
+      "nome": "Flabebe Yellow",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/669--flabebe-yellow.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/669--flabebe-yellow.png"
+    }
+  ],
+  "670": [
+    {
+      "id": "floette-blue",
+      "nome": "Floette Blue",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/670--floette-blue.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/670--floette-blue.png"
+    },
+    {
+      "id": "floette-eternal",
+      "nome": "Floette Eternal",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/670--floette-eternal.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/670--floette-eternal.png"
+    },
+    {
+      "id": "floette-mega",
+      "nome": "Floette Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/670--floette-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/670--floette-mega.png"
+    },
+    {
+      "id": "floette-orange",
+      "nome": "Floette Orange",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/670--floette-orange.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/670--floette-orange.png"
+    },
+    {
+      "id": "floette-white",
+      "nome": "Floette White",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/670--floette-white.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/670--floette-white.png"
+    },
+    {
+      "id": "floette-yellow",
+      "nome": "Floette Yellow",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/670--floette-yellow.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/670--floette-yellow.png"
+    }
+  ],
+  "671": [
+    {
+      "id": "florges-blue",
+      "nome": "Florges Blue",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/671--florges-blue.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/671--florges-blue.png"
+    },
+    {
+      "id": "florges-orange",
+      "nome": "Florges Orange",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/671--florges-orange.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/671--florges-orange.png"
+    },
+    {
+      "id": "florges-white",
+      "nome": "Florges White",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/671--florges-white.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/671--florges-white.png"
+    },
+    {
+      "id": "florges-yellow",
+      "nome": "Florges Yellow",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/671--florges-yellow.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/671--florges-yellow.png"
+    }
+  ],
+  "676": [
+    {
+      "id": "furfrou-dandy",
+      "nome": "Furfrou Dandy",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/676--furfrou-dandy.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/676--furfrou-dandy.png"
+    },
+    {
+      "id": "furfrou-debutante",
+      "nome": "Furfrou Debutante",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/676--furfrou-debutante.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/676--furfrou-debutante.png"
+    },
+    {
+      "id": "furfrou-diamond",
+      "nome": "Furfrou Diamond",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/676--furfrou-diamond.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/676--furfrou-diamond.png"
+    },
+    {
+      "id": "furfrou-heart",
+      "nome": "Furfrou Heart",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/676--furfrou-heart.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/676--furfrou-heart.png"
+    },
+    {
+      "id": "furfrou-kabuki",
+      "nome": "Furfrou Kabuki",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/676--furfrou-kabuki.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/676--furfrou-kabuki.png"
+    },
+    {
+      "id": "furfrou-la-reine",
+      "nome": "Furfrou La Reine",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/676--furfrou-la-reine.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/676--furfrou-la-reine.png"
+    },
+    {
+      "id": "furfrou-matron",
+      "nome": "Furfrou Matron",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/676--furfrou-matron.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/676--furfrou-matron.png"
+    },
+    {
+      "id": "furfrou-pharaoh",
+      "nome": "Furfrou Pharaoh",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/676--furfrou-pharaoh.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/676--furfrou-pharaoh.png"
+    },
+    {
+      "id": "furfrou-star",
+      "nome": "Furfrou Star",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/676--furfrou-star.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/676--furfrou-star.png"
+    }
+  ],
+  "678": [
+    {
+      "id": "meowstic-female",
+      "nome": "Meowstic Female",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/678--meowstic-female.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/678--meowstic-female.png"
+    },
+    {
+      "id": "meowstic-female-mega",
+      "nome": "Meowstic Female Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/678--meowstic-female-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/678--meowstic-female-mega.png"
+    },
+    {
+      "id": "meowstic-male-mega",
+      "nome": "Meowstic Male Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/678--meowstic-male-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/678--meowstic-male-mega.png"
+    }
+  ],
+  "681": [
+    {
+      "id": "aegislash-blade",
+      "nome": "Aegislash Blade",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/681--aegislash-blade.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/681--aegislash-blade.png"
+    }
+  ],
+  "687": [
+    {
+      "id": "malamar-mega",
+      "nome": "Malamar Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/687--malamar-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/687--malamar-mega.png"
+    }
+  ],
+  "689": [
+    {
+      "id": "barbaracle-mega",
+      "nome": "Barbaracle Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/689--barbaracle-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/689--barbaracle-mega.png"
+    }
+  ],
+  "691": [
+    {
+      "id": "dragalge-mega",
+      "nome": "Dragalge Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/691--dragalge-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/691--dragalge-mega.png"
+    }
+  ],
+  "701": [
+    {
+      "id": "hawlucha-mega",
+      "nome": "Hawlucha Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/701--hawlucha-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/701--hawlucha-mega.png"
+    }
+  ],
+  "705": [
+    {
+      "id": "sliggoo-hisui",
+      "nome": "Sliggoo Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/705--sliggoo-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/705--sliggoo-hisui.png"
+    }
+  ],
+  "706": [
+    {
+      "id": "goodra-hisui",
+      "nome": "Goodra Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/706--goodra-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/706--goodra-hisui.png"
+    }
+  ],
+  "710": [
+    {
+      "id": "pumpkaboo-large",
+      "nome": "Pumpkaboo Large",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/710--pumpkaboo-large.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/710--pumpkaboo-large.png"
+    },
+    {
+      "id": "pumpkaboo-small",
+      "nome": "Pumpkaboo Small",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/710--pumpkaboo-small.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/710--pumpkaboo-small.png"
+    },
+    {
+      "id": "pumpkaboo-super",
+      "nome": "Pumpkaboo Super",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/710--pumpkaboo-super.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/710--pumpkaboo-super.png"
+    }
+  ],
+  "711": [
+    {
+      "id": "gourgeist-large",
+      "nome": "Gourgeist Large",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/711--gourgeist-large.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/711--gourgeist-large.png"
+    },
+    {
+      "id": "gourgeist-small",
+      "nome": "Gourgeist Small",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/711--gourgeist-small.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/711--gourgeist-small.png"
+    },
+    {
+      "id": "gourgeist-super",
+      "nome": "Gourgeist Super",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/711--gourgeist-super.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/711--gourgeist-super.png"
+    }
+  ],
+  "713": [
+    {
+      "id": "avalugg-hisui",
+      "nome": "Avalugg Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/713--avalugg-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/713--avalugg-hisui.png"
+    }
+  ],
+  "716": [
+    {
+      "id": "xerneas-active",
+      "nome": "Xerneas Active",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/716--xerneas-active.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/716--xerneas-active.png"
+    }
+  ],
+  "718": [
+    {
+      "id": "zygarde-10",
+      "nome": "Zygarde 10",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/718--zygarde-10.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/718--zygarde-10.png"
+    },
+    {
+      "id": "zygarde-10-power-construct",
+      "nome": "Zygarde 10 Power Construct",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/718--zygarde-10-power-construct.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/718--zygarde-10-power-construct.png"
+    },
+    {
+      "id": "zygarde-50-power-construct",
+      "nome": "Zygarde 50 Power Construct",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/718--zygarde-50-power-construct.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/718--zygarde-50-power-construct.png"
+    },
+    {
+      "id": "zygarde-complete",
+      "nome": "Zygarde Complete",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/718--zygarde-complete.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/718--zygarde-complete.png"
+    },
+    {
+      "id": "mega-zygarde",
+      "nome": "Mega Zygarde",
+      "sprite": "../assets/pokemon/v06-auditoria/manuais/mega-zygarde.png",
+      "shiny": null
+    }
+  ],
+  "719": [
+    {
+      "id": "diancie-mega",
+      "nome": "Diancie Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/719--diancie-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/719--diancie-mega.png"
+    }
+  ],
+  "720": [
+    {
+      "id": "hoopa-unbound",
+      "nome": "Hoopa Unbound",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/720--hoopa-unbound.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/720--hoopa-unbound.png"
+    }
+  ],
+  "724": [
+    {
+      "id": "decidueye-hisui",
+      "nome": "Decidueye Hisui",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/724--decidueye-hisui.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/724--decidueye-hisui.png"
+    }
+  ],
+  "735": [
+    {
+      "id": "gumshoos-totem",
+      "nome": "Gumshoos Totem",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/735--gumshoos-totem.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/735--gumshoos-totem.png"
+    }
+  ],
+  "738": [
+    {
+      "id": "vikavolt-totem",
+      "nome": "Vikavolt Totem",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/738--vikavolt-totem.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/738--vikavolt-totem.png"
+    }
+  ],
+  "740": [
+    {
+      "id": "crabominable-mega",
+      "nome": "Crabominable Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/740--crabominable-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/740--crabominable-mega.png"
+    }
+  ],
+  "741": [
+    {
+      "id": "oricorio-pau",
+      "nome": "Oricorio Pau",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/741--oricorio-pau.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/741--oricorio-pau.png"
+    },
+    {
+      "id": "oricorio-pom-pom",
+      "nome": "Oricorio Pom Pom",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/741--oricorio-pom-pom.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/741--oricorio-pom-pom.png"
+    },
+    {
+      "id": "oricorio-sensu",
+      "nome": "Oricorio Sensu",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/741--oricorio-sensu.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/741--oricorio-sensu.png"
+    }
+  ],
+  "743": [
+    {
+      "id": "ribombee-totem",
+      "nome": "Ribombee Totem",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/743--ribombee-totem.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/743--ribombee-totem.png"
+    }
+  ],
+  "744": [
+    {
+      "id": "rockruff-own-tempo",
+      "nome": "Rockruff Own Tempo",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/744--rockruff-own-tempo.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/744--rockruff-own-tempo.png"
+    }
+  ],
+  "745": [
+    {
+      "id": "lycanroc-dusk",
+      "nome": "Lycanroc Dusk",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/745--lycanroc-dusk.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/745--lycanroc-dusk.png"
+    },
+    {
+      "id": "lycanroc-midnight",
+      "nome": "Lycanroc Midnight",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/745--lycanroc-midnight.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/745--lycanroc-midnight.png"
+    }
+  ],
+  "746": [
+    {
+      "id": "wishiwashi-school",
+      "nome": "Wishiwashi School",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/746--wishiwashi-school.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/746--wishiwashi-school.png"
+    }
+  ],
+  "752": [
+    {
+      "id": "araquanid-totem",
+      "nome": "Araquanid Totem",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/752--araquanid-totem.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/752--araquanid-totem.png"
+    }
+  ],
+  "754": [
+    {
+      "id": "lurantis-totem",
+      "nome": "Lurantis Totem",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/754--lurantis-totem.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/754--lurantis-totem.png"
+    }
+  ],
+  "758": [
+    {
+      "id": "salazzle-totem",
+      "nome": "Salazzle Totem",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/758--salazzle-totem.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/758--salazzle-totem.png"
+    }
+  ],
+  "768": [
+    {
+      "id": "golisopod-mega",
+      "nome": "Golisopod Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/768--golisopod-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/768--golisopod-mega.png"
+    }
+  ],
+  "773": [
+    {
+      "id": "silvally-bug",
+      "nome": "Silvally Bug",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-bug.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-bug.png"
+    },
+    {
+      "id": "silvally-dark",
+      "nome": "Silvally Dark",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-dark.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-dark.png"
+    },
+    {
+      "id": "silvally-dragon",
+      "nome": "Silvally Dragon",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-dragon.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-dragon.png"
+    },
+    {
+      "id": "silvally-electric",
+      "nome": "Silvally Electric",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-electric.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-electric.png"
+    },
+    {
+      "id": "silvally-fairy",
+      "nome": "Silvally Fairy",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-fairy.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-fairy.png"
+    },
+    {
+      "id": "silvally-fighting",
+      "nome": "Silvally Fighting",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-fighting.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-fighting.png"
+    },
+    {
+      "id": "silvally-fire",
+      "nome": "Silvally Fire",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-fire.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-fire.png"
+    },
+    {
+      "id": "silvally-flying",
+      "nome": "Silvally Flying",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-flying.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-flying.png"
+    },
+    {
+      "id": "silvally-ghost",
+      "nome": "Silvally Ghost",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-ghost.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-ghost.png"
+    },
+    {
+      "id": "silvally-grass",
+      "nome": "Silvally Grass",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-grass.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-grass.png"
+    },
+    {
+      "id": "silvally-ground",
+      "nome": "Silvally Ground",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-ground.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-ground.png"
+    },
+    {
+      "id": "silvally-ice",
+      "nome": "Silvally Ice",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-ice.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-ice.png"
+    },
+    {
+      "id": "silvally-poison",
+      "nome": "Silvally Poison",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-poison.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-poison.png"
+    },
+    {
+      "id": "silvally-psychic",
+      "nome": "Silvally Psychic",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-psychic.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-psychic.png"
+    },
+    {
+      "id": "silvally-rock",
+      "nome": "Silvally Rock",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-rock.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-rock.png"
+    },
+    {
+      "id": "silvally-steel",
+      "nome": "Silvally Steel",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-steel.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-steel.png"
+    },
+    {
+      "id": "silvally-water",
+      "nome": "Silvally Water",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/773--silvally-water.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/773--silvally-water.png"
+    }
+  ],
+  "774": [
+    {
+      "id": "minior-blue",
+      "nome": "Minior Blue",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-blue.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-blue.png"
+    },
+    {
+      "id": "minior-blue-meteor",
+      "nome": "Minior Blue Meteor",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-blue-meteor.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-blue-meteor.png"
+    },
+    {
+      "id": "minior-green",
+      "nome": "Minior Green",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-green.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-green.png"
+    },
+    {
+      "id": "minior-green-meteor",
+      "nome": "Minior Green Meteor",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-green-meteor.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-green-meteor.png"
+    },
+    {
+      "id": "minior-indigo",
+      "nome": "Minior Indigo",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-indigo.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-indigo.png"
+    },
+    {
+      "id": "minior-indigo-meteor",
+      "nome": "Minior Indigo Meteor",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-indigo-meteor.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-indigo-meteor.png"
+    },
+    {
+      "id": "minior-orange",
+      "nome": "Minior Orange",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-orange.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-orange.png"
+    },
+    {
+      "id": "minior-orange-meteor",
+      "nome": "Minior Orange Meteor",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-orange-meteor.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-orange-meteor.png"
+    },
+    {
+      "id": "minior-red",
+      "nome": "Minior Red",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-red.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-red.png"
+    },
+    {
+      "id": "minior-violet",
+      "nome": "Minior Violet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-violet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-violet.png"
+    },
+    {
+      "id": "minior-violet-meteor",
+      "nome": "Minior Violet Meteor",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-violet-meteor.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-violet-meteor.png"
+    },
+    {
+      "id": "minior-yellow",
+      "nome": "Minior Yellow",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-yellow.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-yellow.png"
+    },
+    {
+      "id": "minior-yellow-meteor",
+      "nome": "Minior Yellow Meteor",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/774--minior-yellow-meteor.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/774--minior-yellow-meteor.png"
+    }
+  ],
+  "777": [
+    {
+      "id": "togedemaru-totem",
+      "nome": "Togedemaru Totem",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/777--togedemaru-totem.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/777--togedemaru-totem.png"
+    }
+  ],
+  "778": [
+    {
+      "id": "mimikyu-busted",
+      "nome": "Mimikyu Busted",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/778--mimikyu-busted.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/778--mimikyu-busted.png"
+    },
+    {
+      "id": "mimikyu-totem-busted",
+      "nome": "Mimikyu Totem Busted",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/778--mimikyu-totem-busted.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/778--mimikyu-totem-busted.png"
+    },
+    {
+      "id": "mimikyu-totem-disguised",
+      "nome": "Mimikyu Totem Disguised",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/778--mimikyu-totem-disguised.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/778--mimikyu-totem-disguised.png"
+    }
+  ],
+  "780": [
+    {
+      "id": "drampa-mega",
+      "nome": "Drampa Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/780--drampa-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/780--drampa-mega.png"
+    }
+  ],
+  "784": [
+    {
+      "id": "kommo-o-totem",
+      "nome": "Kommo O Totem",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/784--kommo-o-totem.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/784--kommo-o-totem.png"
+    }
+  ],
+  "800": [
+    {
+      "id": "necrozma-dawn",
+      "nome": "Necrozma Dawn",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/800--necrozma-dawn.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/800--necrozma-dawn.png"
+    },
+    {
+      "id": "necrozma-dusk",
+      "nome": "Necrozma Dusk",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/800--necrozma-dusk.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/800--necrozma-dusk.png"
+    },
+    {
+      "id": "necrozma-ultra",
+      "nome": "Necrozma Ultra",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/800--necrozma-ultra.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/800--necrozma-ultra.png"
+    }
+  ],
+  "801": [
+    {
+      "id": "magearna-mega",
+      "nome": "Magearna Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/801--magearna-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/801--magearna-mega.png"
+    },
+    {
+      "id": "magearna-original",
+      "nome": "Magearna Original",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/801--magearna-original.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/801--magearna-original.png"
+    },
+    {
+      "id": "magearna-original-mega",
+      "nome": "Magearna Original Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/801--magearna-original-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/801--magearna-original-mega.png"
+    }
+  ],
+  "807": [
+    {
+      "id": "zeraora-mega",
+      "nome": "Zeraora Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/807--zeraora-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/807--zeraora-mega.png"
+    }
+  ],
+  "809": [
+    {
+      "id": "melmetal-gmax",
+      "nome": "Melmetal Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/809--melmetal-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/809--melmetal-gmax.png"
+    }
+  ],
+  "812": [
+    {
+      "id": "rillaboom-gmax",
+      "nome": "Rillaboom Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/812--rillaboom-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/812--rillaboom-gmax.png"
+    }
+  ],
+  "815": [
+    {
+      "id": "cinderace-gmax",
+      "nome": "Cinderace Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/815--cinderace-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/815--cinderace-gmax.png"
+    }
+  ],
+  "818": [
+    {
+      "id": "inteleon-gmax",
+      "nome": "Inteleon Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/818--inteleon-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/818--inteleon-gmax.png"
+    }
+  ],
+  "823": [
+    {
+      "id": "corviknight-gmax",
+      "nome": "Corviknight Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/823--corviknight-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/823--corviknight-gmax.png"
+    }
+  ],
+  "826": [
+    {
+      "id": "orbeetle-gmax",
+      "nome": "Orbeetle Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/826--orbeetle-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/826--orbeetle-gmax.png"
+    }
+  ],
+  "834": [
+    {
+      "id": "drednaw-gmax",
+      "nome": "Drednaw Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/834--drednaw-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/834--drednaw-gmax.png"
+    }
+  ],
+  "839": [
+    {
+      "id": "coalossal-gmax",
+      "nome": "Coalossal Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/839--coalossal-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/839--coalossal-gmax.png"
+    }
+  ],
+  "841": [
+    {
+      "id": "flapple-gmax",
+      "nome": "Flapple Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/841--flapple-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/841--flapple-gmax.png"
+    }
+  ],
+  "842": [
+    {
+      "id": "appletun-gmax",
+      "nome": "Appletun Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/842--appletun-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/842--appletun-gmax.png"
+    }
+  ],
+  "844": [
+    {
+      "id": "sandaconda-gmax",
+      "nome": "Sandaconda Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/844--sandaconda-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/844--sandaconda-gmax.png"
+    }
+  ],
+  "845": [
+    {
+      "id": "cramorant-gorging",
+      "nome": "Cramorant Gorging",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/845--cramorant-gorging.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/845--cramorant-gorging.png"
+    },
+    {
+      "id": "cramorant-gulping",
+      "nome": "Cramorant Gulping",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/845--cramorant-gulping.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/845--cramorant-gulping.png"
+    }
+  ],
+  "849": [
+    {
+      "id": "toxtricity-amped-gmax",
+      "nome": "Toxtricity Amped Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/849--toxtricity-amped-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/849--toxtricity-amped-gmax.png"
+    },
+    {
+      "id": "toxtricity-low-key",
+      "nome": "Toxtricity Low Key",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/849--toxtricity-low-key.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/849--toxtricity-low-key.png"
+    },
+    {
+      "id": "toxtricity-low-key-gmax",
+      "nome": "Toxtricity Low Key Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/849--toxtricity-low-key-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/849--toxtricity-low-key-gmax.png"
+    }
+  ],
+  "851": [
+    {
+      "id": "centiskorch-gmax",
+      "nome": "Centiskorch Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/851--centiskorch-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/851--centiskorch-gmax.png"
+    }
+  ],
+  "854": [
+    {
+      "id": "sinistea-antique",
+      "nome": "Sinistea Antique",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/854--sinistea-antique.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/854--sinistea-antique.png"
+    }
+  ],
+  "855": [
+    {
+      "id": "polteageist-antique",
+      "nome": "Polteageist Antique",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/855--polteageist-antique.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/855--polteageist-antique.png"
+    }
+  ],
+  "858": [
+    {
+      "id": "hatterene-gmax",
+      "nome": "Hatterene Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/858--hatterene-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/858--hatterene-gmax.png"
+    }
+  ],
+  "861": [
+    {
+      "id": "grimmsnarl-gmax",
+      "nome": "Grimmsnarl Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/861--grimmsnarl-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/861--grimmsnarl-gmax.png"
+    }
+  ],
+  "869": [
+    {
+      "id": "alcremie-caramel-swirl-berry-sweet",
+      "nome": "Alcremie Caramel Swirl Berry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-caramel-swirl-berry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-caramel-swirl-berry-sweet.png"
+    },
+    {
+      "id": "alcremie-caramel-swirl-clover-sweet",
+      "nome": "Alcremie Caramel Swirl Clover Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-caramel-swirl-clover-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-caramel-swirl-clover-sweet.png"
+    },
+    {
+      "id": "alcremie-caramel-swirl-flower-sweet",
+      "nome": "Alcremie Caramel Swirl Flower Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-caramel-swirl-flower-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-caramel-swirl-flower-sweet.png"
+    },
+    {
+      "id": "alcremie-caramel-swirl-love-sweet",
+      "nome": "Alcremie Caramel Swirl Love Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-caramel-swirl-love-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-caramel-swirl-love-sweet.png"
+    },
+    {
+      "id": "alcremie-caramel-swirl-ribbon-sweet",
+      "nome": "Alcremie Caramel Swirl Ribbon Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-caramel-swirl-ribbon-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-caramel-swirl-ribbon-sweet.png"
+    },
+    {
+      "id": "alcremie-caramel-swirl-star-sweet",
+      "nome": "Alcremie Caramel Swirl Star Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-caramel-swirl-star-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-caramel-swirl-star-sweet.png"
+    },
+    {
+      "id": "alcremie-caramel-swirl-strawberry-sweet",
+      "nome": "Alcremie Caramel Swirl Strawberry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-caramel-swirl-strawberry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-caramel-swirl-strawberry-sweet.png"
+    },
+    {
+      "id": "alcremie-gmax",
+      "nome": "Alcremie Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-gmax.png"
+    },
+    {
+      "id": "alcremie-lemon-cream-berry-sweet",
+      "nome": "Alcremie Lemon Cream Berry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-lemon-cream-berry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-lemon-cream-berry-sweet.png"
+    },
+    {
+      "id": "alcremie-lemon-cream-clover-sweet",
+      "nome": "Alcremie Lemon Cream Clover Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-lemon-cream-clover-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-lemon-cream-clover-sweet.png"
+    },
+    {
+      "id": "alcremie-lemon-cream-flower-sweet",
+      "nome": "Alcremie Lemon Cream Flower Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-lemon-cream-flower-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-lemon-cream-flower-sweet.png"
+    },
+    {
+      "id": "alcremie-lemon-cream-love-sweet",
+      "nome": "Alcremie Lemon Cream Love Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-lemon-cream-love-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-lemon-cream-love-sweet.png"
+    },
+    {
+      "id": "alcremie-lemon-cream-ribbon-sweet",
+      "nome": "Alcremie Lemon Cream Ribbon Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-lemon-cream-ribbon-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-lemon-cream-ribbon-sweet.png"
+    },
+    {
+      "id": "alcremie-lemon-cream-star-sweet",
+      "nome": "Alcremie Lemon Cream Star Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-lemon-cream-star-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-lemon-cream-star-sweet.png"
+    },
+    {
+      "id": "alcremie-lemon-cream-strawberry-sweet",
+      "nome": "Alcremie Lemon Cream Strawberry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-lemon-cream-strawberry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-lemon-cream-strawberry-sweet.png"
+    },
+    {
+      "id": "alcremie-matcha-cream-berry-sweet",
+      "nome": "Alcremie Matcha Cream Berry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-matcha-cream-berry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-matcha-cream-berry-sweet.png"
+    },
+    {
+      "id": "alcremie-matcha-cream-clover-sweet",
+      "nome": "Alcremie Matcha Cream Clover Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-matcha-cream-clover-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-matcha-cream-clover-sweet.png"
+    },
+    {
+      "id": "alcremie-matcha-cream-flower-sweet",
+      "nome": "Alcremie Matcha Cream Flower Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-matcha-cream-flower-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-matcha-cream-flower-sweet.png"
+    },
+    {
+      "id": "alcremie-matcha-cream-love-sweet",
+      "nome": "Alcremie Matcha Cream Love Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-matcha-cream-love-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-matcha-cream-love-sweet.png"
+    },
+    {
+      "id": "alcremie-matcha-cream-ribbon-sweet",
+      "nome": "Alcremie Matcha Cream Ribbon Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-matcha-cream-ribbon-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-matcha-cream-ribbon-sweet.png"
+    },
+    {
+      "id": "alcremie-matcha-cream-star-sweet",
+      "nome": "Alcremie Matcha Cream Star Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-matcha-cream-star-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-matcha-cream-star-sweet.png"
+    },
+    {
+      "id": "alcremie-matcha-cream-strawberry-sweet",
+      "nome": "Alcremie Matcha Cream Strawberry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-matcha-cream-strawberry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-matcha-cream-strawberry-sweet.png"
+    },
+    {
+      "id": "alcremie-mint-cream-berry-sweet",
+      "nome": "Alcremie Mint Cream Berry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-mint-cream-berry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-mint-cream-berry-sweet.png"
+    },
+    {
+      "id": "alcremie-mint-cream-clover-sweet",
+      "nome": "Alcremie Mint Cream Clover Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-mint-cream-clover-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-mint-cream-clover-sweet.png"
+    },
+    {
+      "id": "alcremie-mint-cream-flower-sweet",
+      "nome": "Alcremie Mint Cream Flower Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-mint-cream-flower-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-mint-cream-flower-sweet.png"
+    },
+    {
+      "id": "alcremie-mint-cream-love-sweet",
+      "nome": "Alcremie Mint Cream Love Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-mint-cream-love-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-mint-cream-love-sweet.png"
+    },
+    {
+      "id": "alcremie-mint-cream-ribbon-sweet",
+      "nome": "Alcremie Mint Cream Ribbon Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-mint-cream-ribbon-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-mint-cream-ribbon-sweet.png"
+    },
+    {
+      "id": "alcremie-mint-cream-star-sweet",
+      "nome": "Alcremie Mint Cream Star Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-mint-cream-star-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-mint-cream-star-sweet.png"
+    },
+    {
+      "id": "alcremie-mint-cream-strawberry-sweet",
+      "nome": "Alcremie Mint Cream Strawberry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-mint-cream-strawberry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-mint-cream-strawberry-sweet.png"
+    },
+    {
+      "id": "alcremie-rainbow-swirl-berry-sweet",
+      "nome": "Alcremie Rainbow Swirl Berry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-rainbow-swirl-berry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-rainbow-swirl-berry-sweet.png"
+    },
+    {
+      "id": "alcremie-rainbow-swirl-clover-sweet",
+      "nome": "Alcremie Rainbow Swirl Clover Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-rainbow-swirl-clover-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-rainbow-swirl-clover-sweet.png"
+    },
+    {
+      "id": "alcremie-rainbow-swirl-flower-sweet",
+      "nome": "Alcremie Rainbow Swirl Flower Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-rainbow-swirl-flower-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-rainbow-swirl-flower-sweet.png"
+    },
+    {
+      "id": "alcremie-rainbow-swirl-love-sweet",
+      "nome": "Alcremie Rainbow Swirl Love Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-rainbow-swirl-love-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-rainbow-swirl-love-sweet.png"
+    },
+    {
+      "id": "alcremie-rainbow-swirl-ribbon-sweet",
+      "nome": "Alcremie Rainbow Swirl Ribbon Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-rainbow-swirl-ribbon-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-rainbow-swirl-ribbon-sweet.png"
+    },
+    {
+      "id": "alcremie-rainbow-swirl-star-sweet",
+      "nome": "Alcremie Rainbow Swirl Star Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-rainbow-swirl-star-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-rainbow-swirl-star-sweet.png"
+    },
+    {
+      "id": "alcremie-rainbow-swirl-strawberry-sweet",
+      "nome": "Alcremie Rainbow Swirl Strawberry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-rainbow-swirl-strawberry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-rainbow-swirl-strawberry-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-cream-berry-sweet",
+      "nome": "Alcremie Ruby Cream Berry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-cream-berry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-cream-berry-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-cream-clover-sweet",
+      "nome": "Alcremie Ruby Cream Clover Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-cream-clover-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-cream-clover-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-cream-flower-sweet",
+      "nome": "Alcremie Ruby Cream Flower Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-cream-flower-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-cream-flower-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-cream-love-sweet",
+      "nome": "Alcremie Ruby Cream Love Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-cream-love-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-cream-love-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-cream-ribbon-sweet",
+      "nome": "Alcremie Ruby Cream Ribbon Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-cream-ribbon-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-cream-ribbon-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-cream-star-sweet",
+      "nome": "Alcremie Ruby Cream Star Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-cream-star-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-cream-star-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-cream-strawberry-sweet",
+      "nome": "Alcremie Ruby Cream Strawberry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-cream-strawberry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-cream-strawberry-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-swirl-berry-sweet",
+      "nome": "Alcremie Ruby Swirl Berry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-swirl-berry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-swirl-berry-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-swirl-clover-sweet",
+      "nome": "Alcremie Ruby Swirl Clover Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-swirl-clover-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-swirl-clover-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-swirl-flower-sweet",
+      "nome": "Alcremie Ruby Swirl Flower Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-swirl-flower-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-swirl-flower-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-swirl-love-sweet",
+      "nome": "Alcremie Ruby Swirl Love Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-swirl-love-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-swirl-love-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-swirl-ribbon-sweet",
+      "nome": "Alcremie Ruby Swirl Ribbon Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-swirl-ribbon-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-swirl-ribbon-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-swirl-star-sweet",
+      "nome": "Alcremie Ruby Swirl Star Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-swirl-star-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-swirl-star-sweet.png"
+    },
+    {
+      "id": "alcremie-ruby-swirl-strawberry-sweet",
+      "nome": "Alcremie Ruby Swirl Strawberry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-ruby-swirl-strawberry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-ruby-swirl-strawberry-sweet.png"
+    },
+    {
+      "id": "alcremie-salted-cream-berry-sweet",
+      "nome": "Alcremie Salted Cream Berry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-salted-cream-berry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-salted-cream-berry-sweet.png"
+    },
+    {
+      "id": "alcremie-salted-cream-clover-sweet",
+      "nome": "Alcremie Salted Cream Clover Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-salted-cream-clover-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-salted-cream-clover-sweet.png"
+    },
+    {
+      "id": "alcremie-salted-cream-flower-sweet",
+      "nome": "Alcremie Salted Cream Flower Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-salted-cream-flower-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-salted-cream-flower-sweet.png"
+    },
+    {
+      "id": "alcremie-salted-cream-love-sweet",
+      "nome": "Alcremie Salted Cream Love Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-salted-cream-love-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-salted-cream-love-sweet.png"
+    },
+    {
+      "id": "alcremie-salted-cream-ribbon-sweet",
+      "nome": "Alcremie Salted Cream Ribbon Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-salted-cream-ribbon-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-salted-cream-ribbon-sweet.png"
+    },
+    {
+      "id": "alcremie-salted-cream-star-sweet",
+      "nome": "Alcremie Salted Cream Star Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-salted-cream-star-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-salted-cream-star-sweet.png"
+    },
+    {
+      "id": "alcremie-salted-cream-strawberry-sweet",
+      "nome": "Alcremie Salted Cream Strawberry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-salted-cream-strawberry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-salted-cream-strawberry-sweet.png"
+    },
+    {
+      "id": "alcremie-vanilla-cream-berry-sweet",
+      "nome": "Alcremie Vanilla Cream Berry Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-vanilla-cream-berry-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-vanilla-cream-berry-sweet.png"
+    },
+    {
+      "id": "alcremie-vanilla-cream-clover-sweet",
+      "nome": "Alcremie Vanilla Cream Clover Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-vanilla-cream-clover-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-vanilla-cream-clover-sweet.png"
+    },
+    {
+      "id": "alcremie-vanilla-cream-flower-sweet",
+      "nome": "Alcremie Vanilla Cream Flower Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-vanilla-cream-flower-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-vanilla-cream-flower-sweet.png"
+    },
+    {
+      "id": "alcremie-vanilla-cream-love-sweet",
+      "nome": "Alcremie Vanilla Cream Love Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-vanilla-cream-love-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-vanilla-cream-love-sweet.png"
+    },
+    {
+      "id": "alcremie-vanilla-cream-ribbon-sweet",
+      "nome": "Alcremie Vanilla Cream Ribbon Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-vanilla-cream-ribbon-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-vanilla-cream-ribbon-sweet.png"
+    },
+    {
+      "id": "alcremie-vanilla-cream-star-sweet",
+      "nome": "Alcremie Vanilla Cream Star Sweet",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/869--alcremie-vanilla-cream-star-sweet.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/869--alcremie-vanilla-cream-star-sweet.png"
+    }
+  ],
+  "870": [
+    {
+      "id": "falinks-mega",
+      "nome": "Falinks Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/870--falinks-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/870--falinks-mega.png"
+    }
+  ],
+  "875": [
+    {
+      "id": "eiscue-noice",
+      "nome": "Eiscue Noice",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/875--eiscue-noice.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/875--eiscue-noice.png"
+    }
+  ],
+  "876": [
+    {
+      "id": "indeedee-female",
+      "nome": "Indeedee Female",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/876--indeedee-female.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/876--indeedee-female.png"
+    }
+  ],
+  "877": [
+    {
+      "id": "morpeko-hangry",
+      "nome": "Morpeko Hangry",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/877--morpeko-hangry.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/877--morpeko-hangry.png"
+    }
+  ],
+  "879": [
+    {
+      "id": "copperajah-gmax",
+      "nome": "Copperajah Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/879--copperajah-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/879--copperajah-gmax.png"
+    }
+  ],
+  "884": [
+    {
+      "id": "duraludon-gmax",
+      "nome": "Duraludon Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/884--duraludon-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/884--duraludon-gmax.png"
+    }
+  ],
+  "888": [
+    {
+      "id": "zacian-crowned",
+      "nome": "Zacian Crowned",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/888--zacian-crowned.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/888--zacian-crowned.png"
+    }
+  ],
+  "889": [
+    {
+      "id": "zamazenta-crowned",
+      "nome": "Zamazenta Crowned",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/889--zamazenta-crowned.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/889--zamazenta-crowned.png"
+    }
+  ],
+  "890": [
+    {
+      "id": "eternatus-eternamax",
+      "nome": "Eternatus Eternamax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/890--eternatus-eternamax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/890--eternatus-eternamax.png"
+    }
+  ],
+  "892": [
+    {
+      "id": "urshifu-rapid-strike",
+      "nome": "Urshifu Rapid Strike",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/892--urshifu-rapid-strike.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/892--urshifu-rapid-strike.png"
+    },
+    {
+      "id": "urshifu-rapid-strike-gmax",
+      "nome": "Urshifu Rapid Strike Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/892--urshifu-rapid-strike-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/892--urshifu-rapid-strike-gmax.png"
+    },
+    {
+      "id": "urshifu-single-strike-gmax",
+      "nome": "Urshifu Single Strike Gmax",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/892--urshifu-single-strike-gmax.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/892--urshifu-single-strike-gmax.png"
+    }
+  ],
+  "893": [
+    {
+      "id": "zarude-dada",
+      "nome": "Zarude Dada",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/893--zarude-dada.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/893--zarude-dada.png"
+    }
+  ],
+  "898": [
+    {
+      "id": "calyrex-ice",
+      "nome": "Calyrex Ice",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/898--calyrex-ice.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/898--calyrex-ice.png"
+    },
+    {
+      "id": "calyrex-shadow",
+      "nome": "Calyrex Shadow",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/898--calyrex-shadow.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/898--calyrex-shadow.png"
+    }
+  ],
+  "901": [
+    {
+      "id": "ursaluna-bloodmoon",
+      "nome": "Ursaluna Bloodmoon",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/901--ursaluna-bloodmoon.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/901--ursaluna-bloodmoon.png"
+    }
+  ],
+  "902": [
+    {
+      "id": "basculegion-female",
+      "nome": "Basculegion Female",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/902--basculegion-female.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/902--basculegion-female.png"
+    }
+  ],
+  "905": [
+    {
+      "id": "enamorus-therian",
+      "nome": "Enamorus Therian",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/905--enamorus-therian.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/905--enamorus-therian.png"
+    }
+  ],
+  "916": [
+    {
+      "id": "oinkologne-female",
+      "nome": "Oinkologne Female",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/916--oinkologne-female.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/916--oinkologne-female.png"
+    }
+  ],
+  "925": [
+    {
+      "id": "maushold-family-of-three",
+      "nome": "Maushold Family Of Three",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/925--maushold-family-of-three.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/925--maushold-family-of-three.png"
+    }
+  ],
+  "931": [
+    {
+      "id": "squawkabilly-blue-plumage",
+      "nome": "Squawkabilly Blue Plumage",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/931--squawkabilly-blue-plumage.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/931--squawkabilly-blue-plumage.png"
+    },
+    {
+      "id": "squawkabilly-white-plumage",
+      "nome": "Squawkabilly White Plumage",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/931--squawkabilly-white-plumage.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/931--squawkabilly-white-plumage.png"
+    },
+    {
+      "id": "squawkabilly-yellow-plumage",
+      "nome": "Squawkabilly Yellow Plumage",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/931--squawkabilly-yellow-plumage.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/931--squawkabilly-yellow-plumage.png"
+    }
+  ],
+  "952": [
+    {
+      "id": "scovillain-mega",
+      "nome": "Scovillain Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/952--scovillain-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/952--scovillain-mega.png"
+    }
+  ],
+  "964": [
+    {
+      "id": "palafin-hero",
+      "nome": "Palafin Hero",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/964--palafin-hero.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/964--palafin-hero.png"
+    }
+  ],
+  "970": [
+    {
+      "id": "glimmora-mega",
+      "nome": "Glimmora Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/970--glimmora-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/970--glimmora-mega.png"
+    }
+  ],
+  "978": [
+    {
+      "id": "tatsugiri-curly-mega",
+      "nome": "Tatsugiri Curly Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/978--tatsugiri-curly-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/978--tatsugiri-curly-mega.png"
+    },
+    {
+      "id": "tatsugiri-droopy",
+      "nome": "Tatsugiri Droopy",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/978--tatsugiri-droopy.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/978--tatsugiri-droopy.png"
+    },
+    {
+      "id": "tatsugiri-droopy-mega",
+      "nome": "Tatsugiri Droopy Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/978--tatsugiri-droopy-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/978--tatsugiri-droopy-mega.png"
+    },
+    {
+      "id": "tatsugiri-stretchy",
+      "nome": "Tatsugiri Stretchy",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/978--tatsugiri-stretchy.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/978--tatsugiri-stretchy.png"
+    },
+    {
+      "id": "tatsugiri-stretchy-mega",
+      "nome": "Tatsugiri Stretchy Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/978--tatsugiri-stretchy-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/978--tatsugiri-stretchy-mega.png"
+    }
+  ],
+  "982": [
+    {
+      "id": "dudunsparce-three-segment",
+      "nome": "Dudunsparce Three Segment",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/982--dudunsparce-three-segment.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/982--dudunsparce-three-segment.png"
+    }
+  ],
+  "998": [
+    {
+      "id": "baxcalibur-mega",
+      "nome": "Baxcalibur Mega",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/998--baxcalibur-mega.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/998--baxcalibur-mega.png"
+    }
+  ],
+  "999": [
+    {
+      "id": "gimmighoul-roaming",
+      "nome": "Gimmighoul Roaming",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/999--gimmighoul-roaming.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/999--gimmighoul-roaming.png"
+    }
+  ],
+  "1012": [
+    {
+      "id": "poltchageist-artisan",
+      "nome": "Poltchageist Artisan",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/1012--poltchageist-artisan.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/1012--poltchageist-artisan.png"
+    }
+  ],
+  "1013": [
+    {
+      "id": "sinistcha-masterpiece",
+      "nome": "Sinistcha Masterpiece",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/1013--sinistcha-masterpiece.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/1013--sinistcha-masterpiece.png"
+    }
+  ],
+  "1017": [
+    {
+      "id": "ogerpon-cornerstone-mask",
+      "nome": "Ogerpon Cornerstone Mask",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/1017--ogerpon-cornerstone-mask.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/1017--ogerpon-cornerstone-mask.png"
+    },
+    {
+      "id": "ogerpon-hearthflame-mask",
+      "nome": "Ogerpon Hearthflame Mask",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/1017--ogerpon-hearthflame-mask.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/1017--ogerpon-hearthflame-mask.png"
+    },
+    {
+      "id": "ogerpon-wellspring-mask",
+      "nome": "Ogerpon Wellspring Mask",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/1017--ogerpon-wellspring-mask.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/1017--ogerpon-wellspring-mask.png"
+    }
+  ],
+  "1024": [
+    {
+      "id": "terapagos-stellar",
+      "nome": "Terapagos Stellar",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/1024--terapagos-stellar.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/1024--terapagos-stellar.png"
+    },
+    {
+      "id": "terapagos-terastal",
+      "nome": "Terapagos Terastal",
+      "sprite": "../assets/pokemon/v06-auditoria/formas/1024--terapagos-terastal.png",
+      "shiny": "../assets/pokemon/v06-auditoria/shiny/formas/1024--terapagos-terastal.png"
+    }
+  ],
+  "249": [
+    {
+      "id": "shadow-lugia",
+      "nome": "Shadow Lugia",
+      "sprite": "../assets/pokemon/v06-auditoria/manuais/shadow-lugia.png",
+      "shiny": null
+    }
+  ]
+}

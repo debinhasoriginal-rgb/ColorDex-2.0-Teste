@@ -777,78 +777,129 @@ button, input {
 @media(max-width:460px){ .slot-mechanics-top{gap:14px} .slot-mechanics .mechanic-round{width:56px;height:56px;background-size:32px} .slot-mechanics .mechanic-z{width:min(100%,215px)} }
 @media(prefers-reduced-motion:reduce){ .slot-mechanics button{transition:none} }
 
+/* COLORDEX 2.0 — TEAM BUILDER MOBILE 3 COLUNAS */
+@media screen and (max-width: 700px) {
 
-/* ColorDex 1.0.1 — equipe horizontal */
-@media (max-width: 700px) {
-  .team-card .team-slots {
-    display: grid !important;
-    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
-    gap: clamp(2px, 1vw, 7px) !important;
-    width: 100%;
-    min-width: 0;
-  }
-
-  .team-card .team-slot {
-    min-width: 0 !important;
+  .team-card {
     width: 100% !important;
-    padding: 3px !important;
-    aspect-ratio: 1 / 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
   }
 
-  .team-card .team-slot img {
-    display: block;
-    max-width: 100% !important;
-    max-height: 100% !important;
+  .team-card > .team-slots {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(2, 115px) !important;
+    grid-auto-flow: row !important;
+    grid-auto-rows: 115px !important;
+    gap: 7px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    height: auto !important;
+    align-items: stretch !important;
+    justify-items: stretch !important;
+  }
+
+  .team-card > .team-slots > .team-slot {
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    grid-column: auto !important;
+    grid-row: auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    height: 115px !important;
+    min-height: 0 !important;
+    max-height: 115px !important;
+    padding: 5px !important;
+    margin: 0 !important;
+    gap: 3px !important;
+    aspect-ratio: auto !important;
+    overflow: hidden !important;
+  }
+
+  .team-card .slot-sprite {
+    display: block !important;
     width: auto !important;
     height: auto !important;
-    object-fit: contain;
-    image-rendering: pixelated;
+    max-width: 95% !important;
+    max-height: 80px !important;
+    object-fit: contain !important;
+    image-rendering: pixelated !important;
+  }
+
+  .team-card .slot-plus {
+    font-size: 25px !important;
+    line-height: 1 !important;
+  }
+
+  .team-card .slot-name {
+    max-width: 100% !important;
+    font-size: 10px !important;
+    text-align: center !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
   }
 }
 
-/* ColorDex 1.0.2 — slots compactos mobile */
+
+/* COLORDEX 2.0 — CORRECAO ROLAGEM MOVESET */
 @media (max-width: 700px) {
-  .team-card .team-slots {
-    display: grid !important;
-    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
-    gap: 4px !important;
-    align-items: stretch;
+  .moveset-modal,
+  .moveset-modal-content,
+  .move-modal,
+  .move-modal-content {
+    max-height: 88dvh !important;
+    overflow-y: auto !important;
+    overscroll-behavior: contain !important;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y !important;
   }
+}
 
-  .team-card .team-slot {
-    position: relative;
+
+
+/* COLORDEX 2.0 - MOVESET SCROLL FIX V3 */
+@media screen and (max-width: 700px) {
+
+  #movesEditor.picker-overlay:not([hidden]) {
+    position: fixed !important;
+    inset: 0 !important;
+    height: 100dvh !important;
+    max-height: 100dvh !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
     display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 12px !important;
+  }
+
+  #movesEditor .picker-dialog.moves-dialog {
+    box-sizing: border-box !important;
+    display: block !important;
     width: 100% !important;
-    min-width: 0 !important;
-    height: auto !important;
+    max-height: calc(100dvh - 24px) !important;
     min-height: 0 !important;
-    aspect-ratio: 1 / 1;
-    padding: 2px !important;
-    overflow: hidden;
-    border-radius: 9px;
-    font-size: 0 !important;
-    line-height: 0 !important;
+    height: auto !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    overscroll-behavior-y: contain !important;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y !important;
   }
 
-  .team-card .team-slot img {
-    display: block;
-    width: 100% !important;
-    height: 100% !important;
-    max-width: 100% !important;
-    max-height: 100% !important;
-    object-fit: contain;
-    image-rendering: pixelated;
+  #movesEditor .picker-header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: #171d2b;
   }
 
-  .team-card .team-slot > :not(img) {
-    max-width: 100%;
-    overflow: hidden;
+  #movesEditor .moves-save {
+    margin-bottom: 12px;
   }
 }

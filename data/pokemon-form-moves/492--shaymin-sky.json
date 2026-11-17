@@ -1,0 +1,2081 @@
+{
+  "pokemon": "shaymin-sky",
+  "pokeapi_id": 10006,
+  "versions": {
+    "platinum": [
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leech-seed",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "growth",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "solar-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psychic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swift",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "flash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-kiss",
+        "method": "level-up",
+        "level": 82
+      },
+      {
+        "name": "mud-slap",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "giga-drain",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "safeguard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-scent",
+        "method": "level-up",
+        "level": 37
+      },
+      {
+        "name": "synthesis",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psych-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "secret-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "air-cutter",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "bullet-seed",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "magical-leaf",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "natural-gift",
+        "method": "level-up",
+        "level": 46
+      },
+      {
+        "name": "natural-gift",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "last-resort",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "worry-seed",
+        "method": "level-up",
+        "level": 55
+      },
+      {
+        "name": "seed-bomb",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "air-slash",
+        "method": "level-up",
+        "level": 64
+      },
+      {
+        "name": "energy-ball",
+        "method": "level-up",
+        "level": 73
+      },
+      {
+        "name": "energy-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "zen-headbutt",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "leaf-storm",
+        "method": "level-up",
+        "level": 91
+      },
+      {
+        "name": "grass-knot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "seed-flare",
+        "method": "level-up",
+        "level": 100
+      },
+      {
+        "name": "ominous-wind",
+        "method": "tutor",
+        "level": 0
+      }
+    ],
+    "heartgold-soulsilver": [
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "headbutt",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leech-seed",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "growth",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "solar-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psychic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swift",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "flash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-kiss",
+        "method": "level-up",
+        "level": 82
+      },
+      {
+        "name": "mud-slap",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "giga-drain",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "safeguard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-scent",
+        "method": "level-up",
+        "level": 37
+      },
+      {
+        "name": "synthesis",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psych-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "secret-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "air-cutter",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "bullet-seed",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "magical-leaf",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "natural-gift",
+        "method": "level-up",
+        "level": 46
+      },
+      {
+        "name": "natural-gift",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "tailwind",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "last-resort",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "worry-seed",
+        "method": "level-up",
+        "level": 55
+      },
+      {
+        "name": "worry-seed",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "seed-bomb",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "air-slash",
+        "method": "level-up",
+        "level": 64
+      },
+      {
+        "name": "energy-ball",
+        "method": "level-up",
+        "level": 73
+      },
+      {
+        "name": "energy-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "zen-headbutt",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "leaf-storm",
+        "method": "level-up",
+        "level": 91
+      },
+      {
+        "name": "grass-knot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "seed-flare",
+        "method": "level-up",
+        "level": 100
+      },
+      {
+        "name": "ominous-wind",
+        "method": "tutor",
+        "level": 0
+      }
+    ],
+    "black-white": [
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leech-seed",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "growth",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "solar-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psychic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-kiss",
+        "method": "level-up",
+        "level": 82
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "safeguard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-scent",
+        "method": "level-up",
+        "level": 37
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psych-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "magical-leaf",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "natural-gift",
+        "method": "level-up",
+        "level": 46
+      },
+      {
+        "name": "worry-seed",
+        "method": "level-up",
+        "level": 55
+      },
+      {
+        "name": "air-slash",
+        "method": "level-up",
+        "level": 64
+      },
+      {
+        "name": "energy-ball",
+        "method": "level-up",
+        "level": 73
+      },
+      {
+        "name": "energy-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leaf-storm",
+        "method": "level-up",
+        "level": 91
+      },
+      {
+        "name": "grass-knot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "seed-flare",
+        "method": "level-up",
+        "level": 100
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "black-2-white-2": [
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leech-seed",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "growth",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "solar-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psychic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-kiss",
+        "method": "level-up",
+        "level": 82
+      },
+      {
+        "name": "giga-drain",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "safeguard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-scent",
+        "method": "level-up",
+        "level": 37
+      },
+      {
+        "name": "synthesis",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psych-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "covet",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "magical-leaf",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "natural-gift",
+        "method": "level-up",
+        "level": 46
+      },
+      {
+        "name": "tailwind",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "last-resort",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "worry-seed",
+        "method": "level-up",
+        "level": 55
+      },
+      {
+        "name": "worry-seed",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "seed-bomb",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "air-slash",
+        "method": "level-up",
+        "level": 64
+      },
+      {
+        "name": "energy-ball",
+        "method": "level-up",
+        "level": 73
+      },
+      {
+        "name": "energy-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "zen-headbutt",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "leaf-storm",
+        "method": "level-up",
+        "level": 91
+      },
+      {
+        "name": "grass-knot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "seed-flare",
+        "method": "level-up",
+        "level": 100
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "x-y": [
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leech-seed",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "growth",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "solar-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psychic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-kiss",
+        "method": "level-up",
+        "level": 82
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "safeguard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-scent",
+        "method": "level-up",
+        "level": 37
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psych-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "nature-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "magical-leaf",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "natural-gift",
+        "method": "level-up",
+        "level": 46
+      },
+      {
+        "name": "worry-seed",
+        "method": "level-up",
+        "level": 55
+      },
+      {
+        "name": "air-slash",
+        "method": "level-up",
+        "level": 64
+      },
+      {
+        "name": "energy-ball",
+        "method": "level-up",
+        "level": 73
+      },
+      {
+        "name": "energy-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leaf-storm",
+        "method": "level-up",
+        "level": 91
+      },
+      {
+        "name": "grass-knot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "seed-flare",
+        "method": "level-up",
+        "level": 100
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dazzling-gleam",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "omega-ruby-alpha-sapphire": [
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leech-seed",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "growth",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "solar-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psychic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "flash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-kiss",
+        "method": "level-up",
+        "level": 82
+      },
+      {
+        "name": "giga-drain",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "safeguard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-scent",
+        "method": "level-up",
+        "level": 37
+      },
+      {
+        "name": "synthesis",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psych-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "nature-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "secret-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "covet",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "magical-leaf",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "natural-gift",
+        "method": "level-up",
+        "level": 46
+      },
+      {
+        "name": "tailwind",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "last-resort",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "worry-seed",
+        "method": "level-up",
+        "level": 55
+      },
+      {
+        "name": "worry-seed",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "seed-bomb",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "air-slash",
+        "method": "level-up",
+        "level": 64
+      },
+      {
+        "name": "energy-ball",
+        "method": "level-up",
+        "level": 73
+      },
+      {
+        "name": "energy-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "zen-headbutt",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "leaf-storm",
+        "method": "level-up",
+        "level": 91
+      },
+      {
+        "name": "grass-knot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "seed-flare",
+        "method": "level-up",
+        "level": 100
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dazzling-gleam",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "sun-moon": [
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leech-seed",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "growth",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "solar-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psychic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-kiss",
+        "method": "level-up",
+        "level": 82
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "safeguard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-scent",
+        "method": "level-up",
+        "level": 37
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psych-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "nature-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "magical-leaf",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "natural-gift",
+        "method": "level-up",
+        "level": 46
+      },
+      {
+        "name": "worry-seed",
+        "method": "level-up",
+        "level": 55
+      },
+      {
+        "name": "air-slash",
+        "method": "level-up",
+        "level": 64
+      },
+      {
+        "name": "energy-ball",
+        "method": "level-up",
+        "level": 73
+      },
+      {
+        "name": "energy-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leaf-storm",
+        "method": "level-up",
+        "level": 91
+      },
+      {
+        "name": "grass-knot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "seed-flare",
+        "method": "level-up",
+        "level": 100
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dazzling-gleam",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "ultra-sun-ultra-moon": [
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leech-seed",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "growth",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "solar-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "toxic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psychic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "double-team",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-kiss",
+        "method": "level-up",
+        "level": 82
+      },
+      {
+        "name": "giga-drain",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "return",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "frustration",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "safeguard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-scent",
+        "method": "level-up",
+        "level": 37
+      },
+      {
+        "name": "synthesis",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "hidden-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psych-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "nature-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "covet",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "magical-leaf",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "natural-gift",
+        "method": "level-up",
+        "level": 46
+      },
+      {
+        "name": "tailwind",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "last-resort",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "worry-seed",
+        "method": "level-up",
+        "level": 55
+      },
+      {
+        "name": "worry-seed",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "seed-bomb",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "air-slash",
+        "method": "level-up",
+        "level": 64
+      },
+      {
+        "name": "energy-ball",
+        "method": "level-up",
+        "level": 73
+      },
+      {
+        "name": "energy-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "zen-headbutt",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "leaf-storm",
+        "method": "level-up",
+        "level": 91
+      },
+      {
+        "name": "grass-knot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "seed-flare",
+        "method": "level-up",
+        "level": 100
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "confide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dazzling-gleam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "laser-focus",
+        "method": "tutor",
+        "level": 0
+      }
+    ],
+    "scarlet-violet": [
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "take-down",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "double-edge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leech-seed",
+        "method": "level-up",
+        "level": 19
+      },
+      {
+        "name": "growth",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "solar-beam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psychic",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "level-up",
+        "level": 28
+      },
+      {
+        "name": "swift",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-kiss",
+        "method": "level-up",
+        "level": 82
+      },
+      {
+        "name": "giga-drain",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "baton-pass",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sweet-scent",
+        "method": "level-up",
+        "level": 37
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "psych-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "endeavor",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "air-cutter",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "bullet-seed",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "magical-leaf",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "magical-leaf",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "tailwind",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "worry-seed",
+        "method": "level-up",
+        "level": 55
+      },
+      {
+        "name": "seed-bomb",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "air-slash",
+        "method": "level-up",
+        "level": 64
+      },
+      {
+        "name": "air-slash",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "energy-ball",
+        "method": "level-up",
+        "level": 73
+      },
+      {
+        "name": "energy-ball",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "earth-power",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "zen-headbutt",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "leaf-storm",
+        "method": "level-up",
+        "level": 91
+      },
+      {
+        "name": "leaf-storm",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "grass-knot",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "seed-flare",
+        "method": "level-up",
+        "level": 100
+      },
+      {
+        "name": "petal-blizzard",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "disarming-voice",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "grassy-terrain",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "play-rough",
+        "method": "level-up",
+        "level": 46
+      },
+      {
+        "name": "play-rough",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dazzling-gleam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "grassy-glide",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "tera-blast",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "trailblaze",
+        "method": "machine",
+        "level": 0
+      }
+    ],
+    "legends-arceus": [
+      {
+        "name": "hyper-beam",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "psychic",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "swift",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "aerial-ace",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "magical-leaf",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "energy-ball",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "earth-power",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "zen-headbutt",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "ominous-wind",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "play-rough",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "dazzling-gleam",
+        "method": "tutor",
+        "level": 0
+      },
+      {
+        "name": "baby-doll-eyes",
+        "method": "tutor",
+        "level": 0
+      }
+    ]
+  }
+}

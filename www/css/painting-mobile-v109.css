@@ -199,3 +199,42 @@
     display: none !important;
   }
 }
+
+
+/* COLORDEX 2.0 — BOMBA VISÍVEL NO CELULAR */
+@media (max-width: 850px) {
+
+  /* Recupera a área de ferramentas. */
+  .mode-controls {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+
+  /* Os modos tradicionais continuam ocultos. */
+  #paintMode,
+  #moveMode {
+    display: none !important;
+  }
+
+  /* Apenas a bomba fica visível. */
+  #bombMode {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-height: 44px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  /* Seletor de raio visível quando ativado. */
+  #bombRadiusPanel:not([hidden]) {
+    display: block !important;
+  }
+
+  #bombRadiusPanel[hidden] {
+    display: none !important;
+  }
+}

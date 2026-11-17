@@ -17,3 +17,24 @@
 .cd-analysis-warning{font-size:.77rem;line-height:1.5;color:#f2c58e;background:#352c25;border:1px solid #69513b;padding:10px;border-radius:8px}
 .cd-analysis-footnote{margin-top:14px;font-size:.7rem}
 @media(max-width:480px){.cd-analysis{padding:12px 4px}.cd-analysis-summary{gap:5px}.cd-analysis-stat{padding:9px 4px}.cd-analysis-stat span{font-size:.63rem}}
+
+
+/* COLORDEX 2.0 - RELATORIO COMPACTO */
+.cd-analysis-compact {
+  padding: 16px !important;
+}
+.cd-analysis-compact h4 {
+  margin: 0 0 14px;
+  font-size: 17px;
+}
+.cd-analysis-report-link {
+  display: block;
+  margin-top: 14px;
+  padding: 13px;
+  background: #e83a53;
+  border-radius: 12px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}

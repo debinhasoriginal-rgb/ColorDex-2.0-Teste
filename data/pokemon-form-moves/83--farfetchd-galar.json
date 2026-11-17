@@ -1,0 +1,283 @@
+{
+  "pokemon": "farfetchd-galar",
+  "pokeapi_id": 10166,
+  "versions": {
+    "sword-shield": [
+      {
+        "name": "swords-dance",
+        "method": "level-up",
+        "level": 45
+      },
+      {
+        "name": "swords-dance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "slam",
+        "method": "level-up",
+        "level": 50
+      },
+      {
+        "name": "sand-attack",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "body-slam",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "double-edge",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "leer",
+        "method": "level-up",
+        "level": 5
+      },
+      {
+        "name": "peck",
+        "method": "level-up",
+        "level": 1
+      },
+      {
+        "name": "counter",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "quick-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "focus-energy",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sky-attack",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "curse",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "flail",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "detect",
+        "method": "level-up",
+        "level": 25
+      },
+      {
+        "name": "endure",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "fury-cutter",
+        "method": "level-up",
+        "level": 10
+      },
+      {
+        "name": "steel-wing",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "attract",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "rock-smash",
+        "method": "level-up",
+        "level": 15
+      },
+      {
+        "name": "facade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "helping-hand",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "superpower",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "revenge",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brick-break",
+        "method": "level-up",
+        "level": 40
+      },
+      {
+        "name": "brick-break",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "knock-off",
+        "method": "level-up",
+        "level": 30
+      },
+      {
+        "name": "covet",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "leaf-blade",
+        "method": "level-up",
+        "level": 55
+      },
+      {
+        "name": "leaf-blade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "feint",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "close-combat",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "assurance",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "poison-jab",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "night-slash",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "brave-bird",
+        "method": "level-up",
+        "level": 65
+      },
+      {
+        "name": "brave-bird",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "defog",
+        "method": "level-up",
+        "level": 35
+      },
+      {
+        "name": "simple-beam",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "quick-guard",
+        "method": "egg",
+        "level": 0
+      },
+      {
+        "name": "retaliate",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "final-gambit",
+        "method": "level-up",
+        "level": 60
+      },
+      {
+        "name": "work-up",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "solar-blade",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "throat-chop",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "brutal-swing",
+        "method": "level-up",
+        "level": 20
+      },
+      {
+        "name": "brutal-swing",
+        "method": "machine",
+        "level": 0
+      },
+      {
+        "name": "dual-wingbeat",
+        "method": "tutor",
+        "level": 0
+      }
+    ]
+  }
+}

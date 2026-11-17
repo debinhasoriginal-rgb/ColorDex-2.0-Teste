@@ -1,0 +1,348 @@
+{
+  "pokemon": "malamar-mega",
+  "pokeapi_id": 10297,
+  "versions": {
+    "champions": [
+      {
+        "name": "wrap",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "disable",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "flamethrower",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "hyper-beam",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thunderbolt",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "psychic",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "hypnosis",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "double-team",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "light-screen",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "reflect",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rest",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rock-slide",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "substitute",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "thief",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "snore",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "reversal",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "spite",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "protect",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "scary-face",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "destiny-bond",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "endure",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "swagger",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sleep-talk",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "baton-pass",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "rain-dance",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "sunny-day",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "psych-up",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "future-sight",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "torment",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "facade",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "taunt",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "helping-hand",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "trick",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "superpower",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "knock-off",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "skill-swap",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "fake-tears",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "aerial-ace",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "calm-mind",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "gravity",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "pluck",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "acupressure",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "payback",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "fling",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "guard-swap",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "poison-jab",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "dark-pulse",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "night-slash",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "switcheroo",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "giga-impact",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "nasty-plot",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "psycho-cut",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "zen-headbutt",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "trick-room",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "double-hit",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "psyshock",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "foul-play",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "round",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "stored-power",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "topsy-turvy",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "throat-chop",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "lunge",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "brutal-swing",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "liquidation",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "expanding-force",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "lash-out",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "trailblaze",
+        "method": "train",
+        "level": 0
+      },
+      {
+        "name": "psychic-noise",
+        "method": "train",
+        "level": 0
+      }
+    ]
+  }
+}

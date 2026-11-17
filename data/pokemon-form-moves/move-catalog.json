@@ -1,0 +1,412 @@
+{
+  "hydro-pump": {
+    "id": 56,
+    "name": "Hydro Pump",
+    "type": "water",
+    "category": "special",
+    "power": 110,
+    "accuracy": 80,
+    "pp": 5,
+    "priority": 0
+  },
+  "freeze-shock": {
+    "id": 553,
+    "name": "Freeze Shock",
+    "type": "ice",
+    "category": "physical",
+    "power": 140,
+    "accuracy": 90,
+    "pp": 5,
+    "priority": 0
+  },
+  "fusion-bolt": {
+    "id": 559,
+    "name": "Fusion Bolt",
+    "type": "electric",
+    "category": "physical",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "priority": 0
+  },
+  "astral-barrage": {
+    "id": 825,
+    "name": "Astral Barrage",
+    "type": "ghost",
+    "category": "special",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "priority": 0
+  },
+  "baddy-bad": {
+    "id": 737,
+    "name": "Baddy Bad",
+    "type": "dark",
+    "category": "special",
+    "power": 80,
+    "accuracy": 95,
+    "pp": 15,
+    "priority": 0
+  },
+  "bitter-malice": {
+    "id": 841,
+    "name": "Bitter Malice",
+    "type": "ghost",
+    "category": "special",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0
+  },
+  "blood-moon": {
+    "id": 901,
+    "name": "Blood Moon",
+    "type": "normal",
+    "category": "special",
+    "power": 140,
+    "accuracy": 100,
+    "pp": 5,
+    "priority": 0
+  },
+  "bouncy-bubble": {
+    "id": 733,
+    "name": "Bouncy Bubble",
+    "type": "water",
+    "category": "special",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0
+  },
+  "buzzy-buzz": {
+    "id": 734,
+    "name": "Buzzy Buzz",
+    "type": "electric",
+    "category": "special",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0
+  },
+  "ceaseless-edge": {
+    "id": 845,
+    "name": "Ceaseless Edge",
+    "type": "dark",
+    "category": "physical",
+    "power": 65,
+    "accuracy": 90,
+    "pp": 15,
+    "priority": 0
+  },
+  "chloroblast": {
+    "id": 835,
+    "name": "Chloroblast",
+    "type": "grass",
+    "category": "special",
+    "power": 150,
+    "accuracy": 95,
+    "pp": 5,
+    "priority": 0
+  },
+  "eerie-spell": {
+    "id": 826,
+    "name": "Eerie Spell",
+    "type": "psychic",
+    "category": "special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 5,
+    "priority": 0
+  },
+  "esper-wing": {
+    "id": 840,
+    "name": "Esper Wing",
+    "type": "psychic",
+    "category": "special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0
+  },
+  "fiery-wrath": {
+    "id": 822,
+    "name": "Fiery Wrath",
+    "type": "dark",
+    "category": "special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0
+  },
+  "floaty-fall": {
+    "id": 731,
+    "name": "Floaty Fall",
+    "type": "flying",
+    "category": "physical",
+    "power": 90,
+    "accuracy": 95,
+    "pp": 15,
+    "priority": 0
+  },
+  "freezing-glare": {
+    "id": 821,
+    "name": "Freezing Glare",
+    "type": "psychic",
+    "category": "special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0
+  },
+  "freezy-frost": {
+    "id": 739,
+    "name": "Freezy Frost",
+    "type": "ice",
+    "category": "special",
+    "power": 100,
+    "accuracy": 90,
+    "pp": 10,
+    "priority": 0
+  },
+  "glacial-lance": {
+    "id": 824,
+    "name": "Glacial Lance",
+    "type": "ice",
+    "category": "physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "priority": 0
+  },
+  "glitzy-glow": {
+    "id": 736,
+    "name": "Glitzy Glow",
+    "type": "psychic",
+    "category": "special",
+    "power": 80,
+    "accuracy": 95,
+    "pp": 15,
+    "priority": 0
+  },
+  "hyperspace-fury": {
+    "id": 621,
+    "name": "Hyperspace Fury",
+    "type": "dark",
+    "category": "physical",
+    "power": 100,
+    "accuracy": null,
+    "pp": 5,
+    "priority": 0
+  },
+  "ice-burn": {
+    "id": 554,
+    "name": "Ice Burn",
+    "type": "ice",
+    "category": "special",
+    "power": 140,
+    "accuracy": 90,
+    "pp": 5,
+    "priority": 0
+  },
+  "infernal-parade": {
+    "id": 844,
+    "name": "Infernal Parade",
+    "type": "ghost",
+    "category": "special",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 15,
+    "priority": 0
+  },
+  "kings-shield": {
+    "id": 588,
+    "name": "Kings Shield",
+    "type": "steel",
+    "category": "status",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "priority": 4
+  },
+  "lands-wrath": {
+    "id": 616,
+    "name": "Lands Wrath",
+    "type": "ground",
+    "category": "physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0
+  },
+  "light-of-ruin": {
+    "id": 617,
+    "name": "Light Of Ruin",
+    "type": "fairy",
+    "category": "special",
+    "power": 140,
+    "accuracy": 90,
+    "pp": 5,
+    "priority": 0
+  },
+  "mountain-gale": {
+    "id": 836,
+    "name": "Mountain Gale",
+    "type": "ice",
+    "category": "physical",
+    "power": 100,
+    "accuracy": 85,
+    "pp": 10,
+    "priority": 0
+  },
+  "power-shift": {
+    "id": 829,
+    "name": "Power Shift",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "pp": 10,
+    "priority": 0
+  },
+  "sappy-seed": {
+    "id": 738,
+    "name": "Sappy Seed",
+    "type": "grass",
+    "category": "physical",
+    "power": 100,
+    "accuracy": 90,
+    "pp": 10,
+    "priority": 0
+  },
+  "shadow-bone": {
+    "id": 708,
+    "name": "Shadow Bone",
+    "type": "ghost",
+    "category": "physical",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0
+  },
+  "shell-side-arm": {
+    "id": 801,
+    "name": "Shell Side Arm",
+    "type": "poison",
+    "category": "special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0
+  },
+  "sizzly-slide": {
+    "id": 735,
+    "name": "Sizzly Slide",
+    "type": "fire",
+    "category": "physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0
+  },
+  "snap-trap": {
+    "id": 779,
+    "name": "Snap Trap",
+    "type": "grass",
+    "category": "physical",
+    "power": 35,
+    "accuracy": 100,
+    "pp": 15,
+    "priority": 0
+  },
+  "sparkly-swirl": {
+    "id": 740,
+    "name": "Sparkly Swirl",
+    "type": "fairy",
+    "category": "special",
+    "power": 120,
+    "accuracy": 85,
+    "pp": 5,
+    "priority": 0
+  },
+  "splishy-splash": {
+    "id": 730,
+    "name": "Splishy Splash",
+    "type": "water",
+    "category": "special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 15,
+    "priority": 0
+  },
+  "strange-steam": {
+    "id": 790,
+    "name": "Strange Steam",
+    "type": "fairy",
+    "category": "special",
+    "power": 90,
+    "accuracy": 95,
+    "pp": 10,
+    "priority": 0
+  },
+  "surging-strikes": {
+    "id": 818,
+    "name": "Surging Strikes",
+    "type": "water",
+    "category": "physical",
+    "power": 25,
+    "accuracy": 100,
+    "pp": 5,
+    "priority": 0
+  },
+  "thunderous-kick": {
+    "id": 823,
+    "name": "Thunderous Kick",
+    "type": "fighting",
+    "category": "physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0
+  },
+  "triple-arrows": {
+    "id": 843,
+    "name": "Triple Arrows",
+    "type": "fighting",
+    "category": "physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0
+  },
+  "vice-grip": {
+    "id": 11,
+    "name": "Vice Grip",
+    "type": "normal",
+    "category": "physical",
+    "power": 55,
+    "accuracy": 100,
+    "pp": 30,
+    "priority": 0
+  },
+  "victory-dance": {
+    "id": 837,
+    "name": "Victory Dance",
+    "type": "fighting",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "pp": 10,
+    "priority": 0
+  },
+  "zippy-zap": {
+    "id": 729,
+    "name": "Zippy Zap",
+    "type": "electric",
+    "category": "physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 2
+  }
+}
