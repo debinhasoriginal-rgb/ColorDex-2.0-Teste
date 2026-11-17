@@ -1,4 +1,4 @@
-package com.colordex.app;
+package com.colordex.teste;
 
 import com.getcapacitor.BridgeActivity;
 
